@@ -4,31 +4,24 @@ This document contains a list of maintainers in this repo. See [opensearch-proje
 
 ## Current Maintainers
 
-| Maintainer        | GitHub ID                                         | Affiliation |
-| ----------------- | ------------------------------------------------- | ----------- |
-| Eric Wei          | [mengweieric](https://github.com/mengweieric)     | Amazon      |
-| Joshua Li         | [joshuali925](https://github.com/joshuali925)     | Amazon      |
-| Shenoy Pratik     | [ps48](https://github.com/ps48)                   | Amazon      |
-| Kavitha Mohan     | [kavithacm](https://github.com/kavithacm)         | Amazon      |
-| Rupal Mahajan     | [rupal-bq](https://github.com/rupal-bq)           | Amazon      |
-| Derek Ho          | [derek-ho](https://github.com/derek-ho)           | Amazon      |
-| Lior Perry        | [YANG-DB](https://github.com/YANG-DB)             | Amazon      |
-| Peter Fitzgibbons | [pjfitzgibbons](https://github.com/pjfitzgibbons) | Amazon      |
-| Simeon Widdis     | [swiddis](https://github.com/swiddis)             | Amazon      |
-| Chen Dai          | [dai-chen](https://github.com/dai-chen)           | Amazon      |
-| Vamsi Manohar     | [vamsi-amazon](https://github.com/vamsi-amazon)   | Amazon      |
-| Peng Huo          | [penghuo](https://github.com/penghuo)             | Amazon      |
-| Sean Kao          | [seankao-az](https://github.com/seankao-az)       | Amazon      |
-| Anirudha Jadhav   | [anirudha](https://github.com/anirudha)           | Amazon      |
-
-
-## Emeritus Maintainers
-
-| Maintainer        | GitHub ID                                               | Affiliation |
-| ----------------- | ------------------------------------------------------- | ----------- |
-| Charlotte Henkle  | [CEHENKLE](https://github.com/CEHENKLE)                 | Amazon      |
-| Nick Knize        | [nknize](https://github.com/nknize)                     | Amazon      |
-| David Cui         | [davidcui1225](https://github.com/davidcui1225)         | Amazon      |
-| Eugene Lee        | [eugenesk24](https://github.com/eugenesk24)             | Amazon      |
-| Zhongnan Su       | [zhongnansu](https://github.com/zhongnansu)             | Amazon      |
-| Sean Li           | [sejli](https://github.com/sejli)                       | Amazon      |
+| Maintainer           | GitHub ID                                           | Affiliation |
+| -----------------    | -------------------------------------------------   | ----------- |
+| Bhavana Goud Ramaram | [rbhavna](https://github.com/rbhavna)               | Amazon      |
+| Charlie Yang         | [model-collapse](https://github.com/model-collapse) | Amazon      |
+| Dhrubo Saha          | [dhrubo-os](https://github.com/dhrubo-os)           | Amazon      |
+| Jing Zhang           | [jngz-es](https://github.com/jngz-es)               | Amazon      |
+| Sicheng Song         | [b4sjoo](https://github.com/b4sjoo)                 | Amazon      |
+| Xun Zhang            | [Zhangxunmt](https://github.com/Zhangxunmt)         | Amazon      |
+| Yaliang Wu           | [ylwu-amzn](https://github.com/ylwu-amzn)           | Amazon      |
+| Zan Niu              | [zane-neo](https://github.com/zane-neo)             | Amazon      |
+| Xinyuan Lu           | [xinyual](https://github.com/xinyual)               | Amazon      |
+| Amit Galitzky        | [amitgalitz](https://github.com/amitgalitz)         | Amazon      |
+| Jackie Han           | [jackiehanyang](https://github.com/jackiehanyang)   | Amazon      |
+| Owais Kazi           | [owaiskazi19](https://github.com/owaiskazi19)       | Amazon      |
+| Tyler Ohlsen         | [ohltyler](https://github.com/ohltyler)             | Amazon      |
+| Josh Palis           | [joshpalis](https://github.com/joshpalis)           | Amazon      |
+| Dan Widdis           | [dbwiddis](https://github.com/dbwiddis)             | Amazon      |
+| Ashish Agrawal       | [lezzago](https://github.com/lezzago)               | Amazon      |
+| Zhichao Geng         | [zhichao-aws](https://github.com/zhichao-aws)       | Amazon      |
+| Joshua Li            | [joshuali925](https://github.com/joshuali925)       | Amazon      |
+| Sean Li              | [sejli](https://github.com/sejli)                   | Amazon      |
