@@ -1,0 +1,74 @@
+{"id":"OydstYsB5X8kL_lCJqG2","index":"opensearch_dashboards_sample_data_flights","question":"show me flights to sfo from pisa","clusterStateId":"none","correct":false}
+{"id":"1sNFsIsBx5OVpMgssrhu","index":"sso_logs-*-*","question":"Which day has the most errors in last week","clusterStateId":"none","correct":false}
+{"id":"75GNrosBx5OVpMgs04Uc","index":"sso_logs-*-*","question":"What is the total response size for each HTTP method?","clusterStateId":"none","correct":false}
+{"id":"suOKrosBNYheocNwVIB9","index":"sso_logs-*-*","question":"Show the average response time for each HTTP status code","clusterStateId":"none","correct":false}
+{"id":"puOIrosBNYheocNwq4Cb","index":"sso_logs-*-*","question":"How many requests were made for each day for each distinct URI in last week?","clusterStateId":"none","correct":false}
+{"id":"mOOErosBNYheocNwYIDs","index":"sso_logs-*-*","question":"Show the top 5 user agents with the most requests.","clusterStateId":"none","correct":false}
+{"id":"pJCCrosBx5OVpMgsAC4-","index":"sso_logs-*-*","question":"What is the average response time for the requests in the log data?","clusterStateId":"none","correct":false}
+{"id":"iCeArosB5X8kL_lCbodY","index":"sso_logs-*-*","question":"List the distinct URIs  accessed in the log data.","clusterStateId":"none","correct":false}
+{"id":"t49_rosBx5OVpMgsN9sR","index":"sso_logs-*-*","question":"Show the top 5 IP addresses with the highest number of requests.","clusterStateId":"none","correct":false}
+{"id":"wI9-rosBx5OVpMgsCro2","index":"sso_logs-*-*","question":"What is the average response status code in the log data?","clusterStateId":"none","correct":false}
+{"id":"fON8rosBNYheocNwSoAd","index":"sso_logs-*-*","question":"Find the most common HTTP methods used in the log data","clusterStateId":"none","correct":false}
+{"id":"ZSd6rosB5X8kL_lCgYcA","index":"sso_logs-*-*","question":"List the unique user agents that made requests to the service.","clusterStateId":"none","correct":false}
+{"id":"lo95rosBx5OVpMgsMS0V","index":"sso_logs-*-*","question":"How many distinct IP addresses accessed the service?","clusterStateId":"none","correct":false}
+{"id":"Tyd1rosB5X8kL_lCAIeF","index":"sso_logs-*-*","question":"list all error codes with one example log","clusterStateId":"none","correct":false}
+{"id":"7Y5xrosBx5OVpMgszlPu","index":"sso_logs-*-*","question":"count 304 errors for each day ","clusterStateId":"none","correct":false}
+{"id":"KSdrrosB5X8kL_lCQocr","index":"sso_logs-*-*","question":"do you see any 5xx error","clusterStateId":"none","correct":false}
+{"id":"YI1nrosBx5OVpMgs5jBm","index":"sso_logs-*-*","question":"Which  days in last week has the most errors","clusterStateId":"none","correct":false}
+{"id":"DidjrosB5X8kL_lCN4cF","index":"sso_logs-*-*","question":"How many  errors for each day in last week","clusterStateId":"none","correct":false}
+{"id":"BidbrosB5X8kL_lCs4eY","index":"sso_logs-*-*","question":"Which day has the most errors in last week","clusterStateId":"none","correct":false}
+{"id":"NuNVrosBNYheocNwq4B6","index":"sso_logs-*-*","question":"how many errors do I have for each day in last week","clusterStateId":"none","correct":false}
+{"id":"NopQrosBx5OVpMgsgYTb","index":"sso_logs-*-*","question":"which log index has most errors in last week","clusterStateId":"none","correct":false}
+{"id":"_OMsrosBNYheocNwyn8E","index":"sso_logs-*-*","question":"paginate next 1000 results","clusterStateId":"none","correct":false}
+{"id":"8oYrrosBx5OVpMgsiEbw","index":"sso_logs-*-*","question":"scroll through all hits","clusterStateId":"none","correct":false}
+{"id":"gScprosB5X8kL_lCgIa-","index":"sso_logs-*-*","question":"create scroll","clusterStateId":"none","correct":false}
+{"id":"UeMCrIsBNYheocNwDH0c","index":"sso_logs-*-*","question":"what is the percentage of errors ","clusterStateId":"none","correct":false}
+{"id":"cSfuq4sB5X8kL_lCs3-v","index":"sso_logs-*-*","question":"fetch all request from ip 10.0.1.107 categorised by product id","clusterStateId":"none","correct":true}
+{"id":"rjh_q4sBx5OVpMgsmBHr","index":"sso_logs-*-*","question":"show me the daily trend of errors for this week","clusterStateId":"none","correct":false}
+{"id":"ETd8q4sBx5OVpMgsd7RT","index":"sso_logs-*-*","question":"do i see more errors this week compared to the week before?","clusterStateId":"none","correct":false}
+{"id":"KCj3qosBx5OVpMgs6I_0","index":"sso_logs-*-*","question":"show me the top 5 urls with the most traffic sorted by slowest response times","clusterStateId":"none","correct":false}
+{"id":"_yj2qosBx5OVpMgs9HN2","index":"sso_logs-*-*","question":"show me the urls with the most traffic sorted by slowest response times","clusterStateId":"none","correct":false}
+{"id":"NFbEo4sBx5OVpMgsExKu","index":"sso_logs-*-*","question":"could you show me the agent distribution of those 404 error?","clusterStateId":"none","correct":false}
+{"id":"oVXBo4sBx5OVpMgsk8q-","index":"sso_logs-*-*","question":"Are there any 404 errors in my logs?","clusterStateId":"none","correct":true}
+{"id":"4OMio4sBNYheocNwdFnI","index":"sso_logs-*-*","question":"show me the services for which  log data is available","clusterStateId":"none","correct":false}
+{"id":"5i5toosBx5OVpMgsNO68","index":"sso_logs-*-*","question":"Are there any errors in my logs?","clusterStateId":"none","correct":true}
+{"id":"3OMEoosBNYheocNwKVOI","index":"sso_logs-*-*","question":"I want \"/api/products\" data","clusterStateId":"none"}
+{"id":"NCL_oYsBx5OVpMgsWFz8","index":"sso_logs-*-*","question":"I wanted to know the recent errors","clusterStateId":"none","correct":false}
+{"id":"sOP9oYsBNYheocNwSlN0","index":"sso_logs-*-*","question":"I wanted to see the mostly occured error in last 5 year","clusterStateId":"none","correct":false}
+{"id":"c-P3oYsBNYheocNwOVMw","index":"sso_logs-*-*","question":"I wanted to know the count of error data based status code?","clusterStateId":"none","correct":true}
+{"id":"xyZnnYsB5X8kL_lCQd4k","index":"sso_logs-*-*","question":"how many auth related errors are there?","clusterStateId":"none","correct":false}
+{"id":"RJlMnYsBx5OVpMgsAgag","index":"sso_logs-*-*","question":"how many authorization and authentication errors are there?","clusterStateId":"none","correct":true}
+{"id":"lCZJnYsB5X8kL_lCMd15","index":"sso_logs-*-*","question":"what is the max number of errors per hour","clusterStateId":"none","correct":false}
+{"id":"1eOLnIsBNYheocNwPUFu","index":"sso_logs-*-*","question":"how many 2xx log errors are there?","clusterStateId":"none","correct":false}
+{"id":"zOOKnIsBNYheocNwRkHS","index":"sso_logs-*-*","question":"how many 5xx log errors are there?","clusterStateId":"none","correct":true}
+{"id":"tOOInIsBNYheocNwOkGT","index":"sso_logs-*-*","question":"how many 3xx log errors are there?","clusterStateId":"none","correct":true}
+{"id":"uYKGnIsBx5OVpMgseHIG","index":"sso_logs-*-*","question":"how many 4xx log errors are there?","clusterStateId":"none","correct":false}
+{"id":"lOOFnIsBNYheocNwsEHo","index":"sso_logs-*-*","question":"how many 4xx log errors are there?","clusterStateId":"none","correct":false}
+{"id":"tIKEnIsBx5OVpMgsoT4v","index":"sso_logs-*-*","question":"how many 4xx log errors are there?","clusterStateId":"none","correct":false}
+{"id":"NoKDnIsBx5OVpMgsGhMf","index":"sso_logs-*-*","question":"how many 404 log errors are there?","clusterStateId":"none","correct":true}
+{"id":"cOOCnIsBNYheocNwAUF3","index":"sso_logs-*-*","question":"show me log errors  that are not from mac os x","clusterStateId":"none","correct":true}
+{"id":"Z4GBnIsBx5OVpMgsOtu_","index":"sso_logs-*-*","question":"show me log errors in the last week that are not from mac os x","clusterStateId":"none","correct":true}
+{"id":"GYF_nIsBx5OVpMgswLBs","index":"sso_logs-*-*","question":"show me log errors in the last hour","clusterStateId":"none","correct":true}
+{"id":"R-N-nIsBNYheocNwV0E2","index":"sso_logs-*-*","question":"show me log errors from mac os x browsers","clusterStateId":"none","correct":false}
+{"id":"8oF9nIsBx5OVpMgsG2O0","index":"sso_logs-*-*","question":"show me log errors from intel mac os x","clusterStateId":"none","correct":true}
+{"id":"74F6nIsBx5OVpMgs-iV8","index":"sso_logs-*-*","question":"show me log errors from windows browsers","clusterStateId":"none","correct":false}
+{"id":"aYF5nIsBx5OVpMgs9Aet","index":"sso_logs-*-*","question":"what are the top user agents in the logs","clusterStateId":"none","correct":false}
+{"id":"LuN4nIsBNYheocNwvEFD","index":"sso_logs-*-*","question":"Are there any log errors on Windows browsers","clusterStateId":"none","correct":true}
+{"id":"JeN3nIsBNYheocNwzkEZ","index":"sso_logs-*-*","question":"Are there any log errors not associated with Mac OS X","clusterStateId":"none","correct":true}
+{"id":"GON2nIsBNYheocNwRUHH","index":"sso_logs-*-*","question":"are there any 4xx errors in the logs?","clusterStateId":"none","correct":true}
+{"id":"EuN1nIsBNYheocNw10Hs","index":"sso_logs-*-*","question":"are there any 404 errors in the logs?","clusterStateId":"none","correct":true}
+{"id":"CON0nIsBNYheocNw5kEC","index":"sso_logs-*-*","question":"What is the most common log error that is a 4xx error?","clusterStateId":"none","correct":false}
+{"id":"_eNynIsBNYheocNwY0Ds","index":"sso_logs-*-*","question":"What is the most common log error?","clusterStateId":"none","correct":true}
+{"id":"12_hm4sBx5OVpMgsTKCr","index":"sso_logs-*-*","question":"what is the p99 latency of the requests","clusterStateId":"none","correct":false}
+{"id":"vOPem4sBNYheocNw7j42","index":"sso_logs-*-*","question":"show me the slowest requests","clusterStateId":"none","correct":false}
+{"id":"8mN7m4sBx5OVpMgs54jm","index":"sso_logs-*-*","question":"find error or exception in example data log","clusterStateId":"none","correct":false}
+{"id":"wCYdm4sB5X8kL_lC_8kY","index":"sso_logs-*-*","question":"when was the last 404 happened?","clusterStateId":"none","correct":true}
+{"id":"qCYbm4sB5X8kL_lCSMma","index":"sso_logs-*-*","question":"group number of requests coming from ip \"1.2.3.4\" per day","clusterStateId":"none","correct":true}
+{"id":"mCYam4sB5X8kL_lCPMkO","index":"sso_logs-*-*","question":"show me all different user-agent, the request was coming from","clusterStateId":"none","correct":false}
+{"id":"SeMUm4sBNYheocNwxzsU","index":"sso_logs-*-*","question":"show me record with max latency","clusterStateId":"none","correct":true}
+{"id":"OeMSm4sBNYheocNw7TuZ","index":"sso_logs-*-*","question":"show me how many requests were throttled","clusterStateId":"none","correct":true}
+{"id":"FuMNm4sBNYheocNwvDtN","index":"sso_logs-*-*","question":"Are there any errors in my logs?","clusterStateId":"none","correct":false}
+{"id":"MCbhmosB5X8kL_lCtses","index":"opensearch_dashboards_sample_data_flights","question":"Show me top 10 flights which had an average delay of more than 30 minute in October originating from USA or landing in USA","clusterStateId":"none","correct":false}
+{"id":"3SbPmosB5X8kL_lC-MXL","index":"opensearch_dashboards_sample_data_flights","question":"What is average ticket price between Sydney and Tokyo","clusterStateId":"none","correct":false}
+{"id":"MePyl4sBNYheocNw7TO9","index":"sso_logs-*-*","question":"Are there any errors in my logs?","clusterStateId":"none","correct":true}
+{"id":"zSaul4sB5X8kL_lCaK3e","index":"sso_logs-*-*","question":"show me logs that have error code 404","clusterStateId":"none","correct":true}
