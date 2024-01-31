@@ -1,0 +1,167 @@
+{
+  "properties": {
+    "acknowledged_time": {
+      "type": "date"
+    },
+    "action_execution_results": {
+      "type": "nested",
+      "properties": {
+        "action_id": {
+          "type": "keyword"
+        },
+        "last_execution_time": {
+          "type": "date"
+        },
+        "throttled_count": {
+          "type": "integer"
+        }
+      }
+    },
+    "agg_alert_content": {
+      "dynamic": "true",
+      "properties": {
+        "bucket_key": {
+          "type": "text"
+        },
+        "parent_bucket_path": {
+          "type": "text"
+        }
+      }
+    },
+    "alert_history": {
+      "type": "nested",
+      "properties": {
+        "message": {
+          "type": "text"
+        },
+        "timestamp": {
+          "type": "date"
+        }
+      }
+    },
+    "associated_alert_ids": {
+      "type": "text",
+      "fields": {
+        "keyword": {
+          "type": "keyword"
+        }
+      }
+    },
+    "end_time": {
+      "type": "date"
+    },
+    "error_message": {
+      "type": "text"
+    },
+    "execution_id": {
+      "type": "keyword"
+    },
+    "finding_ids": {
+      "type": "text",
+      "fields": {
+        "keyword": {
+          "type": "keyword"
+        }
+      }
+    },
+    "id": {
+      "type": "keyword"
+    },
+    "last_notification_time": {
+      "type": "date"
+    },
+    "monitor_id": {
+      "type": "keyword"
+    },
+    "monitor_name": {
+      "type": "text",
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    },
+    "monitor_user": {
+      "properties": {
+        "backend_roles": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword"
+            }
+          }
+        },
+        "custom_attribute_names": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword"
+            }
+          }
+        },
+        "name": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "roles": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword"
+            }
+          }
+        }
+      }
+    },
+    "monitor_version": {
+      "type": "long"
+    },
+    "related_doc_ids": {
+      "type": "text",
+      "fields": {
+        "keyword": {
+          "type": "keyword"
+        }
+      }
+    },
+    "schema_version": {
+      "type": "integer"
+    },
+    "severity": {
+      "type": "keyword"
+    },
+    "start_time": {
+      "type": "date"
+    },
+    "state": {
+      "type": "keyword"
+    },
+    "trigger_id": {
+      "type": "keyword"
+    },
+    "trigger_name": {
+      "type": "text",
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    },
+    "version": {
+      "type": "long"
+    },
+    "workflow_id": {
+      "type": "keyword"
+    },
+    "workflow_name": {
+      "type": "keyword"
+    }
+  }
+}

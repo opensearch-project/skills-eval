@@ -1,0 +1,20 @@
+{
+  "include": ["./**/*", "./.eslintrc.js"],
+  "exclude": ["node_modules", "coverage", "data", "packages"],
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "allowJs": true,
+    "checkJs": true,
+    "outDir": "./target",
+    "rootDir": ".",
+    "noEmit": true,
+    "strict": true,
+    "types": ["jest", "node"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "useUnknownInCatchVariables": false,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

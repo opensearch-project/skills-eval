@@ -1,0 +1,16 @@
+Instruction:
+Show the transportation method most people choose to get to tourist attractions.
+Index:
+cre_theme_park-tourist_attractions
+Fields:
+- Location_ID: long (579)
+- How_to_Get_There: text (bus)
+- Attraction_Type_Code: long (2)
+- Name: text (art museum)
+- Tourist_Attraction_ID: long (2113)
+PPL Output:
+source=cre_theme_park-tourist_attractions
+ | stats COUNT() AS count BY How_to_Get_There
+ | sort -count
+ | head 1
+ | fields How_to_Get_There

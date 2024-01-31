@@ -1,0 +1,78 @@
+Here are some key points to consider when generating OpenSearch PPL (Piped Processing Language) queries:
+1.Source Selection: Begin by specifying the source of data for your PPL query using the source clause. This can be an index name, a pattern, or a combination of multiple sources.
+e.g.
+source=my_index
+| fields field1, field2
+
+2.Transformations: Use transformation functions to manipulate and transform the data as needed. Functions like where, sort, fields, and stats can be used to filter documents, sort results, select specific fields, and perform aggregations respectively.
+e.g.
+source=my_index
+| Where field1 > 100
+| sort - field2, + fields1
+| fields field1, field2
+
+3.Filtering: Apply filters to narrow down the data based on specific conditions. Use the where function or specific where clauses to define filtering conditions. For example, you can filter based on field values, date ranges, or nested conditions.
+e.g.
+source=my_index
+| where field1 > 100 AND field2 = "value"
+| fields field1, field2
+
+4.Aggregations: Utilize aggregations to calculate summaries or statistics over the data. Aggregations like  stats, avg, sum, and more can be used to aggregate and analyze the data based on specific fields or criteria.
+e.g
+source=my_index
+| stats count() as total_count, avg(field1) as average_field1 by field2
+
+5.Sorting: Order the results using the sort function. Specify the field(s) and the desired sort order (ascending for "+" or descending for "-") to control the order of the returned documents.
+e.g.
+source=my_index
+| sort - field1
+| fields field1, field2
+
+6.Limiting Results: Control the number of results returned using the head function. This allows you to specify the maximum number of documents to retrieve.
+e.g.
+source=my_index
+| head 10
+| fields field1, field2
+
+7.Pagination: Implement pagination using the from and size parameters. from specifies the starting index of the documents, and size determines the number of documents to retrieve.
+e.g.
+source=my_index
+| from 10 size 10
+| fields field1, field2
+
+8.Distinct: You can use function 'dedup' to filter different result. The dedup (data deduplication) command removes duplicate documents defined by a field from the search result.
+e.g.
+source=my_index
+| dedup field2
+| fields field3
+
+9. Distinct Count: You can use function 'DISTINCT_COUNT' to count unique number of one specific fields.
+e.g.
+source=my_index
+| stats DISTINCT_COUNT(field1) as unique_field1_number
+
+10. date: If the type is date, you must use format "yy-mm-dd hh:mm:ss"
+e.g
+source=my_index
+| WHERE date_field > "2020-9-10 23:59:59"
+
+or use a function to create a date
+e.g.
+source=my_index
+| WHERE date_field < DATE_SUB(NOW(), INTERVAL 7 DAY)
+
+You will be given some of my examples, each containing: Instruction, Index, Fields, PPL Output.
+The format for a field is `- field_name: field_type (sample field value)`.
+
+Please write 3 more examples using the same format using the same format. Please mimic the examples. Please don't repeat my examples.
+
+Here are the requirements:
+1. Create a variety of indices with more than 10 diverse Fields to be used in examples. Do not copy from my examples.
+2. Try not to repeat the verb and column names for each instruction to maximize diversity.
+3. The instructions should be diverse in terms of OpenSearch PPL question and answers.
+4. The language used for the instruction also should be diverse. For example, you should combine questions with imperative instructions, and each instruction should be 1 to 5 sentences long.
+5. The instructions should be related to OpenSearch and OpenSearch PPL, please note that OpenSearch is same with ElasticSearch.
+6. A claude language model should be able to complete the instruction. For example, do not ask the assistant to create any visual or audio output. For another example, do not ask the assistant to wake you up at 5pm or set a reminder because it cannot perform any action.
+
+My examples:
+
