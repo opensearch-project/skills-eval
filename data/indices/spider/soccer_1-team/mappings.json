@@ -1,1 +1,0 @@
-{"properties":{"id":{"type":"long"},"team_api_id":{"type":"long"},"team_fifa_api_id":{"type":"float"},"team_long_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"team_short_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

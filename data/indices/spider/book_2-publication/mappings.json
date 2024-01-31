@@ -1,1 +1,0 @@
-{"properties":{"Book_ID":{"type":"long"},"Price":{"type":"float"},"Publication_Date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Publication_ID":{"type":"long"},"Publisher":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

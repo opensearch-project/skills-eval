@@ -1,1 +1,0 @@
-{"properties":{"day":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"end_hr":{"type":"long"},"end_min":{"type":"long"},"start_hr":{"type":"long"},"start_min":{"type":"long"},"time_slot_id":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

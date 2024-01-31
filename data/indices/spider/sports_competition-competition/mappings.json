@@ -1,1 +1,0 @@
-{"properties":{"Competition_ID":{"type":"long"},"Competition_type":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Country":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Year":{"type":"float"}}}

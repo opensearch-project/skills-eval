@@ -1,1 +1,0 @@
-{"properties":{"Amount_Claimed":{"type":"long"},"Amount_Settled":{"type":"long"},"Claim_ID":{"type":"long"},"Date_Claim_Made":{"type":"date"},"Date_Claim_Settled":{"type":"date"},"Policy_ID":{"type":"long"}}}

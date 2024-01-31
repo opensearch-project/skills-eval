@@ -1,1 +1,0 @@
-{"properties":{"Address_ID":{"type":"long"},"Channel_ID":{"type":"long"},"Event_ID":{"type":"long"},"Event_Type_Code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Finance_ID":{"type":"long"},"Location_ID":{"type":"long"}}}

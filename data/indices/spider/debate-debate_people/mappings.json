@@ -1,1 +1,0 @@
-{"properties":{"Affirmative":{"type":"long"},"Debate_ID":{"type":"long"},"If_Affirmative_Win":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Negative":{"type":"long"}}}

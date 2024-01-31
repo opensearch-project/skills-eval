@@ -1,1 +1,0 @@
-{"properties":{"dept_store_chain_id":{"type":"long"},"dept_store_chain_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

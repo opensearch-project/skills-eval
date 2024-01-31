@@ -1,1 +1,0 @@
-{"properties":{"Chair_Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Festival_ID":{"type":"long"},"Festival_Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Location":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Num_of_Audience":{"type":"long"},"Year":{"type":"long"}}}

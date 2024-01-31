@@ -1,1 +1,0 @@
-{"properties":{"Climber_ID":{"type":"long"},"Country":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Mountain_ID":{"type":"long"},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Points":{"type":"float"},"Time":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

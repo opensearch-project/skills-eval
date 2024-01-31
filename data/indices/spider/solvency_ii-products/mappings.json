@@ -1,1 +1,0 @@
-{"properties":{"Product_ID":{"type":"long"},"Product_Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Product_Price":{"type":"float"},"Product_Type_Code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

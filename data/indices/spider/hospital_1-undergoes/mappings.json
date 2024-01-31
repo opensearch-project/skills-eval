@@ -1,1 +1,0 @@
-{"properties":{"AssistingNurse":{"type":"long"},"DateUndergoes":{"type":"date"},"Patient":{"type":"long"},"Physician":{"type":"long"},"Procedures":{"type":"long"},"Stay":{"type":"long"}}}

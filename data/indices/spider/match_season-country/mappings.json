@@ -1,1 +1,0 @@
-{"properties":{"Capital":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Country_id":{"type":"long"},"Country_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Official_native_language":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

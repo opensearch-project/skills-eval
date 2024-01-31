@@ -1,1 +1,0 @@
-{"properties":{"Asset_ID":{"type":"long"},"Other_Details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

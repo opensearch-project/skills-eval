@@ -1,1 +1,0 @@
-{"properties":{"COUNTRY_ID":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"COUNTRY_NAME":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"REGION_ID":{"type":"long"}}}

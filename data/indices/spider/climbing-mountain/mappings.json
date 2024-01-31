@@ -1,1 +1,0 @@
-{"properties":{"Country":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Height":{"type":"float"},"Mountain_ID":{"type":"long"},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Prominence":{"type":"float"},"Range":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

@@ -1,1 +1,0 @@
-{"properties":{"date_assigned_from":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"date_assigned_to":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"department_id":{"type":"long"},"job_title_code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"staff_id":{"type":"long"}}}

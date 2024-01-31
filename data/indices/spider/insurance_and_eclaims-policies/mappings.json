@@ -1,1 +1,0 @@
-{"properties":{"Customer_ID":{"type":"long"},"End_Date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Policy_ID":{"type":"long"},"Policy_Type_Code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Start_Date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

@@ -1,1 +1,0 @@
-{"properties":{"age":{"type":"float"},"born_state":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"head_ID":{"type":"long"},"name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

@@ -1,1 +1,0 @@
-{"properties":{"candidate_details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"candidate_id":{"type":"long"}}}

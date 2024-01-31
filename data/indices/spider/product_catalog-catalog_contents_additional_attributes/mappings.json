@@ -1,1 +1,0 @@
-{"properties":{"attribute_id":{"type":"long"},"attribute_value":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"catalog_entry_id":{"type":"long"},"catalog_level_number":{"type":"long"}}}

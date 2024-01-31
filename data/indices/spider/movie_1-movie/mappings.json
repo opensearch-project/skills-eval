@@ -1,1 +1,0 @@
-{"properties":{"director":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"mID":{"type":"long"},"title":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"year":{"type":"long"}}}

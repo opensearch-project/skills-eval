@@ -1,1 +1,0 @@
-{"properties":{"Actor_ID":{"type":"long"},"Character":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Duration":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Musical_ID":{"type":"long"},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"age":{"type":"long"}}}

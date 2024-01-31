@@ -1,9 +1,0 @@
-{"source_u_id":1,"target_u_id":2,"trust":10}
-{"source_u_id":1,"target_u_id":3,"trust":6}
-{"source_u_id":2,"target_u_id":4,"trust":8}
-{"source_u_id":3,"target_u_id":6,"trust":10}
-{"source_u_id":7,"target_u_id":2,"trust":3}
-{"source_u_id":7,"target_u_id":5,"trust":2}
-{"source_u_id":7,"target_u_id":3,"trust":4}
-{"source_u_id":6,"target_u_id":2,"trust":1}
-{"source_u_id":1,"target_u_id":5,"trust":7}

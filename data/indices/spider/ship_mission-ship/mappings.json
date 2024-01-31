@@ -1,1 +1,0 @@
-{"properties":{"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Nationality":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Ship_ID":{"type":"long"},"Tonnage":{"type":"long"},"Type":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

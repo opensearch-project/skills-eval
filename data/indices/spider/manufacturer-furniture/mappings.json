@@ -1,1 +1,0 @@
-{"properties":{"Furniture_ID":{"type":"long"},"Market_Rate":{"type":"float"},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Num_of_Component":{"type":"long"}}}

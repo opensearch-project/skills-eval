@@ -1,1 +1,0 @@
-{"properties":{"From_Year":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Manager_ID":{"type":"long"},"Railway_ID":{"type":"long"}}}

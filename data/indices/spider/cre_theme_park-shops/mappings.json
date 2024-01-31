@@ -1,1 +1,0 @@
-{"properties":{"Shop_Details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Shop_ID":{"type":"long"}}}

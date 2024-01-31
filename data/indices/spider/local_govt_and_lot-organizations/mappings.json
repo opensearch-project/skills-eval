@@ -1,1 +1,0 @@
-{"properties":{"organization_details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"organization_id":{"type":"long"},"parent_organization_id":{"type":"long"}}}

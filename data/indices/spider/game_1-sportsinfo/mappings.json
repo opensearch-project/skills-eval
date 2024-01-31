@@ -1,1 +1,0 @@
-{"properties":{"GamesPlayed":{"type":"long"},"HoursPerWeek":{"type":"long"},"OnScholarship":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"SportName":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"StuID":{"type":"long"}}}

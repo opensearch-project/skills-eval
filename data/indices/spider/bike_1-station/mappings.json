@@ -1,1 +1,0 @@
-{"properties":{"city":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"dock_count":{"type":"long"},"id":{"type":"long"},"installation_date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"lat":{"type":"float"},"long":{"type":"float"},"name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

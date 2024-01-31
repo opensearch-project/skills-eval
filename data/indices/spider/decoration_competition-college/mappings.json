@@ -1,1 +1,0 @@
-{"properties":{"College_ID":{"type":"long"},"College_Location":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Leader_Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

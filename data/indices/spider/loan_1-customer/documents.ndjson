@@ -1,3 +1,0 @@
-{"cust_ID":"1","cust_name":"Mary","acc_type":"saving","acc_bal":2000,"no_of_loans":2,"credit_score":30,"branch_ID":2,"state":"Utah"}
-{"cust_ID":"2","cust_name":"Jack","acc_type":"checking","acc_bal":1000,"no_of_loans":1,"credit_score":20,"branch_ID":1,"state":"Texas"}
-{"cust_ID":"3","cust_name":"Owen","acc_type":"saving","acc_bal":800000,"no_of_loans":0,"credit_score":210,"branch_ID":3,"state":"New York"}

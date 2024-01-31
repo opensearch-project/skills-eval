@@ -1,1 +1,0 @@
-{"properties":{"customer_id":{"type":"long"},"date_order_placed":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"order_details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"order_id":{"type":"long"}}}

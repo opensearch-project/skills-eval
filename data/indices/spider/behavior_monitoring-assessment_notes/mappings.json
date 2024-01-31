@@ -1,1 +1,0 @@
-{"properties":{"date_of_notes":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"notes_id":{"type":"long"},"other_details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"student_id":{"type":"long"},"teacher_id":{"type":"long"},"text_of_notes":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

@@ -1,1 +1,0 @@
-{"properties":{"Date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Election_ID":{"type":"long"},"Place":{"type":"float"},"Representative_ID":{"type":"long"},"Seats":{"type":"float"},"Vote_Percent":{"type":"float"},"Votes":{"type":"float"}}}

@@ -1,1 +1,0 @@
-{"properties":{"County_Id":{"type":"long"},"County_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Population":{"type":"float"},"Zip_code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

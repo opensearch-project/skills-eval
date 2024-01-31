@@ -1,1 +1,0 @@
-{"properties":{"course_id":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"prereq_id":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

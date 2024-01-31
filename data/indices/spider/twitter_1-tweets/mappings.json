@@ -1,1 +1,0 @@
-{"properties":{"createdate":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"id":{"type":"long"},"text":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"uid":{"type":"long"}}}

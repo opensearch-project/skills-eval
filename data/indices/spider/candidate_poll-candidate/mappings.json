@@ -1,1 +1,0 @@
-{"properties":{"Candidate_ID":{"type":"long"},"Consider_rate":{"type":"float"},"Date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Oppose_rate":{"type":"float"},"People_ID":{"type":"long"},"Poll_Source":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Support_rate":{"type":"float"},"Unsure_rate":{"type":"float"}}}

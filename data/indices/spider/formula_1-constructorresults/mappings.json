@@ -1,1 +1,0 @@
-{"properties":{"constructorId":{"type":"long"},"constructorResultsId":{"type":"long"},"points":{"type":"float"},"raceId":{"type":"long"},"status":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

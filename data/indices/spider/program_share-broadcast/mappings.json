@@ -1,1 +1,0 @@
-{"properties":{"Channel_ID":{"type":"long"},"Program_ID":{"type":"long"},"Time_of_day":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

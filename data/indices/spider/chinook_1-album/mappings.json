@@ -1,1 +1,0 @@
-{"properties":{"AlbumId":{"type":"long"},"ArtistId":{"type":"long"},"Title":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

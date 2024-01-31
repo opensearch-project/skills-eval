@@ -1,1 +1,0 @@
-{"properties":{"birthday":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"height":{"type":"float"},"id":{"type":"long"},"player_api_id":{"type":"long"},"player_fifa_api_id":{"type":"long"},"player_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"weight":{"type":"long"}}}

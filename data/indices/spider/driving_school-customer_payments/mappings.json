@@ -1,1 +1,0 @@
-{"properties":{"amount_payment":{"type":"float"},"customer_id":{"type":"long"},"datetime_payment":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"payment_method_code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

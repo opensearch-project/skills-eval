@@ -1,1 +1,0 @@
-{"properties":{"DEPARTMENT_ID":{"type":"long"},"EMPLOYEE_ID":{"type":"long"},"END_DATE":{"type":"date"},"JOB_ID":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"START_DATE":{"type":"date"}}}

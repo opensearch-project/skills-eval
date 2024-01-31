@@ -1,1 +1,0 @@
-{"properties":{"Budget_million":{"type":"float"},"Director":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Gross_worldwide":{"type":"long"},"Title":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Year":{"type":"long"},"movie_id":{"type":"long"}}}

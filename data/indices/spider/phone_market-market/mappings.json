@@ -1,1 +1,0 @@
-{"properties":{"District":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Market_ID":{"type":"long"},"Num_of_employees":{"type":"long"},"Num_of_shops":{"type":"float"},"Ranking":{"type":"long"}}}

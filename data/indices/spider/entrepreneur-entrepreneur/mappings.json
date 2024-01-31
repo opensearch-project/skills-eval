@@ -1,1 +1,0 @@
-{"properties":{"Company":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Entrepreneur_ID":{"type":"long"},"Investor":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Money_Requested":{"type":"float"},"People_ID":{"type":"long"}}}

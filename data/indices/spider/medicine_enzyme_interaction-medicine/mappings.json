@@ -1,1 +1,0 @@
-{"properties":{"FDA_approved":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Trade_Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"id":{"type":"long"},"name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

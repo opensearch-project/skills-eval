@@ -1,1 +1,0 @@
-{"properties":{"service_descriptio":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"service_id":{"type":"long"},"service_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"service_type_code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

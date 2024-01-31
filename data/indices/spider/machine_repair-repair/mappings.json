@@ -1,1 +1,0 @@
-{"properties":{"Launch_Date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Notes":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"repair_ID":{"type":"long"}}}

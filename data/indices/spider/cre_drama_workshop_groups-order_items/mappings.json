@@ -1,1 +1,0 @@
-{"properties":{"Order_ID":{"type":"long"},"Order_Item_ID":{"type":"long"},"Order_Quantity":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Other_Item_Details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Product_ID":{"type":"long"}}}

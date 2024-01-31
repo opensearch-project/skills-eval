@@ -1,1 +1,0 @@
-{"properties":{"Code":{"type":"long"},"Founder":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Headquarter":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Revenue":{"type":"float"}}}

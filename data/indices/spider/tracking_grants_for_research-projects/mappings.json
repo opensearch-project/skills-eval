@@ -1,1 +1,0 @@
-{"properties":{"organisation_id":{"type":"long"},"project_details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"project_id":{"type":"long"}}}

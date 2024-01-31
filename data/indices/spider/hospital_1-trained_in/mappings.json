@@ -1,1 +1,0 @@
-{"properties":{"CertificationDate":{"type":"date"},"CertificationExpires":{"type":"date"},"Physician":{"type":"long"},"Treatment":{"type":"long"}}}

@@ -1,1 +1,0 @@
-{"properties":{"country_id":{"type":"long"},"id":{"type":"long"},"name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

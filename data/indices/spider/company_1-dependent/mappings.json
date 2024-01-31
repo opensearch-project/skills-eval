@@ -1,1 +1,0 @@
-{"properties":{"Bdate":{"type":"date"},"Dependent_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Essn":{"type":"long"},"Relationship":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Sex":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

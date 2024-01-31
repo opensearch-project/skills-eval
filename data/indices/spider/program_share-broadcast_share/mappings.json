@@ -1,1 +1,0 @@
-{"properties":{"Channel_ID":{"type":"long"},"Date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Program_ID":{"type":"long"},"Share_in_percent":{"type":"float"}}}

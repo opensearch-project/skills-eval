@@ -1,1 +1,0 @@
-{"properties":{"Class_A":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Class_AA":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"School_Id":{"type":"long"},"School_Year":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

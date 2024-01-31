@@ -1,1 +1,0 @@
-{"properties":{"Host_City":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Match_ID":{"type":"long"},"Year":{"type":"long"}}}

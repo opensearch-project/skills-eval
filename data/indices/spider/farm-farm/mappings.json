@@ -1,1 +1,0 @@
-{"properties":{"Bulls":{"type":"float"},"Cows":{"type":"float"},"Farm_ID":{"type":"long"},"Oxen":{"type":"float"},"Pigs":{"type":"float"},"Sheep_and_Goats":{"type":"float"},"Total_Cattle":{"type":"float"},"Total_Horses":{"type":"float"},"Working_Horses":{"type":"float"},"Year":{"type":"long"}}}

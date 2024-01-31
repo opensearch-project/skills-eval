@@ -1,1 +1,0 @@
-{"properties":{"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"SSN":{"type":"long"}}}

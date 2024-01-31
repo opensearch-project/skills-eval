@@ -1,1 +1,0 @@
-{"properties":{"date_contact_from":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"date_contact_to":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"individual_id":{"type":"long"},"organization_id":{"type":"long"}}}

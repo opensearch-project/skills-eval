@@ -1,1 +1,0 @@
-{"properties":{"fault_log_entry_id":{"type":"long"},"fault_status":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"part_fault_id":{"type":"long"}}}

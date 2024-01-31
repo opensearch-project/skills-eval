@@ -1,1 +1,0 @@
-{"properties":{"Claim_ID":{"type":"long"},"Claim_Outcome_Code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Claim_Processing_ID":{"type":"long"},"Claim_Stage_ID":{"type":"long"},"Staff_ID":{"type":"long"}}}

@@ -1,1 +1,0 @@
-{"properties":{"amount":{"type":"float"},"customer_id":{"type":"long"},"last_update":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"payment_date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"payment_id":{"type":"long"},"rental_id":{"type":"float"},"staff_id":{"type":"long"}}}

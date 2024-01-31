@@ -1,9 +1,0 @@
-{"AppointmentID":13216584,"Patient":100000001,"PrepNurse":101,"Physician":1,"Start":"2008-04-24 10:00","End":"2008-04-24 11:00","ExaminationRoom":"A"}
-{"AppointmentID":26548913,"Patient":100000002,"PrepNurse":101,"Physician":2,"Start":"2008-04-24 10:00","End":"2008-04-24 11:00","ExaminationRoom":"B"}
-{"AppointmentID":36549879,"Patient":100000001,"PrepNurse":102,"Physician":1,"Start":"2008-04-25 10:00","End":"2008-04-25 11:00","ExaminationRoom":"A"}
-{"AppointmentID":46846589,"Patient":100000004,"PrepNurse":103,"Physician":4,"Start":"2008-04-25 10:00","End":"2008-04-25 11:00","ExaminationRoom":"B"}
-{"AppointmentID":59871321,"Patient":100000004,"PrepNurse":null,"Physician":4,"Start":"2008-04-26 10:00","End":"2008-04-26 11:00","ExaminationRoom":"C"}
-{"AppointmentID":69879231,"Patient":100000003,"PrepNurse":103,"Physician":2,"Start":"2008-04-26 11:00","End":"2008-04-26 12:00","ExaminationRoom":"C"}
-{"AppointmentID":76983231,"Patient":100000001,"PrepNurse":null,"Physician":3,"Start":"2008-04-26 12:00","End":"2008-04-26 13:00","ExaminationRoom":"C"}
-{"AppointmentID":86213939,"Patient":100000004,"PrepNurse":102,"Physician":9,"Start":"2008-04-27 10:00","End":"2008-04-21 11:00","ExaminationRoom":"A"}
-{"AppointmentID":93216548,"Patient":100000002,"PrepNurse":101,"Physician":2,"Start":"2008-04-27 10:00","End":"2008-04-27 11:00","ExaminationRoom":"B"}

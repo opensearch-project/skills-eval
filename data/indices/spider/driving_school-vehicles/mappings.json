@@ -1,1 +1,0 @@
-{"properties":{"vehicle_details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"vehicle_id":{"type":"long"}}}

@@ -1,1 +1,0 @@
-{"properties":{"coupon_amount":{"type":"float"},"coupon_id":{"type":"long"},"date_issued":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

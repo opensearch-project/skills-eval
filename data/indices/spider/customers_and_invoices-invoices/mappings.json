@@ -1,1 +1,0 @@
-{"properties":{"invoice_date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"invoice_number":{"type":"long"},"order_id":{"type":"long"}}}

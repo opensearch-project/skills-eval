@@ -1,1 +1,0 @@
-{"properties":{"hotel_id":{"type":"long"},"other_hotel_details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"pets_allowed_yn":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"price_range":{"type":"float"},"star_rating_code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

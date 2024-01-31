@@ -1,1 +1,0 @@
-{"properties":{"attribute_data_type":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"attribute_id":{"type":"long"},"attribute_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

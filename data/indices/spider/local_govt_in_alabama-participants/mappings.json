@@ -1,1 +1,0 @@
-{"properties":{"Participant_Details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Participant_ID":{"type":"long"},"Participant_Type_Code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

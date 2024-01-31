@@ -1,1 +1,0 @@
-{"properties":{"image_alt_text":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"image_id":{"type":"long"},"image_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"image_url":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

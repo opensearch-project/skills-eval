@@ -1,1 +1,0 @@
-{"properties":{"asessment_outcome_code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"assessment_date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"candidate_id":{"type":"long"},"qualification":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

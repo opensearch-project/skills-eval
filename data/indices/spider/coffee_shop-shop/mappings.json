@@ -1,1 +1,0 @@
-{"properties":{"Address":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Num_of_staff":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Open_Year":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Score":{"type":"float"},"Shop_ID":{"type":"long"}}}

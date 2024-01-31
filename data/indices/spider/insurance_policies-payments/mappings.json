@@ -1,1 +1,0 @@
-{"properties":{"Amount_Payment":{"type":"long"},"Date_Payment_Made":{"type":"date"},"Payment_ID":{"type":"long"},"Payment_Method_Code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Settlement_ID":{"type":"long"}}}

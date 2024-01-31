@@ -1,1 +1,0 @@
-{"properties":{"Club_ID_1":{"type":"long"},"Club_ID_2":{"type":"long"},"Competition_ID":{"type":"long"},"Score":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

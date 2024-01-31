@@ -1,1 +1,0 @@
-{"properties":{"gender":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"id":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"nationality":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

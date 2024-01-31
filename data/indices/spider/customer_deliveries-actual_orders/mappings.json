@@ -1,1 +1,0 @@
-{"properties":{"actual_order_date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"actual_order_id":{"type":"long"},"order_status_code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"regular_order_id":{"type":"long"}}}

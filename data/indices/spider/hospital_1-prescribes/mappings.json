@@ -1,1 +1,0 @@
-{"properties":{"Appointment":{"type":"float"},"Date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Dose":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Medication":{"type":"long"},"Patient":{"type":"long"},"Physician":{"type":"long"}}}

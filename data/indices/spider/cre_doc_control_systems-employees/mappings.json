@@ -1,1 +1,0 @@
-{"properties":{"employee_id":{"type":"long"},"employee_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"other_details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"role_code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

@@ -1,1 +1,0 @@
-{"properties":{"Event_ID":{"type":"long"},"Party_ID":{"type":"long"},"Role_Code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

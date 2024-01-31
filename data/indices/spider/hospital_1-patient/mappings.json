@@ -1,1 +1,0 @@
-{"properties":{"Address":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"InsuranceID":{"type":"long"},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"PCP":{"type":"long"},"Phone":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"SSN":{"type":"long"}}}

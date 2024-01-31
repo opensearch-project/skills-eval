@@ -1,1 +1,0 @@
-{"properties":{"Church_ID":{"type":"long"},"Continuation_of":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Open_Date":{"type":"long"},"Organized_by":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

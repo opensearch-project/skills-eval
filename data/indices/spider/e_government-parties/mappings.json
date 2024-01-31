@@ -1,1 +1,0 @@
-{"properties":{"party_email":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"party_id":{"type":"long"},"party_phone":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"payment_method_code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

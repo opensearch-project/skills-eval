@@ -1,1 +1,0 @@
-{"properties":{"g_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"most_popular_in":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"rating":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

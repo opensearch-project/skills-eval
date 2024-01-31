@@ -1,1 +1,0 @@
-{"properties":{"Aircraft_ID":{"type":"long"},"Date":{"type":"date","format":"yyyy/MM/dd HH:mm:ss||yyyy/MM/dd||epoch_millis"},"Pilot_ID":{"type":"long"},"Record_ID":{"type":"long"}}}

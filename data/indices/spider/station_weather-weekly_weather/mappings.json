@@ -1,1 +1,0 @@
-{"properties":{"day_of_week":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"high_temperature":{"type":"long"},"low_temperature":{"type":"long"},"precipitation":{"type":"float"},"station_id":{"type":"long"},"wind_speed_mph":{"type":"long"}}}

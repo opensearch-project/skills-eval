@@ -1,6 +1,0 @@
-{"County_ID":1,"Name":"Abbotsford","Population":128165,"Police_officers":187,"Residents_per_officer":685,"Case_burden":81,"Crime_rate":118,"Police_force":"Abbotsford Police Department","Location":"East"}
-{"County_ID":2,"Name":"Burnaby","Population":204320,"Police_officers":253,"Residents_per_officer":808,"Case_burden":100,"Crime_rate":123,"Police_force":"RCMP","Location":"East"}
-{"County_ID":3,"Name":"Campbell River","Population":30810,"Police_officers":40,"Residents_per_officer":770,"Case_burden":137,"Crime_rate":178,"Police_force":"RCMP","Location":"West"}
-{"County_ID":4,"Name":"Castlegar","Population":7821,"Police_officers":11,"Residents_per_officer":711,"Case_burden":107,"Crime_rate":150,"Police_force":"RCMP","Location":"North"}
-{"County_ID":5,"Name":"Central Saanich","Population":16821,"Police_officers":21,"Residents_per_officer":801,"Case_burden":39,"Crime_rate":49,"Police_force":"Central Saanich Police","Location":"East"}
-{"County_ID":6,"Name":"Chilliwack","Population":73066,"Police_officers":91,"Residents_per_officer":803,"Case_burden":140,"Crime_rate":174,"Police_force":"RCMP","Location":"West"}

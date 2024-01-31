@@ -1,1 +1,0 @@
-{"properties":{"AlbumId":{"type":"long"},"Bytes":{"type":"long"},"Composer":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"GenreId":{"type":"long"},"MediaTypeId":{"type":"long"},"Milliseconds":{"type":"long"},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"TrackId":{"type":"long"},"UnitPrice":{"type":"float"}}}

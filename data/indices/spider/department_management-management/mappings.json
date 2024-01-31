@@ -1,1 +1,0 @@
-{"properties":{"department_ID":{"type":"long"},"head_ID":{"type":"long"},"temporary_acting":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

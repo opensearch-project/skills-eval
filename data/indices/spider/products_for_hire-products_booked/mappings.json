@@ -1,1 +1,0 @@
-{"properties":{"booked_amount":{"type":"float"},"booked_count":{"type":"long"},"booking_id":{"type":"long"},"product_id":{"type":"long"},"returned_late_yn":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"returned_yn":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

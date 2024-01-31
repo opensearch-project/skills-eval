@@ -1,1 +1,0 @@
-{"properties":{"ClubID":{"type":"long"},"Position":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"StuID":{"type":"long"}}}

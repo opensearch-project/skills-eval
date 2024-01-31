@@ -1,1 +1,0 @@
-{"properties":{"Manufacturer_ID":{"type":"long"},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Num_of_Factories":{"type":"long"},"Num_of_Shops":{"type":"long"},"Open_Year":{"type":"float"}}}

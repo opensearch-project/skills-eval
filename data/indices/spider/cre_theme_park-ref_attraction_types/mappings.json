@@ -1,1 +1,0 @@
-{"properties":{"Attraction_Type_Code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Attraction_Type_Description":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

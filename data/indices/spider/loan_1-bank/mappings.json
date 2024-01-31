@@ -1,1 +1,0 @@
-{"properties":{"bname":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"branch_ID":{"type":"long"},"city":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"no_of_customers":{"type":"long"},"state":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

@@ -1,8 +1,0 @@
-{"id":1,"name":"ALA synthase","Location":"Mitochondrion","Product":"δ-Aminolevulinic acid","Chromosome":"3p21.1","OMIM":125290,"Porphyria":"none"}
-{"id":2,"name":"ALA dehydratase","Location":"Cytosol","Product":"Porphobilinogen","Chromosome":"9q34","OMIM":125270,"Porphyria":"ALA-Dehydratase deficiency"}
-{"id":3,"name":"PBG deaminase","Location":"Cytosol","Product":"Hydroxymethyl bilane","Chromosome":"11q23.3","OMIM":176000,"Porphyria":"acute intermittent porphyria"}
-{"id":4,"name":"Uroporphyrinogen III synthase","Location":"Cytosol","Product":"Uroporphyrinogen III","Chromosome":"10q25.2-q26.3","OMIM":606938,"Porphyria":"congenital erythropoietic porphyria"}
-{"id":5,"name":"Uroporphyrinogen III decarboxylase","Location":"Cytosol","Product":"Coproporphyrinogen III","Chromosome":"1p34","OMIM":176100,"Porphyria":"porphyria cutanea tarda"}
-{"id":6,"name":"Coproporphyrinogen III oxidase","Location":"Mitochondrion","Product":"Protoporphyrinogen IX","Chromosome":"3q12","OMIM":121300,"Porphyria":"coproporphyria"}
-{"id":7,"name":"Protoporphyrinogen oxidase","Location":"Mitochondrion","Product":"Protoporphyrin IX","Chromosome":"1q22","OMIM":600923,"Porphyria":"variegate porphyria"}
-{"id":8,"name":"Ferrochelatase","Location":"Mitochondrion","Product":"Heme","Chromosome":"18q21.3","OMIM":177000,"Porphyria":"erythropoietic protoporphyria"}

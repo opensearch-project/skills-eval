@@ -1,1 +1,0 @@
-{"properties":{"eg Agree Objectives":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"project_id":{"type":"long"},"task_details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"task_id":{"type":"long"}}}

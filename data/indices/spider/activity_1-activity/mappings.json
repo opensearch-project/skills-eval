@@ -1,1 +1,0 @@
-{"properties":{"actid":{"type":"long"},"activity_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

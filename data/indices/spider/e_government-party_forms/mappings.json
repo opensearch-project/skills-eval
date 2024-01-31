@@ -1,1 +1,0 @@
-{"properties":{"date_completion_started":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"date_fully_completed":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"form_id":{"type":"long"},"form_status_code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"party_id":{"type":"long"}}}

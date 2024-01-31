@@ -1,1 +1,0 @@
-{"properties":{"Classroom":{"type":"long"},"FirstName":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Grade":{"type":"long"},"LastName":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

@@ -1,1 +1,0 @@
-{"properties":{"Age":{"type":"long"},"Country":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Is_Male":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"People_ID":{"type":"long"}}}

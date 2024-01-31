@@ -1,1 +1,0 @@
-{"properties":{"customer_id":{"type":"long"},"mailshot_customer_date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"mailshot_id":{"type":"long"},"outcome_code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

@@ -1,1 +1,0 @@
-{"properties":{"address_id":{"type":"long"},"address_type_code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"date_address_from":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"date_address_to":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"party_id":{"type":"long"}}}

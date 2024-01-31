@@ -1,1 +1,0 @@
-{"properties":{"Book_ID":{"type":"long"},"Issues":{"type":"float"},"Title":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Writer":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

@@ -1,1 +1,0 @@
-{"properties":{"supplier_id":{"type":"long"},"supplier_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"supplier_phone":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

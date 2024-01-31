@@ -1,1 +1,0 @@
-{"properties":{"author_id":{"type":"long"},"course_description":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"course_id":{"type":"long"},"course_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"subject_id":{"type":"long"}}}

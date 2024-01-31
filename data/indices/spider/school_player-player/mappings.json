@@ -1,1 +1,0 @@
-{"properties":{"Age":{"type":"long"},"Player":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Player_ID":{"type":"long"},"Position":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"School_ID":{"type":"long"},"Team":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

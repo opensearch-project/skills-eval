@@ -1,1 +1,0 @@
-{"properties":{"investor_id":{"type":"long"},"lot_details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"lot_id":{"type":"long"}}}

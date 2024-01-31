@@ -1,1 +1,0 @@
-{"properties":{"In_office":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Member_ID":{"type":"long"},"Member_Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Party_ID":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

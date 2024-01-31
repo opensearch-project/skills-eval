@@ -1,1 +1,0 @@
-{"properties":{"Class":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Race_ID":{"type":"long"},"Track_ID":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

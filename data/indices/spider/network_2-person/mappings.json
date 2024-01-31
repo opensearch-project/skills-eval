@@ -1,1 +1,0 @@
-{"properties":{"age":{"type":"long"},"city":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"gender":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"job":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

@@ -1,1 +1,0 @@
-{"properties":{"Artist_ID":{"type":"long"},"Issue_Date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Song":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Volume_ID":{"type":"long"},"Volume_Issue":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Weeks_on_Top":{"type":"float"}}}

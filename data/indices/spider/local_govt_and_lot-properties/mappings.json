@@ -1,1 +1,0 @@
-{"properties":{"other_details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"property_address":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"property_id":{"type":"long"},"property_type_code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

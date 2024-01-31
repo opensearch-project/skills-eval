@@ -1,1 +1,0 @@
-{"properties":{"course_id":{"type":"long"},"date_of_completion":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"date_of_enrolment":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"registration_id":{"type":"long"},"student_id":{"type":"long"}}}

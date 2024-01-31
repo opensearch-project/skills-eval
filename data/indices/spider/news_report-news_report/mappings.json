@@ -1,1 +1,0 @@
-{"properties":{"Event_ID":{"type":"long"},"Work_Type":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"journalist_ID":{"type":"long"}}}

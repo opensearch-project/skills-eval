@@ -1,1 +1,0 @@
-{"properties":{"cName":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"decision":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"pID":{"type":"long"},"pPos":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

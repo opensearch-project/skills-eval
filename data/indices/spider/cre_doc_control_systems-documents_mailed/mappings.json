@@ -1,1 +1,0 @@
-{"properties":{"document_id":{"type":"long"},"mailed_to_address_id":{"type":"long"},"mailing_date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

@@ -1,1 +1,0 @@
-{"properties":{"HH_ID":{"type":"long"},"Month":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Num_of_shaff_in_charge":{"type":"long"},"Shop_ID":{"type":"long"}}}

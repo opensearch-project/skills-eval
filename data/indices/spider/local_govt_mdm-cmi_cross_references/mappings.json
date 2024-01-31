@@ -1,1 +1,0 @@
-{"properties":{"cmi_cross_ref_id":{"type":"long"},"master_customer_id":{"type":"long"},"source_system_code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

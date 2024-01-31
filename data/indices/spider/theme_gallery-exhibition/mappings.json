@@ -1,1 +1,0 @@
-{"properties":{"Artist_ID":{"type":"long"},"Exhibition_ID":{"type":"long"},"Theme":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Ticket_Price":{"type":"float"},"Year":{"type":"long"}}}

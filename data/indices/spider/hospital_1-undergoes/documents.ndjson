@@ -1,6 +1,0 @@
-{"Patient":100000001,"Procedures":6,"Stay":3215,"DateUndergoes":"2008-05-02","Physician":3,"AssistingNurse":101}
-{"Patient":100000001,"Procedures":2,"Stay":3215,"DateUndergoes":"2008-05-03","Physician":7,"AssistingNurse":101}
-{"Patient":100000004,"Procedures":1,"Stay":3217,"DateUndergoes":"2008-05-07","Physician":3,"AssistingNurse":102}
-{"Patient":100000004,"Procedures":5,"Stay":3217,"DateUndergoes":"2008-05-09","Physician":6,"AssistingNurse":105}
-{"Patient":100000001,"Procedures":7,"Stay":3217,"DateUndergoes":"2008-05-10","Physician":7,"AssistingNurse":101}
-{"Patient":100000004,"Procedures":4,"Stay":3217,"DateUndergoes":"2008-05-13","Physician":3,"AssistingNurse":103}

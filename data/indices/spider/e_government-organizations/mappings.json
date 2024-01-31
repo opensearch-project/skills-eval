@@ -1,1 +1,0 @@
-{"properties":{"date_formed":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"organization_id":{"type":"long"},"organization_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"uk_vat_number":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

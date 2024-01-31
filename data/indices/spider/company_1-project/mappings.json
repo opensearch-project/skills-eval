@@ -1,1 +1,0 @@
-{"properties":{"Dnum":{"type":"long"},"Plocation":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Pname":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Pnumber":{"type":"long"}}}

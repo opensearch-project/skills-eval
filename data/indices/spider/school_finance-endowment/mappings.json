@@ -1,1 +1,0 @@
-{"properties":{"School_id":{"type":"long"},"amount":{"type":"float"},"donator_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"endowment_id":{"type":"long"}}}

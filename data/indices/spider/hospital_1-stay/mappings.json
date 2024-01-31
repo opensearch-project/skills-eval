@@ -1,1 +1,0 @@
-{"properties":{"Patient":{"type":"long"},"Room":{"type":"long"},"StayEnd":{"type":"date"},"StayID":{"type":"long"},"StayStart":{"type":"date"}}}

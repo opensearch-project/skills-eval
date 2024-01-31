@@ -1,1 +1,0 @@
-{"properties":{"course_id":{"type":"long"},"date_of_attendance":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"student_id":{"type":"long"}}}

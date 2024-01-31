@@ -1,1 +1,0 @@
-{"properties":{"id":{"type":"long"},"local_authority":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"network_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"services":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

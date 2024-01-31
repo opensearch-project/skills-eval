@@ -1,1 +1,0 @@
-{"properties":{"available_yn":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"booking_id":{"type":"long"},"product_id":{"type":"long"},"status_date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

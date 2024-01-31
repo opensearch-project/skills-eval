@@ -1,1 +1,0 @@
-{"properties":{"Service_ID":{"type":"long"},"Service_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

@@ -1,1 +1,0 @@
-{"properties":{"Age":{"type":"long"},"Artist":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Artist_ID":{"type":"long"},"Famous_Release_date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Famous_Title":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

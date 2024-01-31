@@ -1,9 +1,0 @@
-{"id":1,"City":"Akureyri","Country":"Iceland","IATA":"AEY","ICAO":"BIAR","name":"Akureyri Airport"}
-{"id":2,"City":"Amsterdam","Country":"Netherlands","IATA":"AMS","ICAO":"EHAM","name":"Schiphol Airport"}
-{"id":3,"City":"Anchorage","Country":"United States","IATA":"ANC","ICAO":"PANC","name":"Ted Stevens Airport"}
-{"id":4,"City":"Baltimore","Country":"United States","IATA":"BWI","ICAO":"KBWI","name":"Baltimore-Washington Airport"}
-{"id":5,"City":"Barcelona","Country":"Spain","IATA":"BCN","ICAO":"LEBL","name":"El Prat Airport"}
-{"id":6,"City":"Bergen","Country":"Norway","IATA":"BGO","ICAO":"ENBR","name":"Bergen Airport"}
-{"id":7,"City":"Billund","Country":"Denmark","IATA":"BLL","ICAO":"EKBI","name":"Billund Airport"}
-{"id":8,"City":"Boston","Country":"United States","IATA":"BOS","ICAO":"KBOS","name":"Logan International Airport"}
-{"id":9,"City":"Brussels","Country":"Belgium","IATA":"BRU","ICAO":"EBBR","name":"National Airport"}

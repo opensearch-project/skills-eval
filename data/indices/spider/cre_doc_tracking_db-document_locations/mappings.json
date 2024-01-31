@@ -1,1 +1,0 @@
-{"properties":{"Date_in_Location_From":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Date_in_Locaton_To":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Document_ID":{"type":"long"},"Location_Code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

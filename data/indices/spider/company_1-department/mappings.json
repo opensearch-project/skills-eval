@@ -1,1 +1,0 @@
-{"properties":{"Dname":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Dnumber":{"type":"long"},"Mgr_ssn":{"type":"long"},"Mgr_start_date":{"type":"date"}}}

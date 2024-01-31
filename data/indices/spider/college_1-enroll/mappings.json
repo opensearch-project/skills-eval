@@ -1,1 +1,0 @@
-{"properties":{"CLASS_CODE":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"ENROLL_GRADE":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"STU_NUM":{"type":"long"}}}

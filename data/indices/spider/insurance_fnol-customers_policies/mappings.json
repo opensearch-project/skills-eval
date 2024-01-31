@@ -1,1 +1,0 @@
-{"properties":{"Customer_ID":{"type":"long"},"Date_Closed":{"type":"date"},"Date_Opened":{"type":"date"},"Policy_ID":{"type":"long"}}}

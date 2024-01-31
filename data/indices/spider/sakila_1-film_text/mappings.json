@@ -1,1 +1,0 @@
-{"properties":{"description":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"film_id":{"type":"long"},"title":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

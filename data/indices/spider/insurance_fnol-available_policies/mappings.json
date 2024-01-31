@@ -1,1 +1,0 @@
-{"properties":{"Customer_Phone":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Policy_ID":{"type":"long"},"policy_type_code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

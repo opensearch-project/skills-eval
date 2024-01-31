@@ -1,1 +1,0 @@
-{"properties":{"Capacity":{"type":"long"},"Cinema_ID":{"type":"long"},"Location":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Openning_year":{"type":"long"}}}

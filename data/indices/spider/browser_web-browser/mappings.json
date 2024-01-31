@@ -1,1 +1,0 @@
-{"properties":{"id":{"type":"long"},"market_share":{"type":"float"},"name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

@@ -1,1 +1,0 @@
-{"properties":{"course_id":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"credits":{"type":"long"},"dept_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"title":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

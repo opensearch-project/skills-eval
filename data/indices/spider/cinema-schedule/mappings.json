@@ -1,1 +1,0 @@
-{"properties":{"Cinema_ID":{"type":"long"},"Date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Film_ID":{"type":"long"},"Price":{"type":"float"},"Show_times_per_day":{"type":"long"}}}

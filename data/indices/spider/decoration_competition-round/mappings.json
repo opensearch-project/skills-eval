@@ -1,1 +1,0 @@
-{"properties":{"Decoration_Theme":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Member_ID":{"type":"long"},"Rank_in_Round":{"type":"long"},"Round_ID":{"type":"long"}}}

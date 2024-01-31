@@ -1,1 +1,0 @@
-{"properties":{"Budget_in_Billions":{"type":"float"},"Creation":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Department_ID":{"type":"long"},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Num_Employees":{"type":"float"},"Ranking":{"type":"long"}}}

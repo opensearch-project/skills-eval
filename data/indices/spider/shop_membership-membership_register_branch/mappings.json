@@ -1,1 +1,0 @@
-{"properties":{"Branch_ID":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Member_ID":{"type":"long"},"Register_Year":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

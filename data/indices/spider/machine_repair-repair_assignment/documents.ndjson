@@ -1,9 +1,0 @@
-{"technician_id":1,"repair_ID":1,"Machine_ID":1}
-{"technician_id":1,"repair_ID":2,"Machine_ID":3}
-{"technician_id":1,"repair_ID":4,"Machine_ID":7}
-{"technician_id":1,"repair_ID":5,"Machine_ID":6}
-{"technician_id":1,"repair_ID":8,"Machine_ID":7}
-{"technician_id":2,"repair_ID":2,"Machine_ID":2}
-{"technician_id":3,"repair_ID":3,"Machine_ID":3}
-{"technician_id":5,"repair_ID":5,"Machine_ID":2}
-{"technician_id":7,"repair_ID":2,"Machine_ID":4}

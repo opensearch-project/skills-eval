@@ -1,1 +1,0 @@
-{"properties":{"location_address_id":{"type":"long"},"location_code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"location_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"route_id":{"type":"long"}}}

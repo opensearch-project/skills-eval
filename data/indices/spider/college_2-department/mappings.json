@@ -1,1 +1,0 @@
-{"properties":{"budget":{"type":"float"},"building":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"dept_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

@@ -1,1 +1,0 @@
-{"properties":{"Address":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Location_ID":{"type":"long"},"Location_Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Other_Details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

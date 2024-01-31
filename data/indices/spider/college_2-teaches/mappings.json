@@ -1,1 +1,0 @@
-{"properties":{"ID":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"course_id":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"sec_id":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"semester":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"year":{"type":"long"}}}

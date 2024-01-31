@@ -1,1 +1,0 @@
-{"properties":{"Firstname":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Id":{"type":"long"},"Lastname":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

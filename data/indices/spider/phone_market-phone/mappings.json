@@ -1,1 +1,0 @@
-{"properties":{"Carrier":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Memory_in_G":{"type":"long"},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Phone_ID":{"type":"long"},"Price":{"type":"float"}}}

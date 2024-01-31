@@ -1,1 +1,0 @@
-{"properties":{"department_id":{"type":"long"},"department_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"dept_store_id":{"type":"long"}}}

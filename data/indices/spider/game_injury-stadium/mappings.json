@@ -1,1 +1,0 @@
-{"properties":{"Average_Attendance":{"type":"float"},"Capacity_Percentage":{"type":"float"},"Home_Games":{"type":"long"},"Total_Attendance":{"type":"float"},"id":{"type":"long"},"name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

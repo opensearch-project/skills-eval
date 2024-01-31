@@ -1,1 +1,0 @@
-{"properties":{"Market_ID":{"type":"long"},"Num_of_stock":{"type":"long"},"Phone_ID":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

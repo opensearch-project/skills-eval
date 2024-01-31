@@ -1,1 +1,0 @@
-{"properties":{"Amerindian":{"type":"float"},"Asian":{"type":"float"},"Black":{"type":"float"},"City_ID":{"type":"long"},"County_ID":{"type":"long"},"Hispanic":{"type":"float"},"Multiracial":{"type":"float"},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"White":{"type":"float"}}}

@@ -1,1 +1,0 @@
-{"properties":{"Location":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Seating":{"type":"float"},"Track_ID":{"type":"long"},"Year_Opened":{"type":"float"}}}

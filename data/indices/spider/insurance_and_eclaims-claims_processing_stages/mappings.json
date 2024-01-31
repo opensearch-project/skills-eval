@@ -1,1 +1,0 @@
-{"properties":{"Claim_Stage_ID":{"type":"long"},"Claim_Status_Description":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Claim_Status_Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Next_Claim_Stage_ID":{"type":"long"}}}

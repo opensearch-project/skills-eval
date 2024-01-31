@@ -1,1 +1,0 @@
-{"properties":{"Driver_ID":{"type":"long"},"If_full_time":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"School_ID":{"type":"long"},"Years_Working":{"type":"long"}}}

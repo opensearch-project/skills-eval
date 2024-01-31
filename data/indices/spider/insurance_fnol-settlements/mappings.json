@@ -1,1 +1,0 @@
-{"properties":{"Claim_ID":{"type":"long"},"Effective_Date":{"type":"date"},"Settlement_Amount":{"type":"float"},"Settlement_ID":{"type":"long"}}}

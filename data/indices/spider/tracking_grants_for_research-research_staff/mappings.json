@@ -1,1 +1,0 @@
-{"properties":{"employer_organisation_id":{"type":"long"},"staff_details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"staff_id":{"type":"long"}}}

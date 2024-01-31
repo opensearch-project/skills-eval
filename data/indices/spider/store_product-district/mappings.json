@@ -1,1 +1,0 @@
-{"properties":{"City_Area":{"type":"float"},"City_Population":{"type":"float"},"District_ID":{"type":"long"},"District_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Headquartered_City":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

@@ -1,1 +1,0 @@
-{"properties":{"architect_id":{"type":"long"},"id":{"type":"long"},"length_feet":{"type":"float"},"length_meters":{"type":"float"},"location":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

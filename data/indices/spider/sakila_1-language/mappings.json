@@ -1,1 +1,0 @@
-{"properties":{"language_id":{"type":"long"},"last_update":{"type":"long"},"name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

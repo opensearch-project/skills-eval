@@ -1,1 +1,0 @@
-{"properties":{"bikes_available":{"type":"long"},"docks_available":{"type":"long"},"station_id":{"type":"long"},"time":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

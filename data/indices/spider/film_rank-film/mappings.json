@@ -1,1 +1,0 @@
-{"properties":{"Director":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Film_ID":{"type":"long"},"Gross_in_dollar":{"type":"long"},"Studio":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Title":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

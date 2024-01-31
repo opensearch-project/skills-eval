@@ -1,7 +1,0 @@
-{"Cinema_ID":1,"Film_ID":1,"Date":"21 May","Show_times_per_day":5,"Price":12.99}
-{"Cinema_ID":1,"Film_ID":2,"Date":"21 May","Show_times_per_day":3,"Price":12.99}
-{"Cinema_ID":1,"Film_ID":3,"Date":"21 Jun","Show_times_per_day":2,"Price":8.99}
-{"Cinema_ID":2,"Film_ID":1,"Date":"11 July","Show_times_per_day":5,"Price":9.99}
-{"Cinema_ID":6,"Film_ID":5,"Date":"2 Aug","Show_times_per_day":4,"Price":12.99}
-{"Cinema_ID":9,"Film_ID":4,"Date":"20 May","Show_times_per_day":5,"Price":9.99}
-{"Cinema_ID":10,"Film_ID":1,"Date":"19 May","Show_times_per_day":5,"Price":15.99}

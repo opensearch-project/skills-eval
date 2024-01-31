@@ -1,1 +1,0 @@
-{"properties":{"Date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Debate_ID":{"type":"long"},"Num_of_Audience":{"type":"long"},"Venue":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

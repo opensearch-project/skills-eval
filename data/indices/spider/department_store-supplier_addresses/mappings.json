@@ -1,1 +1,0 @@
-{"properties":{"address_id":{"type":"long"},"date_from":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"date_to":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"supplier_id":{"type":"long"}}}

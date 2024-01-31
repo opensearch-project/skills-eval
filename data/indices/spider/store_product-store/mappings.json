@@ -1,1 +1,0 @@
-{"properties":{"Area_size":{"type":"float"},"Number_of_product_category":{"type":"float"},"Ranking":{"type":"long"},"Store_ID":{"type":"long"},"Store_Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Type":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

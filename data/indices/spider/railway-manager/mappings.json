@@ -1,1 +1,0 @@
-{"properties":{"Age":{"type":"long"},"Country":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Level":{"type":"long"},"Manager_ID":{"type":"long"},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Working_year_starts":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

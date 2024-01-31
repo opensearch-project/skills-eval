@@ -1,1 +1,0 @@
-{"properties":{"category_id":{"type":"long"},"film_id":{"type":"long"},"last_update":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

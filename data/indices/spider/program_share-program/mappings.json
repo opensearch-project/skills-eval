@@ -1,1 +1,0 @@
-{"properties":{"Launch":{"type":"float"},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Origin":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Owner":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Program_ID":{"type":"long"}}}

@@ -1,5 +1,0 @@
-{"Aircraft_ID":1,"Aircraft":"Robinson R-22","Description":"Light utility helicopter","Max_Gross_Weight":"1,370 lb (635 kg)","Total_disk_area":"497 ft² (46.2 m²)","Max_disk_Loading":"2.6 lb/ft² (14 kg/m²)"}
-{"Aircraft_ID":2,"Aircraft":"Bell 206B3 JetRanger","Description":"Turboshaft utility helicopter","Max_Gross_Weight":"3,200 lb (1,451 kg)","Total_disk_area":"872 ft² (81.1 m²)","Max_disk_Loading":"3.7 lb/ft² (18 kg/m²)"}
-{"Aircraft_ID":3,"Aircraft":"CH-47D Chinook","Description":"Tandem rotor helicopter","Max_Gross_Weight":"50,000 lb (22,680 kg)","Total_disk_area":"5,655 ft² (526 m²)","Max_disk_Loading":"8.8 lb/ft² (43 kg/m²)"}
-{"Aircraft_ID":4,"Aircraft":"Mil Mi-26","Description":"Heavy-lift helicopter","Max_Gross_Weight":"123,500 lb (56,000 kg)","Total_disk_area":"8,495 ft² (789 m²)","Max_disk_Loading":"14.5 lb/ft² (71 kg/m²)"}
-{"Aircraft_ID":5,"Aircraft":"CH-53E Super Stallion","Description":"Heavy-lift helicopter","Max_Gross_Weight":"73,500 lb (33,300 kg)","Total_disk_area":"4,900 ft² (460 m²)","Max_disk_Loading":"15 lb/ft² (72 kg/m²)"}

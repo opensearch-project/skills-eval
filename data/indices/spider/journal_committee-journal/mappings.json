@@ -1,1 +1,0 @@
-{"properties":{"Date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Journal_ID":{"type":"long"},"Sales":{"type":"long"},"Theme":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

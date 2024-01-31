@@ -1,1 +1,0 @@
-{"properties":{"other_route_details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"route_id":{"type":"long"},"route_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

@@ -1,1 +1,0 @@
-{"properties":{"Date_of_Birth":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Height":{"type":"float"},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"People_ID":{"type":"long"},"Sex":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Weight":{"type":"float"}}}

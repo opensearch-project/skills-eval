@@ -1,1 +1,0 @@
-{"properties":{"Member_ID":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Nationality":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Role":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

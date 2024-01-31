@@ -1,1 +1,0 @@
-{"properties":{"sales_details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"sales_transaction_id":{"type":"long"}}}

@@ -1,1 +1,0 @@
-{"properties":{"Damage_millions_USD":{"type":"float"},"Dates_active":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Max_speed":{"type":"long"},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Number_Deaths":{"type":"long"},"Storm_ID":{"type":"long"}}}

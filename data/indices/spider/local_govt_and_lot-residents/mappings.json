@@ -1,1 +1,0 @@
-{"properties":{"date_moved_in":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"date_moved_out":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"other_details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"property_id":{"type":"long"},"resident_id":{"type":"long"}}}

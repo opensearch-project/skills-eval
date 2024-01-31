@@ -1,1 +1,0 @@
-{"properties":{"Author":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"College":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Scores":{"type":"float"},"Submission_ID":{"type":"long"}}}

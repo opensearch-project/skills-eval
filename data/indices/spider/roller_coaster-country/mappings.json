@@ -1,1 +1,0 @@
-{"properties":{"Area":{"type":"long"},"Country_ID":{"type":"long"},"Languages":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Population":{"type":"long"}}}

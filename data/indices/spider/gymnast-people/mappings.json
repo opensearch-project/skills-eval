@@ -1,1 +1,0 @@
-{"properties":{"Age":{"type":"float"},"Height":{"type":"float"},"Hometown":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"People_ID":{"type":"long"}}}

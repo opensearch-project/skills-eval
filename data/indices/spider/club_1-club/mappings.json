@@ -1,1 +1,0 @@
-{"properties":{"ClubDesc":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"ClubID":{"type":"long"},"ClubLocation":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"ClubName":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

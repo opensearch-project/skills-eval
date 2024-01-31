@@ -1,1 +1,0 @@
-{"properties":{"Museum_Details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Museum_ID":{"type":"long"}}}

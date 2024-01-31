@@ -1,1 +1,0 @@
-{"properties":{"Estimation_ID":{"type":"long"},"Film_ID":{"type":"long"},"High_Estimate":{"type":"float"},"Low_Estimate":{"type":"float"},"Market_ID":{"type":"long"},"Type":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Year":{"type":"long"}}}

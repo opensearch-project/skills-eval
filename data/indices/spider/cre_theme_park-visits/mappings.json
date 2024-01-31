@@ -1,1 +1,0 @@
-{"properties":{"Tourist_Attraction_ID":{"type":"long"},"Tourist_ID":{"type":"long"},"Visit_Date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Visit_Details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Visit_ID":{"type":"long"}}}

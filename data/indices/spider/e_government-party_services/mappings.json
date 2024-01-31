@@ -1,1 +1,0 @@
-{"properties":{"booking_id":{"type":"long"},"booking_made_date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"customer_id":{"type":"long"},"service_datetime":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"service_id":{"type":"long"}}}

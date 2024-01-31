@@ -1,1 +1,0 @@
-{"properties":{"City":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"City_ID":{"type":"long"},"GDP":{"type":"float"},"Hanyu_Pinyin":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Hanzi":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Regional_Population":{"type":"long"}}}

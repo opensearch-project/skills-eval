@@ -1,1 +1,0 @@
-{"properties":{"Claim_ID":{"type":"long"},"Created_Date":{"type":"long"},"Created_by_Staff_ID":{"type":"long"},"Document_Type_Code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

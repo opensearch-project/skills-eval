@@ -1,1 +1,0 @@
-{"properties":{"apt_booking_id":{"type":"long"},"apt_id":{"type":"long"},"available_yn":{"type":"long"},"status_date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

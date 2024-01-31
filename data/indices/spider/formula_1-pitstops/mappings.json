@@ -1,1 +1,0 @@
-{"properties":{"driverId":{"type":"long"},"duration":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"lap":{"type":"long"},"milliseconds":{"type":"long"},"raceId":{"type":"long"},"stop":{"type":"long"},"time":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

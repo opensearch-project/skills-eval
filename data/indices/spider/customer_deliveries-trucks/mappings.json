@@ -1,1 +1,0 @@
-{"properties":{"truck_details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"truck_id":{"type":"long"},"truck_licence_number":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

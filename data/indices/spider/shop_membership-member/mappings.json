@@ -1,1 +1,0 @@
-{"properties":{"Card_Number":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Hometown":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Level":{"type":"long"},"Member_ID":{"type":"long"},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

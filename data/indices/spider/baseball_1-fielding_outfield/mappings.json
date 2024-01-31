@@ -1,1 +1,0 @@
-{"properties":{"gcf":{"type":"long"},"glf":{"type":"long"},"grf":{"type":"long"},"player_id":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"stint":{"type":"long"},"year":{"type":"long"}}}

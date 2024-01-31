@@ -1,1 +1,0 @@
-{"properties":{"staff_gender":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"staff_id":{"type":"long"},"staff_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

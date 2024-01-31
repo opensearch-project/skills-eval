@@ -1,1 +1,0 @@
-{"properties":{"ResID":{"type":"long"},"Spent":{"type":"float"},"StuID":{"type":"long"},"Time":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

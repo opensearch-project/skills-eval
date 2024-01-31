@@ -1,1 +1,0 @@
-{"properties":{"league_id":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"player_id":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"salary":{"type":"long"},"team_id":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"year":{"type":"long"}}}

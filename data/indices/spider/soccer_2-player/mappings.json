@@ -1,1 +1,0 @@
-{"properties":{"HS":{"type":"long"},"pID":{"type":"long"},"pName":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"yCard":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

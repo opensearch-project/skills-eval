@@ -1,1 +1,0 @@
-{"properties":{"Date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Event_Attendance":{"type":"long"},"Event_ID":{"type":"long"},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Venue":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

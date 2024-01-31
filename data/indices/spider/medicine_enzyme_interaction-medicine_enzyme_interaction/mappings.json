@@ -1,1 +1,0 @@
-{"properties":{"enzyme_id":{"type":"long"},"interaction_type":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"medicine_id":{"type":"long"}}}

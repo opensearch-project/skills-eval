@@ -1,1 +1,0 @@
-{"properties":{"artist_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"country":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"gender":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"preferred_genre":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

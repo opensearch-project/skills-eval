@@ -1,7 +1,0 @@
-{"Graphics_mode":0,"Char_cells":"80 × 32","Pixels":"640 × 256","Hardware_colours":2,"used_kb":20,"map":"3000–7FFF","Type":"Graphics"}
-{"Graphics_mode":1,"Char_cells":"40 × 32","Pixels":"320 × 256","Hardware_colours":4,"used_kb":20,"map":"3000–7FFF","Type":"Graphics"}
-{"Graphics_mode":2,"Char_cells":"20 × 32","Pixels":"160 × 256","Hardware_colours":8,"used_kb":20,"map":"3000–7FFF","Type":"Graphics"}
-{"Graphics_mode":3,"Char_cells":"80 × 25","Pixels":"640 × 200","Hardware_colours":2,"used_kb":16,"map":"4000–7FFF","Type":"Text"}
-{"Graphics_mode":4,"Char_cells":"40 × 32","Pixels":"320 × 256","Hardware_colours":2,"used_kb":10,"map":"5800–7FFF","Type":"Graphics"}
-{"Graphics_mode":5,"Char_cells":"20 × 32","Pixels":"160 × 256","Hardware_colours":4,"used_kb":10,"map":"5800–7FFF","Type":"Graphics"}
-{"Graphics_mode":6,"Char_cells":"40 × 25","Pixels":"320 × 200","Hardware_colours":2,"used_kb":8,"map":"6000–7FFF","Type":"Text"}

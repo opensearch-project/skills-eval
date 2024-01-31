@@ -1,1 +1,0 @@
-{"properties":{"premise_details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"premise_id":{"type":"long"},"premises_type":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

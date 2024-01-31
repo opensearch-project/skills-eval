@@ -1,1 +1,0 @@
-{"properties":{"dorm_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"dormid":{"type":"long"},"gender":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"student_capacity":{"type":"long"}}}

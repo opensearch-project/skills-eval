@@ -1,1 +1,0 @@
-{"properties":{"Budget_invested_percent":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Budgeted":{"type":"long"},"Invested":{"type":"long"},"School_id":{"type":"long"},"Year":{"type":"long"},"total_budget_percent_budgeted":{"type":"float"},"total_budget_percent_invested":{"type":"float"}}}

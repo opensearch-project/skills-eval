@@ -1,1 +1,0 @@
-{"properties":{"ID":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"dept_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"salary":{"type":"float"}}}

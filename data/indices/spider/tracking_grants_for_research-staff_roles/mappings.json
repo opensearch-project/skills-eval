@@ -1,1 +1,0 @@
-{"properties":{"role_code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"role_description":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

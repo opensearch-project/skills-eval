@@ -1,1 +1,0 @@
-{"properties":{"Competition_ID":{"type":"long"},"Host_city_ID":{"type":"long"},"Hosts":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Theme":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Year":{"type":"long"}}}

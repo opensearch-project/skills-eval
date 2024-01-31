@@ -1,1 +1,0 @@
-{"properties":{"Budget_Type_Code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Document_Details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Document_ID":{"type":"long"}}}

@@ -1,1 +1,0 @@
-{"properties":{"building":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"capacity":{"type":"long"},"room_number":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

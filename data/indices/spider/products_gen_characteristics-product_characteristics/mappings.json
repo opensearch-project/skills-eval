@@ -1,1 +1,0 @@
-{"properties":{"characteristic_id":{"type":"long"},"product_characteristic_value":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"product_id":{"type":"long"}}}

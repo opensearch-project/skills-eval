@@ -1,1 +1,0 @@
-{"properties":{"active":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"franchise_id":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"franchise_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"na_assoc":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

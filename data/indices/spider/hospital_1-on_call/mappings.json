@@ -1,1 +1,0 @@
-{"properties":{"BlockCode":{"type":"long"},"BlockFloor":{"type":"long"},"Nurse":{"type":"long"},"OnCallEnd":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"OnCallStart":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

@@ -1,1 +1,0 @@
-{"properties":{"Area_km_2":{"type":"float"},"Census_Ranking":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"City_ID":{"type":"long"},"Official_Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Population":{"type":"float"},"Status":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

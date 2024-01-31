@@ -1,1 +1,0 @@
-{"properties":{"customer_details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"customer_id":{"type":"long"},"customer_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

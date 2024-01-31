@@ -1,1 +1,0 @@
-{"properties":{"Host_ID":{"type":"long"},"Is_Main_in_Charge":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Party_ID":{"type":"long"}}}

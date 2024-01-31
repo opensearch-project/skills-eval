@@ -1,1 +1,0 @@
-{"properties":{"camera_lens_id":{"type":"long"},"color":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"id":{"type":"long"},"mountain_id":{"type":"long"},"name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

@@ -1,1 +1,0 @@
-{"properties":{"Age":{"type":"long"},"Artist_ID":{"type":"long"},"Country":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Year_Join":{"type":"long"}}}

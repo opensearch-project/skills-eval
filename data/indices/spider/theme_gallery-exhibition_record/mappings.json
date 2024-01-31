@@ -1,1 +1,0 @@
-{"properties":{"Attendance":{"type":"long"},"Date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Exhibition_ID":{"type":"long"}}}

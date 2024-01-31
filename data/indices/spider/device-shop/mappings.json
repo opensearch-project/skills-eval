@@ -1,1 +1,0 @@
-{"properties":{"Location":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Open_Date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Open_Year":{"type":"long"},"Shop_ID":{"type":"long"},"Shop_Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

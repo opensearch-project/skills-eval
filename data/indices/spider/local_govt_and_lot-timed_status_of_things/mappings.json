@@ -1,1 +1,0 @@
-{"properties":{"Date_and_Date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Status_of_Thing_Code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"thing_id":{"type":"long"}}}

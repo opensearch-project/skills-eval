@@ -1,1 +1,0 @@
-{"properties":{"fault_description":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"fault_short_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"other_fault_details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"part_fault_id":{"type":"long"},"part_id":{"type":"long"}}}

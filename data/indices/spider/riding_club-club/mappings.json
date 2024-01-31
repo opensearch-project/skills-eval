@@ -1,1 +1,0 @@
-{"properties":{"Club_ID":{"type":"long"},"Club_name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Region":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Start_year":{"type":"long"}}}

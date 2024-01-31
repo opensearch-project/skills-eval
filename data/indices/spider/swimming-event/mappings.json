@@ -1,1 +1,0 @@
-{"properties":{"ID":{"type":"long"},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Stadium_ID":{"type":"long"},"Year":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

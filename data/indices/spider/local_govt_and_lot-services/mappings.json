@@ -1,1 +1,0 @@
-{"properties":{"organization_id":{"type":"long"},"service_details":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"service_id":{"type":"long"},"service_type_code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

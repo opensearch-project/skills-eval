@@ -1,1 +1,0 @@
-{"properties":{"cName":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"enr":{"type":"long"},"state":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

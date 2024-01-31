@@ -1,1 +1,0 @@
-{"properties":{"driverId":{"type":"long"},"driverStandingsId":{"type":"long"},"points":{"type":"float"},"position":{"type":"long"},"positionText":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"raceId":{"type":"long"},"wins":{"type":"long"}}}

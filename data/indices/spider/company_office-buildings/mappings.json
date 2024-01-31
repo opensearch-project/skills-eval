@@ -1,1 +1,0 @@
-{"properties":{"City":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Height":{"type":"long"},"Status":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Stories":{"type":"long"},"id":{"type":"long"},"name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

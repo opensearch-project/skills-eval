@@ -1,1 +1,0 @@
-{"properties":{"DEPARTMENT_ID":{"type":"long"},"DEPARTMENT_NAME":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"LOCATION_ID":{"type":"long"},"MANAGER_ID":{"type":"long"}}}

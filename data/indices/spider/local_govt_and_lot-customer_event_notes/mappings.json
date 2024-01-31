@@ -1,1 +1,0 @@
-{"properties":{"Customer_Event_ID":{"type":"long"},"Customer_Event_Note_ID":{"type":"long"},"date_moved_in":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"property_id":{"type":"long"},"resident_id":{"type":"long"},"service_type_code":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

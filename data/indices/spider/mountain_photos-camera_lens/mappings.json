@@ -1,1 +1,0 @@
-{"properties":{"brand":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"focal_length_mm":{"type":"float"},"id":{"type":"long"},"max_aperture":{"type":"float"},"name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

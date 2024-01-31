@@ -1,1 +1,0 @@
-{"properties":{"Code":{"type":"long"},"Cost":{"type":"float"},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}

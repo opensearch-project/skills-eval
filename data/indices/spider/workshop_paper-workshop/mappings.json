@@ -1,1 +1,0 @@
-{"properties":{"Date":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Venue":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Workshop_ID":{"type":"long"}}}

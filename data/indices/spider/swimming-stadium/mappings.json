@@ -1,1 +1,0 @@
-{"properties":{"Capacity":{"type":"long"},"City":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"Country":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}},"ID":{"type":"long"},"Opening_year":{"type":"long"},"name":{"type":"text","fields":{"keyword":{"type":"keyword","ignore_above":256}}}}}
