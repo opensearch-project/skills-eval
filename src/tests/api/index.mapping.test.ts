@@ -15,7 +15,8 @@ const runner = new (class IndexMappingRunner extends QARunner {
       if (clusterStateId !== 'spider') {
         throw new Error('unexpected cluster state id');
       }
-      await OpenSearchTestIndices.delete('spider');
+      // If there is a need to refresh this dataset, uncomment this line
+      // await OpenSearchTestIndices.delete('spider');
       await OpenSearchTestIndices.create('spider', {'ignoreExisting': true});
     }
   })(provider); 
