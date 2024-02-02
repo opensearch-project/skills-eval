@@ -1,0 +1,20 @@
+{"id":"id-1","clusterStateId":"anomaly-detection","question":"How many anomaly results do I have?","expectedAnswer":"You have 1 anomaly result"}
+{"id":"id-2","clusterStateId":"anomaly-detection","question":"How many anomaly results do I have from detector with ID test-detector-1-id?","expectedAnswer":"You have 1 anomaly result from the detector with ID test-detector-1-id"}
+{"id":"id-3","clusterStateId":"anomaly-detection","question":"How many anomaly results do I have from detector with ID test-detector-2-id?","expectedAnswer":"There are no anomaly results from the detector with ID test-detector-2-id"}
+{"id":"id-4","clusterStateId":"anomaly-detection","question":"Do I have any realtime results?","expectedAnswer":"You have one realtime result"}
+{"id":"id-5","clusterStateId":"anomaly-detection","question":"Do I have any results with data start times between 1111 and 1112?","expectedAnswer":"No, you have no results in that time range"}
+{"id":"id-6","clusterStateId":"anomaly-detection","question":"Do I have any results with data start times between 1111 and 2222","expectedAnswer":"Yes, you have one result"}
+{"id":"id-7","clusterStateId":"anomaly-detection","question":"Did any anomalies occur in the last week?","expectedAnswer":"No, you have no anomalies in the last week."}
+{"id":"id-8","clusterStateId":"anomaly-detection","question":"Do I have any anomalies from today?","expectedAnswer":"No, you have no anomalies in the last day."}
+{"id":"id-9","clusterStateId":"anomaly-detection","question":"Has test-detector-1-id ever produced anomalies?","expectedAnswer":"Yes, test-detector-1-id has produced 1 anomaly result"}
+{"id":"id-10","clusterStateId":"anomaly-detection","question":"Has test-detector-2-id ever produced anomalies?","expectedAnswer":"No, test-detector-1-id has produced 0 anomaly results"}
+{"id":"id-11","clusterStateId":"anomaly-detection","question":"Show me all anomalies with grade > 0.0","expectedAnswer":"You have one anomaly result"}
+{"id":"id-12","clusterStateId":"anomaly-detection","question":"Show me all anomalies with grade > 0.4","expectedAnswer":"You have one anomaly result"}
+{"id":"id-13","clusterStateId":"anomaly-detection","question":"Show me all anomalies with grade > 0.7","expectedAnswer":"You have no anomaly results"}
+{"id":"id-14","clusterStateId":"anomaly-detection","question":"How many realtime anomaly results do I have?","expectedAnswer":"You have one realtime anomaly result?"}
+{"id":"id-15","clusterStateId":"anomaly-detection","question":"How many historical anomaly results do I have?","expectedAnswer":"You have no historical anomaly results."}
+{"id":"id-16","clusterStateId":"anomaly-detection","question":"Show me the top 5 most recent anomalies from detector test-detector-1-id sorted by data start time","expectedAnswer":"Here is details on your anomaly results: [detectorId=test-detector-1-id,grade=0.5,confidenc=0.8]"}
+{"id":"id-17","clusterStateId":"anomaly-detection","question":"How many anomalies occurred for detector test-detector-1-id between 1111 and 2222?","expectedAnswer":"I found one anomaly result from that detector in the time range of 1111 and 2222"}
+{"id":"id-18","clusterStateId":"anomaly-detection","question":"Show me the top 10 highest-grade anomalies I have","expectedAnswer":"Here is details on your anomaly results: [detectorId=test-detector-1-id,grade=0.5,confidenc=0.8]"}
+{"id":"id-19","clusterStateId":"anomaly-detection","question":"Show me the top 10 highest-grade anomalies with data start times between 1111 and 2222.","expectedAnswer":"Here is details on your anomaly results: [detectorId=test-detector-1-id,grade=0.5,confidenc=0.8]"}
+{"id":"id-20","clusterStateId":"anomaly-detection","question":"Fetch me all anomaly results from the past week","expectedAnswer":"You have no anomaly results from the past week."}

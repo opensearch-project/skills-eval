@@ -1,0 +1,21 @@
+{"id":"id-1","clusterStateId":"anomaly-detection","question":"How many detectors do I have?","expectedAnswer":"You have 4 detectors"}
+{"id":"id-2","clusterStateId":"anomaly-detection","question":"How many running detectors do I have?","expectedAnswer":"You have 2 running detectors"}
+{"id":"id-3","clusterStateId":"anomaly-detection","question":"How many failed detectors do I have?","expectedAnswer":"You have 1 failed detector"}
+{"id":"id-4","clusterStateId":"anomaly-detection","question":"What index is test-detector-1 detecting over?","expectedAnswer":"The detector test-detector-1 is detecting over the index test-index"}
+{"id":"id-5","clusterStateId":"anomaly-detection","question":"What is the description for test-detector-1?","expectedAnswer":"The description for test-detector-1 is: A description for test-detector-1"}
+{"id":"id-6","clusterStateId":"anomaly-detection","question":"What index is test-detector-2 detecting over?","expectedAnswer":"The detector test-detector-2 is detecting over the index test-index"}
+{"id":"id-7","clusterStateId":"anomaly-detection","question":"What is the description for test-detector-2?","expectedAnswer":"The description for test-detector-2 is: A description for test-detector-2"}
+{"id":"id-8","clusterStateId":"anomaly-detection","question":"Do I have any stopped detectors?","expectedAnswer":"Yes, you have one stopped detector: test-detector-3"}
+{"id":"id-9","clusterStateId":"anomaly-detection","question":"Do I have any high-cardinality detectors?","expectedAnswer":"Yes, you have one high-cardinality detector: test-detector-4"}
+{"id":"id-10","clusterStateId":"anomaly-detection","question":"What is the total number of high cardinality detectors?","expectedAnswer":"You have one total high-cardinality detector: test-detector-4"}
+{"id":"id-11","clusterStateId":"anomaly-detection","question":"When was detector test-detector-1 last updated?","expectedAnswer":"test-detector-1 was last updated on 1234"}
+{"id":"id-12","clusterStateId":"anomaly-detection","question":"What type of detector is test-detector-1?","expectedAnswer":"test-detector-1 is a single entity detector."}
+{"id":"id-13","clusterStateId":"anomaly-detection","question":"What is the id of the detector with name \"test-detector-1\"?","expectedAnswer":"The id of that detector is test-detector-1-id."}
+{"id":"id-14","clusterStateId":"anomaly-detection","question":"Are there any detectors detecting over the index \"test-index\"?","expectedAnswer":"Yes, you have 4 detectors detecting over the index test-index."}
+{"id":"id-15","clusterStateId":"anomaly-detection","question":"Are there any detectors detecting over the index \"foo-index\"?","expectedAnswer":"No, there are no detectors detecting over that index."}
+{"id":"id-16","clusterStateId":"anomaly-detection","question":"What is the name of my high-cardinality detectors?","expectedAnswer":"You have one high-cardinality detector named test-detector-4"}
+{"id":"id-17","clusterStateId":"anomaly-detection","question":"Do I have any high-cardinality failed detectors?","expectedAnswer":"Yes, you have one high-cardinality detector in a failed state: test-detector-4"}
+{"id":"id-18","clusterStateId":"anomaly-detection","question":"How many detectors do I have that start with \"test-\"?","expectedAnswer":"You have 4 matching detectors: test-detector-1, test-detector-2, test-detector-3, and test-detector-4"}
+{"id":"id-19","clusterStateId":"anomaly-detection","question":"How many detectors do I have that start with \"foo\"?","expectedAnswer":"You have no matching detectors that start with that."}
+{"id":"id-20","clusterStateId":"anomaly-detection","question":"What type of detector is test-detector-4?","expectedAnswer":"test-detector-4 is a multi-entity detector"}
+{"id":"id-21","clusterStateId":"anomaly-detection","question":"Please give me the id for detector test-detector-1.","expectedAnswer":"test-detector-1 has the following ID: test-detector-1-id"}

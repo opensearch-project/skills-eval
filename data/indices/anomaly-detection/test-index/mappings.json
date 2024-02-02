@@ -1,0 +1,10 @@
+{
+    "properties": {
+        "value": {
+            "type": "integer"
+        },
+        "timestamp": {
+            "type": "date"
+        }
+    }
+}
