@@ -25,6 +25,11 @@ export class ApiProviderFactory {
           return new AgentFrameworkApiProvider(undefined, options.agentIdKey);
         return new OllyPPLGeneratorApiProvider();
 
+      case PROVIDERS.SEARCH_INDEX_TOOL:
+        if (process.env.API_PROVIDER === PROVIDERS.AGENT_FRAMEWORK)
+          return new AgentFrameworkApiProvider(undefined, options.agentIdKey);
+        return new OllyPPLGeneratorApiProvider();
+
       case PROVIDERS.ML_COMMONS:
         return new MlCommonsApiProvider();
 
