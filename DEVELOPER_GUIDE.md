@@ -75,7 +75,7 @@ For a tool or a skill, 20 to 50 test cases should be a good start. Here are some
 
 ### 2. Add the test runner
 
-The test runner will be responsible for running and evaluating each test case for a list of spec files. There are two main parts need to be defined for each runner, the cluster state setup and the evaluation function.
+The test runner will be responsible for running and evaluating each test case for a list of spec files. There are two main parts need to be defined for each runner, the cluster state setup and the evaluation function. Optionally it can decide how to construct the input to send to API.
 
 #### 2.1. Setting up the cluster state
 
@@ -153,9 +153,32 @@ Metrics supported by the test framework:
 
 Python based metrics are stored under [packages](./packages). Each package should contain a `requirements.txt` and at least one python file that can be called with `python file.py "output" '{"expected":"value","additional_fields":"value"}'`. The call should output a score to standard output that can be one of `true`, `false`, a float number from 0 to 1, or a JSON string with a `score` key.
 
-#### 2.3. Example
+#### 2.3. Override build input
 
-The test runner can be defined in [src/runners](./src/runners) or as anonymous classes. The runner instantiation and call of `runner.run(specFiles)` should be done inside a `.test.ts` file under `src/tests/<skill-name>`.
+Some tools like the PPL tool requires extra fields in addition to the question, and other tools might be using a different field (e.g. `input` instead of `question`). The runner can override `buildInput` and pass in additional keys to context. For the agent framework provider, the API will be called as
+
+```typescript
+request({
+  method: 'POST',
+  path: `/_plugins/_ml/agents/${agentId}/_execute`,
+  body: JSON.stringify({ parameters: { question: prompt, ...context?.vars } }),
+});
+```
+
+For example, if a tool want to pass in `{ "input": <spec.question>, "index": <spec.index> }` as the `parameters`, the function should be
+
+```typescript
+protected buildInput(spec: T) {
+  return {
+    prompt: undefined,
+    context: { vars: { input: spec.question, index: spec.index } },
+  };
+}
+```
+
+#### 2.4. Examples
+
+The test runner can be defined in [src/runners](./src/runners) or as anonymous classes.
 
 ```typescript
 // src/tests/api/cat.test.ts
@@ -259,6 +282,24 @@ const runner = new (class CatIndicesRunner extends QARunner {
 ```
 
 </details>
+
+### 3. Create the test file
+
+The test file should be a `.test.ts` file under `src/tests/<skill-name>`, used to run a test suite for a skill. It should instantiate the API provider and pass in at least one spec file to create the runner instance. Here is a minimal example
+
+```typescript
+const provider = ApiProviderFactory.create();
+const runner = new (class CatIndicesRunner extends QARunner {})(provider);
+runner.run([path.join(__dirname, 'specs', 'olly_cat_eval.jsonl')]);
+```
+
+Note that by default the agent framework provider will look for the agent id under `ROOT_AGENT_ID`, this can be defined when creating the provider like this:
+
+```typescript
+const provider = ApiProviderFactory.create(undefined, { agentIdKey: 'MY_AGENT_ID' });
+```
+
+And make sure to set `MY_AGENT_ID` instead in the environment variables.
 
 # Adding Alerting Test Cases
 
