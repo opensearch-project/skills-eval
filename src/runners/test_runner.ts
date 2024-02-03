@@ -76,10 +76,15 @@ export abstract class TestRunner<
    * @param spec test case
    * @returns prompt and context
    */
-  protected buildInput(spec: T): {
-    prompt: Parameters<ApiProvider['callApi']>[0];
-    context: Parameters<ApiProvider['callApi']>[1];
-  } {
+  protected buildInput(spec: T):
+    | {
+        prompt: Parameters<ApiProvider['callApi']>[0];
+        context: Parameters<ApiProvider['callApi']>[1];
+      }
+    | {
+        prompt?: Parameters<ApiProvider['callApi']>[0];
+        context: NonNullable<Parameters<ApiProvider['callApi']>[1]>;
+      } {
     return {
       prompt: spec.question,
       context: undefined,
@@ -106,6 +111,10 @@ export abstract class TestRunner<
    */
   private async runSpec(spec: T): Promise<ReturnType<U['callApi']>> {
     const input = this.buildInput(spec);
+    // @ts-expect-error promptfoo requires a prompt string to be passed to
+    // callApi, but agent framework only expects a parameters object. `prompt`
+    // will be passed as the `question` key in the parameters object and can be
+    // undefined.
     const received = (await this.apiProvider.callApi(input.prompt, input.context)) as Awaited<
       ReturnType<U['callApi']>
     >;
