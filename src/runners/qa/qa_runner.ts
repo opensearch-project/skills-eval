@@ -18,18 +18,10 @@ export class QARunner extends TestRunner<QASpec, ApiProvider> {
     console.info(
       `Received: ${received.output}\nExpected: ${spec.expectedAnswer}\nScore: ${result.score}\n`,
     );
-    try {
-      return Promise.resolve({
-        pass: result.pass,
-        message: () => result.reason,
-        score: result.score,
-      });
-    } catch (error) {
-      return Promise.resolve({
-        pass: false,
-        message: () => `failed to execture ${String(error)}`,
-        score: 0,
-      });
-    }
+    return Promise.resolve({
+      pass: result.pass,
+      message: () => result.reason,
+      score: result.score,
+    });
   }
 }
