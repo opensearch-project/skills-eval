@@ -4,6 +4,7 @@
  */
 
 import { ApiResponse } from '@opensearch-project/opensearch';
+import { SearchResponse } from '@opensearch-project/opensearch/api/types';
 import { ResponseError } from '@opensearch-project/opensearch/lib/errors';
 import { ApiProvider } from 'promptfoo';
 import { LevenshteinMatcher } from '../../matchers/levenshtein';
@@ -17,18 +18,6 @@ interface DSLSpec extends TestSpec {
   question: string;
   gold_query: string;
   index: string;
-}
-
-interface DSLResponseItem {
-  _id: string;
-  _score: string;
-  _index: string;
-  _source: string;
-}
-interface DSLResponse {
-  hits: {
-    hits: Array<DSLResponseItem>;
-  };
 }
 
 class GoldQueryError extends Error {
@@ -47,26 +36,25 @@ export class SearchIndexRunner extends TestRunner<DSLSpec, ApiProvider> {
     await OpenSearchTestIndices.create(clusterStateId, { ignoreExisting: true });
   }
 
-  private async runDSL(query: string, index: string): Promise<ApiResponse<DSLResponse>> {
+  private async runDSL(query: string, index: string): Promise<ApiResponse<SearchResponse<string>>> {
     return (await openSearchClient.transport.request({
       method: 'GET',
       path: index + '/_search',
       body: query,
-    })) as ApiResponse<DSLResponse>;
+    })) as ApiResponse<SearchResponse<string>>;
   }
 
-  private parseDSLResponse(expected: ApiResponse<DSLResponse>): string {
+  private parseDSLSearchResponse(expected: ApiResponse<SearchResponse<string>>): string {
     let expected_string = '';
     try {
       for (let i = 0; i < expected.body.hits.hits.length; i++) {
-        const responseItem: DSLResponseItem = expected.body.hits.hits[i];
-        expected_string +=
-          JSON.stringify({
-            _index: responseItem._index,
-            _source: responseItem._source,
-            _id: responseItem._id,
-            _score: responseItem._score,
-          }) + '\n';
+        const responseItem = expected.body.hits.hits[i];
+        expected_string += JSON.stringify({
+          _index: responseItem._index,
+          _source: responseItem._source,
+          _id: responseItem._id,
+          _score: responseItem._score,
+        });
       }
     } catch (error) {
       console.log('error parsing expected DSL response:', error);
@@ -88,7 +76,7 @@ export class SearchIndexRunner extends TestRunner<DSLSpec, ApiProvider> {
     try {
       const actual = received.output ?? '';
       const expected = await this.runDSL(spec.gold_query, spec.index);
-      const expected_string: string = this.parseDSLResponse(expected);
+      const expected_string: string = this.parseDSLSearchResponse(expected);
 
       const editDistance = (await this.levenshtein.calculateScore(actual, expected_string)).score;
       console.info(
