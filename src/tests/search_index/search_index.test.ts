@@ -8,7 +8,7 @@ import { PROVIDERS } from '../../providers/constants';
 import { ApiProviderFactory } from '../../providers/factory';
 import { SearchIndexRunner } from '../../runners/search_index/search_index_runner';
 
-const provider = ApiProviderFactory.create(PROVIDERS.SEARCH_INDEX_TOOL, {
+const provider = ApiProviderFactory.create(PROVIDERS.AGENT_FRAMEWORK, {
   agentIdKey: 'SEARCH_INDEX_AGENT_ID',
 });
 const runner = new SearchIndexRunner(provider);
