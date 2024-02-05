@@ -1,0 +1,20 @@
+{"id":"id-1","clusterStateId":"alerting","question":"How many alerting monitors do I have?","expectedAnswer":"You have 6 alerting monitors"}
+{"id":"id-2","clusterStateId":"alerting","question":"How many enabled alerting monitors do I have?","expectedAnswer":"There are 2 enabled alerting monitors"}
+{"id":"id-3","clusterStateId":"alerting","question":"Please show me all the monitors without triggers","expectedAnswer":"You have no monitors without triggers"}
+{"id":"id-4","clusterStateId":"alerting","question":"What monitors do I have defined on index test-index?","expectedAnswer":"You have 2 monitors defined on test-index"}
+{"id":"id-5","clusterStateId":"alerting","question":"Is there any monitor with id \"foo-id\"?","expectedAnswer":"There is no monitors matching that ID"}
+{"id":"id-6","clusterStateId":"alerting","question":"How many monitors are monitoring index test-index?","expectedAnswer":"You have 2 monitors configured over that index."}
+{"id":"id-7","clusterStateId":"alerting","question":"Show me all monitors that start with \"test-\"","expectedAnswer":"There are no enabled alerting monitors"}
+{"id":"id-8","clusterStateId":"alerting","question":"Do I have any disabled monitors?","expectedAnswer":"You have 4 disabled monitors"}
+{"id":"id-9","clusterStateId":"alerting","question":"What index is monitor test-monitor monitoring over?","expectedAnswer":"There are no enabled alerting monitors"}
+{"id":"id-10","clusterStateId":"alerting","question":"How many total monitors do I have?","expectedAnswer":"You have 6 total alerting monitors"}
+{"id":"id-11","clusterStateId":"alerting","question":"What type of monitor is test-monitor-1?","expectedAnswer":"test-monitor-1 is a query-level monitor"}
+{"id":"id-12","clusterStateId":"alerting","question":"When was monitor test-monitor-1 last updated?","expectedAnswer":"test-monitor-1 was last updated on 1234"}
+{"id":"id-13","clusterStateId":"alerting","question":"Is monitor test-monitor-1 disabled?","expectedAnswer":"No, test-monitor-1 is enabled"}
+{"id":"id-14","clusterStateId":"alerting","question":"Is there any monitor that contains the text \"test-\"?","expectedAnswer":"Yes, the 2 matching monitors are test-monitor-1 and test-monitor-2"}
+{"id":"id-15","clusterStateId":"alerting","question":"Is monitor test-monitor-1 enabled?","expectedAnswer":"Yes, test-monitor-1 is enabled"}
+{"id":"id-16","clusterStateId":"alerting","question":"How many monitors with triggers do I have?","expectedAnswer":"There are 6 total alerting monitors with triggers"}
+{"id":"id-17","clusterStateId":"alerting","question":"Is monitor test-monitor-1 enabled or disabled?","expectedAnswer":"test-monitor-1 is enabled"}
+{"id":"id-18","clusterStateId":"alerting","question":"What type of monitor is test-monitor-2?","expectedAnswer":"test-monitor-2 is a query-level monitor"}
+{"id":"id-19","clusterStateId":"alerting","question":"Is test-monitor-2 a query-level monitor?","expectedAnswer":"Yes, test-monitor-2 is a query-level monitor type"}
+{"id":"id-20","clusterStateId":"alerting","question":"What types of monitors are test-monitor-1 and test-monitor-2?","expectedAnswer":"test-monitor-1 is enabled"}

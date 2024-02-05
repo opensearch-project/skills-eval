@@ -1,0 +1,277 @@
+{
+    "properties": {
+        "checkpoint_id": {
+            "type": "keyword"
+        },
+        "coordinating_node": {
+            "type": "keyword"
+        },
+        "current_piece": {
+            "type": "date",
+            "format": "strict_date_time||epoch_millis"
+        },
+        "detection_date_range": {
+            "properties": {
+                "end_time": {
+                    "type": "date",
+                    "format": "strict_date_time||epoch_millis"
+                },
+                "start_time": {
+                    "type": "date",
+                    "format": "strict_date_time||epoch_millis"
+                }
+            }
+        },
+        "detector": {
+            "properties": {
+                "category_field": {
+                    "type": "keyword"
+                },
+                "description": {
+                    "type": "text"
+                },
+                "detection_interval": {
+                    "properties": {
+                        "period": {
+                            "properties": {
+                                "interval": {
+                                    "type": "integer"
+                                },
+                                "unit": {
+                                    "type": "keyword"
+                                }
+                            }
+                        }
+                    }
+                },
+                "detector_type": {
+                    "type": "keyword"
+                },
+                "feature_attributes": {
+                    "type": "nested",
+                    "properties": {
+                        "aggregation_query": {
+                            "type": "object",
+                            "enabled": false
+                        },
+                        "feature_enabled": {
+                            "type": "boolean"
+                        },
+                        "feature_id": {
+                            "type": "keyword",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "feature_name": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        }
+                    }
+                },
+                "filter_query": {
+                    "type": "object",
+                    "enabled": false
+                },
+                "indices": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "last_update_time": {
+                    "type": "date",
+                    "format": "strict_date_time||epoch_millis"
+                },
+                "name": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "result_index": {
+                    "type": "keyword"
+                },
+                "schema_version": {
+                    "type": "integer"
+                },
+                "shingle_size": {
+                    "type": "integer"
+                },
+                "time_field": {
+                    "type": "keyword"
+                },
+                "ui_metadata": {
+                    "type": "object",
+                    "enabled": false
+                },
+                "user": {
+                    "type": "nested",
+                    "properties": {
+                        "backend_roles": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword"
+                                }
+                            }
+                        },
+                        "custom_attribute_names": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword"
+                                }
+                            }
+                        },
+                        "name": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "roles": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword"
+                                }
+                            }
+                        }
+                    }
+                },
+                "window_delay": {
+                    "properties": {
+                        "period": {
+                            "properties": {
+                                "interval": {
+                                    "type": "integer"
+                                },
+                                "unit": {
+                                    "type": "keyword"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "detector_id": {
+            "type": "keyword"
+        },
+        "entity": {
+            "type": "nested",
+            "properties": {
+                "name": {
+                    "type": "keyword"
+                },
+                "value": {
+                    "type": "keyword"
+                }
+            }
+        },
+        "error": {
+            "type": "text"
+        },
+        "estimated_minutes_left": {
+            "type": "integer"
+        },
+        "execution_end_time": {
+            "type": "date",
+            "format": "strict_date_time||epoch_millis"
+        },
+        "execution_start_time": {
+            "type": "date",
+            "format": "strict_date_time||epoch_millis"
+        },
+        "init_progress": {
+            "type": "float"
+        },
+        "is_latest": {
+            "type": "boolean"
+        },
+        "last_update_time": {
+            "type": "date",
+            "format": "strict_date_time||epoch_millis"
+        },
+        "parent_task_id": {
+            "type": "keyword"
+        },
+        "schema_version": {
+            "type": "integer"
+        },
+        "started_by": {
+            "type": "keyword"
+        },
+        "state": {
+            "type": "keyword"
+        },
+        "stopped_by": {
+            "type": "keyword"
+        },
+        "task_progress": {
+            "type": "float"
+        },
+        "task_type": {
+            "type": "keyword"
+        },
+        "user": {
+            "type": "nested",
+            "properties": {
+                "backend_roles": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword"
+                        }
+                    }
+                },
+                "custom_attribute_names": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword"
+                        }
+                    }
+                },
+                "name": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "roles": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword"
+                        }
+                    }
+                }
+            }
+        },
+        "worker_node": {
+            "type": "keyword"
+        }
+    }
+}
