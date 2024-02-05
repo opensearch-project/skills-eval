@@ -146,3 +146,6 @@ dist
 /.env
 /results/
 /jest_html_reporters.html
+
+# macOS finder
+.DS_Store

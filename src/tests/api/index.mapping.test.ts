@@ -10,7 +10,7 @@ import { OpenSearchTestIndices } from '../../utils/indices';
 
 const provider = ApiProviderFactory.create();
 
-const runner = new (class CatIndexRunner extends QARunner {
+const runner = new (class IndexMappingRunner extends QARunner {
     protected async beforeAll(clusterStateId: string): Promise<void> {
       if (clusterStateId !== 'spider') {
         throw new Error('unexpected cluster state id');
@@ -22,6 +22,6 @@ const runner = new (class CatIndexRunner extends QARunner {
   })(provider); 
 
 const specDirectory = path.join(__dirname, 'specs');
-const specFiles = [path.join(specDirectory, 'olly_cat_eval.jsonl')];
+const specFiles = [path.join(specDirectory, 'olly_index_mapping_eval.jsonl')];
 
 runner.run(specFiles);
