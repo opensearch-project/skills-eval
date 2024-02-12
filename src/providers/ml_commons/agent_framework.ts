@@ -54,10 +54,10 @@ export class AgentFrameworkApiProvider implements ApiProvider {
         body: JSON.stringify({ parameters: { question: prompt, ...context?.vars } }),
       })) as ApiResponse<AgentResponse, unknown>;
 
-      const output = getValue(response.body, [
-        'inference_results[0].output[0].dataAsMap.response',
-        'inference_results[0].output[0].result',
-      ]);
+      const outputResponse =
+        response.body.inference_results[0].output.find((output) => output.name === 'response') ??
+        response.body.inference_results[0].output[0];
+      const output = getValue(outputResponse, ['dataAsMap.response', 'result']);
       if (!output) throw new Error('Cannot find output from agent response');
       return { output, extras: { rawResponse: response.body } };
     } catch (error) {
