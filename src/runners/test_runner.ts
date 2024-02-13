@@ -10,6 +10,7 @@ import fs from 'fs';
 import fsPromises from 'node:fs/promises';
 import path from 'path';
 import { addMsg } from 'jest-html-reporters/helper';
+import _ from 'lodash';
 import { ApiProvider } from 'promptfoo';
 
 export interface TestSpec {
@@ -222,6 +223,7 @@ export abstract class TestRunner<
       extras: result.extras,
       executed_at: Date.now(),
       execution_ms: executionMs,
+      ..._.omit(spec, 'id'),
     };
   }
 
