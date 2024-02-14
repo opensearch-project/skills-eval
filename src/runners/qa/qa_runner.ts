@@ -16,20 +16,12 @@ export class QARunner extends TestRunner<QASpec, ApiProvider> {
   public async evaluate(received: OpenSearchProviderResponse, spec: QASpec): Promise<TestResult> {
     const result = await matchesFactuality(spec.question, received.output!, spec.expectedAnswer);
     console.info(
-      `Received: ${received.output}\nExpected: ${spec.expectedAnswer}\nScore: ${result.score}\n`,
+      `Question: ${spec.question}\nReceived: ${received.output}\nExpected: ${spec.expectedAnswer}\nScore: ${result.score}\n`,
     );
-    try {
-      return Promise.resolve({
-        pass: result.pass,
-        message: () => result.reason,
-        score: result.score,
-      });
-    } catch (error) {
-      return Promise.resolve({
-        pass: false,
-        message: () => `failed to execture ${String(error)}`,
-        score: 0,
-      });
-    }
+    return Promise.resolve({
+      pass: result.pass,
+      message: () => result.reason,
+      score: result.score,
+    });
   }
 }

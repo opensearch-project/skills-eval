@@ -29,7 +29,7 @@ export class ApiProviderFactory {
         return new MlCommonsApiProvider();
 
       case PROVIDERS.AGENT_FRAMEWORK:
-        return new AgentFrameworkApiProvider();
+        return new AgentFrameworkApiProvider(undefined, options.agentIdKey);
 
       default:
         console.info(`$API_PROVIDER unset or invalid, defaulting to ${PROVIDERS.OLLY} provider`);
