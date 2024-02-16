@@ -12,6 +12,7 @@ import path from 'path';
 import { addMsg } from 'jest-html-reporters/helper';
 import _ from 'lodash';
 import { ApiProvider } from 'promptfoo';
+import { replaceMustacheTemplates } from '../utils/mustache';
 
 export interface TestSpec {
   id: string;
@@ -178,7 +179,7 @@ export abstract class TestRunner<
     return jsonLines
       .split('\n')
       .filter((line) => line)
-      .map((line) => JSON.parse(line) as T);
+      .map((line) => JSON.parse(replaceMustacheTemplates(line, false)) as T);
   }
 
   /**
