@@ -1,0 +1,24 @@
+{"question": "What are the indices in my cluster?", "tool": "CatIndexTool", "id": "CatIndexTool-1" }
+{"question": "How many primary shards does the index film_rank-film_market_estimation have?", "tool": "CatIndexTool", "id": "CatIndexTool-1"}
+{"question": "How many documents are in the index baseball_1-team?", "tool": "CatIndexTool", "id": "CatIndexTool-2"}
+{"question": "How many documents are deleted in the index college_3-student?", "tool": "CatIndexTool", "id": "CatIndexTool-3"}
+{"question": "What is the number of documents in the index .kibana_1?", "tool": "CatIndexTool", "id": "CatIndexTool-4"}
+{"question": "What is the status of the index baseball_1-appearances?", "tool": "CatIndexTool", "id": "CatIndexTool-5"}
+{"question": "How many primary shards does the index document_management-document_sections have?", "tool": "CatIndexTool", "id": "CatIndexTool-6"}
+{"question": "What is the store size of the index college_2-student?", "tool": "CatIndexTool", "id": "CatIndexTool-7"}
+{"question": "How many documents are in the index baseball_1-player?", "tool": "CatIndexTool", "id": "CatIndexTool-8"}
+{"question": "What are the indices in my cluster?", "tool": "CatIndexTool", "id": "CatIndexTool-9"}
+{"question": "What is the volume of logs in my system?", "tool": "CatIndexTool", "id": "CatIndexTool-10"}
+{"question": "Get most related documents about index management with sparse retrieval tool.", "tool": "NeuralSparseSearchTool", "id": "NeuralSparseSearchTool-1" }
+{"question": "Get most related documents about index management with KNN retrieval tool.", "tool": "VectorDBTool", "id": "VectorDBTool-1" }
+{"question": "How many visualizations do I have currently?", "tool": "VisualizationTool", "id": "VisualizationTool-1"}
+{"question": "How can I see the log data corresponding to a particular service? a particular trace group?", "tool": "RAGTool", "id": "RAGTool-1"}
+{"question": "Are there any 404 errors in sso_logs*?", "tool": "PPLTool", "id": "PPLTool-1"}
+{"question": "Please list all the detectors in the running state / Failed state", "tool": "SearchAnomalyDetectorsTool", "id": "SearchAnomalyDetectorsTool-1"}
+{"question": "Please list all the anomalies for the index 'opensearch_dashboards_sample_data_flights'", "tool": "SearchAnomalyResultsTool", "id": "SearchAnomalyResultsTool-1"}
+{"question": "Can you tell me when was the monitor 'x' last updated and by whom?", "tool": "SearchMonitorsTool", "id": "SearchMonitorsTool-1"}
+{"question": "How many alerts are currently in completed state?", "tool": "SearchAlertsTool", "id": "SearchAlertsTool-1" }
+{"question": "What is the current state of the alert with ID GThUkYsB6jqYe1T0UOF3?", "tool": "SearchAlertsTool", "id": "SearchAlertsTool-2"}
+{"question": "How many alerts triggered by monitor random_query_monitor are currently active?", "tool": "SearchAlertsTool", "id": "SearchAlertsTool-3"}
+{"question": "What are the different monitor names that have triggered alerts?", "tool": "SearchAlertsTool", "id": "SearchAlertsTool-4"}
+{"question": "How many alerts have severity level 1?", "tool": "SearchAlertsTool", "id": "SearchAlertsTool-5"}
