@@ -68,9 +68,9 @@ export class ToolSelectionApiProvider implements ApiProvider {
         }>;
       }>;
 
-      const firstTrace = tracesResp.body.traces?.find(item => item.origin && item.trace_number);
+      const firstTrace = tracesResp.body.traces?.find(item => item.origin && item.trace_number && item.origin !== 'LLM');
 
-      return { output: firstTrace?.origin, extras: { rawResponse: response.body, tracesResp } };
+      return { output: firstTrace?.origin || 'No tool selected', extras: { rawResponse: response.body, tracesResp } };
     } catch (error) {
       console.error('Failed to request agent:', error);
       return { error: `API call error: ${String(error)}` };

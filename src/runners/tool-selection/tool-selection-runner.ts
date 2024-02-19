@@ -13,13 +13,12 @@ interface ToolSelectionSpec extends TestSpec {
 
 export class ToolSelectionRunner extends TestRunner<ToolSelectionSpec, ApiProvider> {
   public async evaluate(received: OpenSearchProviderResponse, spec: ToolSelectionSpec): Promise<TestResult> {
-    console.info(
-      `Question: ${spec.question}\nReceived selected tool: ${received.output}\nExpected selected tool: ${spec.tool}`,
-    );
+    const infoMessage = `Question: ${spec.question}\nReceived selected tool: ${received.output}\nExpected selected tool: ${spec.tool}`;
+    console.info(infoMessage);
     const match = received.output === spec.tool;
     return {
       pass: match,
-      message: () => `Tool selected match: ${match}`,
+      message: () => infoMessage,
       score: match ? 1 : 0,
       extras: {
         exception: null,
