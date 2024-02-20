@@ -47,7 +47,7 @@ Each test case should contain these fields:
 - `id`: string id or [name](https://jestjs.io/docs/api#testname-fn-timeout) of the test case. used for reproducing results for each test case
 - `clusterStateId`: optional string id to identify a cluster state. test runner can use this id to setup the data/indices needed before test starts
 - `question`: user's question
-
+``
 Additionally for automatic score evaluation, there should be an expected output defined. For example, for QA related tools (e.g. cat index), each test case should also contain an `expectedAnswer`. For the PPL tool, each test case should contain a `gold_query`. The test cases can contain other arbitrary fields needed, such as `index` for each PPL test case.
 
 ```typescript
@@ -73,11 +73,11 @@ For a tool or a skill, 20 to 50 test cases should be a good start. Here are some
 - The test cases can be written by hand, or generated using [self-instruct](https://arxiv.org/pdf/2212.10560.pdf), or any other methods.
 - The expected results should be manually approved by human.
 
-The testing framework supports time substitution for test cases that may ask questions related to relative time. Time values can be substituted with natural language time descriptors wrapped in between double curly brackets `{{}}`, like [Mustache template syntax](https://mustache.github.io/). For example, [`search_alerts_tests.jsonl`](https://github.com/opensearch-project/skills-eval/blob/main/src/tests/alerts/specs/search_alerts_tests.jsonl#L3) contains the following test.
+The testing framework supports time substitution for test cases that may ask questions related to relative time. Time values can be substituted with natural language time descriptors wrapped in the following: `${{}}`, similar to [Mustache template syntax](https://mustache.github.io/). For example, [`search_alerts_tests.jsonl`](https://github.com/opensearch-project/skills-eval/blob/main/src/tests/alerts/specs/search_alerts_tests.jsonl#L3) contains the following test.
 ```
-{"id":"B_aIDTWPmk0VnO1bfFfNk","clusterStateId":"alerting","question":"Have any alerts been acknowledged in the last 3 days?","expectedAnswer":"Yes, 1 alert has been acknowledged in the last 3 days. The alert with ID GThUkYsB6jqYe1T0UOF3 was acknowledged on {{three days, five hours, 21 minutes, and 37 seconds ago}}."}
+{"id":"B_aIDTWPmk0VnO1bfFfNk","clusterStateId":"alerting","question":"Have any alerts been acknowledged in the last 3 days?","expectedAnswer":"Yes, 1 alert has been acknowledged in the last 3 days. The alert with ID GThUkYsB6jqYe1T0UOF3 was acknowledged on ${{three days, five hours, 21 minutes, and 37 seconds ago}}."}
 ```
-The test runner substitutes the enclosed string `{{three days, five hours, 21 minutes, and 37 seconds ago}}` for a `Date()` object relative to the time that the test is run, or a little over three days prior in this case.
+The test runner substitutes the enclosed string `${{three days, five hours, 21 minutes, and 37 seconds ago}}` for a `Date()` object relative to the time that the test is run, or a little over three days prior in this case. **The relative time description must be grammatically correct with an Oxford comma or in `xd xh xm xs` format. The natural language parser is [flaky](https://gist.github.com/sejli/bb9281d9ce9f12062a46aa39f200ba00) otherwise.**
 
 ### 2. Add the test runner
 
@@ -103,9 +103,9 @@ Mustache template substitution for timestamp fields can also be inputted here. T
 ```
 "start_time":{{three days, six hours, 21 minutes, and 37 seconds ago}}
 ```
-When the cluster state setup is completed, the field `start_time` will contain an epoch timestamp of about three days prior to the time that the test is run.
+When the cluster state setup is completed, the field `start_time` will contain an epoch timestamp of about three days prior to the time that the test is run. **The relative time description must be grammatically correct with an Oxford comma or in `xd xh xm xs` format. The natural language parser is [flaky](https://gist.github.com/sejli/bb9281d9ce9f12062a46aa39f200ba00) otherwise.**
 
-**Test cases and cluster state setup must be consistent!** In this situation, since the cluster's alert with ID `GThUkYsB6jqYe1T0UOF3` starts on `three days, six hours, 21 minutes, and 37 seconds ago`, the [test case corresponding to it](https://github.com/opensearch-project/skills-eval/blob/main/src/tests/alerts/specs/search_alerts_tests.jsonl#L3) must also use the same substitution: `{{three days, six hours, 21 minutes, and 37 seconds ago}}`.
+**Test cases and cluster state setup must be consistent!** In this situation, since the cluster's alert with ID `GThUkYsB6jqYe1T0UOF3` starts on `three days, six hours, 21 minutes, and 37 seconds ago`, the [test case corresponding to it](https://github.com/opensearch-project/skills-eval/blob/main/src/tests/alerts/specs/search_alerts_tests.jsonl#L3) must also use the same substitution: `${{three days, six hours, 21 minutes, and 37 seconds ago}}`.
 
 #### 2.2. Evaluation function
 
