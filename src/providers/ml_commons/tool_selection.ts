@@ -36,44 +36,79 @@ export class ToolSelectionApiProvider implements ApiProvider {
     return id;
   }
 
+  private async getToolSelectedByPrompt(
+    prompt?: string,
+    context?: { vars: Record<string, string | object> },
+  ) {
+    const agentId = this.getAgentId();
+    const response = (await openSearchClient.transport.request({
+      method: 'POST',
+      path: `/_plugins/_ml/agents/${agentId}/_execute`,
+      body: JSON.stringify({ parameters: { question: prompt, ...context?.vars } }),
+    }, {
+      /**
+       * It is time-consuming for LLM to generate final answer
+       * Give it a large timeout window
+       */
+      requestTimeout: 5 * 60 * 1000,
+      /**
+       * Do not retry
+       */
+      maxRetries: 0,
+    })) as ApiResponse<AgentResponse, unknown>;
+
+    const outputResponse =
+      response.body.inference_results[0].output.find((output) => output.name === 'parent_interaction_id') ??
+      response.body.inference_results[0].output[0];
+    const interactionId = outputResponse.result;
+    if (!interactionId) throw new Error('Cannot find interaction id from agent response');
+
+    const tracesResp = (await openSearchClient.transport.request({
+      method: 'GET',
+      path: `/_plugins/_ml/memory/message/${interactionId}/traces`,
+    })) as ApiResponse<{
+      traces: Array<{
+        message_id: string;
+        create_time: string;
+        input: string;
+        response: string;
+        origin: string;
+        trace_number: number;
+      }>;
+    }>;
+
+    const firstTrace = tracesResp.body.traces?.find(item => item.origin && item.trace_number && item.origin !== 'LLM');
+    return firstTrace?.origin || '';
+  }
+
   async callApi(
     prompt?: string,
     context?: { vars: Record<string, string | object> },
   ): Promise<OpenSearchProviderResponse> {
-    try {
-      const agentId = this.getAgentId();
-      const response = (await openSearchClient.transport.request({
-        method: 'POST',
-        path: `/_plugins/_ml/agents/${agentId}/_execute`,
-        body: JSON.stringify({ parameters: { question: prompt, ...context?.vars } }),
-      })) as ApiResponse<AgentResponse, unknown>;
+    let toolSelected: string = '';
+    let retryTimes = 0;
+    let error;
+    do {
+      try {
+        toolSelected = await this.getToolSelectedByPrompt(prompt, context);
+      } catch (e) {
+        error = e;
+      }
 
-      const outputResponse =
-        response.body.inference_results[0].output.find((output) => output.name === 'parent_interaction_id') ??
-        response.body.inference_results[0].output[0];
-      const interactionId = outputResponse.result;
-      if (!interactionId) throw new Error('Cannot find interaction id from agent response');
-
-      const tracesResp = (await openSearchClient.transport.request({
-        method: 'GET',
-        path: `/_plugins/_ml/memory/message/${interactionId}/traces`,
-      })) as ApiResponse<{
-        traces: Array<{
-          message_id: string;
-          create_time: string;
-          input: string;
-          response: string;
-          origin: string;
-          trace_number: number;
-        }>;
-      }>;
-
-      const firstTrace = tracesResp.body.traces?.find(item => item.origin && item.trace_number && item.origin !== 'LLM');
-
-      return { output: firstTrace?.origin || 'No tool selected', extras: { rawResponse: response.body, tracesResp } };
-    } catch (error) {
-      console.error('Failed to request agent:', error);
-      return { error: `API call error: ${String(error)}` };
+      if (!toolSelected) {
+        retryTimes++;
+        if (retryTimes >= 3) {
+          break;
+        }
+        console.warn(`No tool selected, retry prompt: ${prompt}, retryTimes: ${retryTimes}`);
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        continue;
+      }
+    } while (!toolSelected)
+    if (toolSelected) {
+      return { output: toolSelected };
+    } else {
+      return { error: `question: ${prompt}, API call error: ${String(error || '')}` };
     }
   }
 }
