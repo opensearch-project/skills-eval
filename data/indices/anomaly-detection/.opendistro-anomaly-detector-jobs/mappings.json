@@ -1,0 +1,101 @@
+{
+    "properties": {
+        "disabled_time": {
+            "type": "date",
+            "format": "strict_date_time||epoch_millis"
+        },
+        "enabled": {
+            "type": "boolean"
+        },
+        "enabled_time": {
+            "type": "date",
+            "format": "strict_date_time||epoch_millis"
+        },
+        "last_update_time": {
+            "type": "date",
+            "format": "strict_date_time||epoch_millis"
+        },
+        "lock_duration_seconds": {
+            "type": "long"
+        },
+        "name": {
+            "type": "keyword"
+        },
+        "result_index": {
+            "type": "keyword"
+        },
+        "schedule": {
+            "properties": {
+                "interval": {
+                    "properties": {
+                        "period": {
+                            "type": "integer"
+                        },
+                        "start_time": {
+                            "type": "date",
+                            "format": "strict_date_time||epoch_millis"
+                        },
+                        "unit": {
+                            "type": "keyword"
+                        }
+                    }
+                }
+            }
+        },
+        "schema_version": {
+            "type": "integer"
+        },
+        "user": {
+            "type": "nested",
+            "properties": {
+                "backend_roles": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword"
+                        }
+                    }
+                },
+                "custom_attribute_names": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword"
+                        }
+                    }
+                },
+                "name": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "roles": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword"
+                        }
+                    }
+                }
+            }
+        },
+        "window_delay": {
+            "properties": {
+                "period": {
+                    "properties": {
+                        "interval": {
+                            "type": "integer"
+                        },
+                        "unit": {
+                            "type": "keyword"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
