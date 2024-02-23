@@ -15,7 +15,7 @@
 {"id":"id-15","clusterStateId":"anomaly-detection","question":"Are there any detectors detecting over the index \"foo-index\"?","expectedAnswer":"No, there are no detectors detecting over that index."}
 {"id":"id-16","clusterStateId":"anomaly-detection","question":"What is the name of my high-cardinality detectors?","expectedAnswer":"You have one high-cardinality detector named test-detector-4"}
 {"id":"id-17","clusterStateId":"anomaly-detection","question":"Do I have any high-cardinality failed detectors?","expectedAnswer":"Yes, you have one high-cardinality detector in a failed state: test-detector-4"}
-{"id":"id-18","clusterStateId":"anomaly-detection","question":"How many detectors do I have that start with \"test-\"?","expectedAnswer":"You have 4 matching detectors: test-detector-1, test-detector-2, test-detector-3, and test-detector-4"}
-{"id":"id-19","clusterStateId":"anomaly-detection","question":"How many detectors do I have that start with \"foo\"?","expectedAnswer":"You have no matching detectors that start with that."}
+{"id":"id-18","clusterStateId":"anomaly-detection","question":"How many detectors do I have that start with \"test-*\"?","expectedAnswer":"You have 4 matching detectors: test-detector-1, test-detector-2, test-detector-3, and test-detector-4"}
+{"id":"id-19","clusterStateId":"anomaly-detection","question":"How many detectors do I have that start with \"foo*\"?","expectedAnswer":"You have no matching detectors that start with that."}
 {"id":"id-20","clusterStateId":"anomaly-detection","question":"What type of detector is test-detector-4?","expectedAnswer":"test-detector-4 is a multi-entity detector"}
 {"id":"id-21","clusterStateId":"anomaly-detection","question":"Please give me the id for detector test-detector-1.","expectedAnswer":"test-detector-1 has the following ID: test-detector-1-id"}

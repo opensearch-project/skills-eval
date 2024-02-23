@@ -60,7 +60,7 @@ export const matchesFactuality = (
   return assertions.matchesFactuality(question, expected, received, {
     provider: ApiProviderFactory.create(PROVIDERS.ML_COMMONS),
     factuality: {
-      subset: 0,
+      subset: 1,
       superset: 1,
       agree: 1,
       disagree: 0,
