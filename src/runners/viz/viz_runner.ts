@@ -18,7 +18,7 @@ export class VisualizationRunner extends TestRunner<VizSpec, ApiProvider> {
       return vis.split(',')[1];
     });
 
-    // found out missing visulalizations
+    // find out visulalizations are missing
     const missing = expectdVisualizationIds.filter((item) => !visualizationIds.includes(item));
 
     const score = 1 - missing.length / expectdVisualizationIds.length;
