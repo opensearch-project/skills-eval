@@ -1,0 +1,1 @@
+{"id": "test-detector-1-id", "name":"test-detector-1-id","schedule":{"interval":{"start_time":1234,"period":1,"unit":"Minutes"}},"window_delay":{"period":{"interval":1,"unit":"Minutes"}},"enabled":true,"enabled_time":1234,"last_update_time":1234,"lock_duration_seconds":60}
