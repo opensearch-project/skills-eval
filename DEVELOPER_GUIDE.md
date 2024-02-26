@@ -47,7 +47,7 @@ Each test case should contain these fields:
 - `id`: string id or [name](https://jestjs.io/docs/api#testname-fn-timeout) of the test case. used for reproducing results for each test case
 - `clusterStateId`: optional string id to identify a cluster state. test runner can use this id to setup the data/indices needed before test starts
 - `question`: user's question
-
+``
 Additionally for automatic score evaluation, there should be an expected output defined. For example, for QA related tools (e.g. cat index), each test case should also contain an `expectedAnswer`. For the PPL tool, each test case should contain a `gold_query`. The test cases can contain other arbitrary fields needed, such as `index` for each PPL test case.
 
 ```typescript
@@ -73,6 +73,12 @@ For a tool or a skill, 20 to 50 test cases should be a good start. Here are some
 - The test cases can be written by hand, or generated using [self-instruct](https://arxiv.org/pdf/2212.10560.pdf), or any other methods.
 - The expected results should be manually approved by human.
 
+The testing framework supports time substitution for test cases that may ask questions related to relative time. Time values can be substituted with natural language time descriptors wrapped in the following: `${{}}`, similar to [Mustache template syntax](https://mustache.github.io/). For example, [`search_alerts_tests.jsonl`](https://github.com/opensearch-project/skills-eval/blob/main/src/tests/alerts/specs/search_alerts_tests.jsonl#L3) contains the following test.
+```
+{"id":"B_aIDTWPmk0VnO1bfFfNk","clusterStateId":"alerting","question":"Have any alerts been acknowledged in the last 3 days?","expectedAnswer":"Yes, 1 alert has been acknowledged in the last 3 days. The alert with ID GThUkYsB6jqYe1T0UOF3 was acknowledged on ${{three days, five hours, 21 minutes, and 37 seconds ago}}."}
+```
+The test runner substitutes the enclosed string `${{three days, five hours, 21 minutes, and 37 seconds ago}}` for a `Date()` object relative to the time that the test is run, or a little over three days prior in this case. **The relative time description must be grammatically correct with an Oxford comma or in `xd xh xm xs` format. The natural language parser is [flaky](https://gist.github.com/sejli/bb9281d9ce9f12062a46aa39f200ba00) otherwise.**
+
 ### 2. Add the test runner
 
 The test runner will be responsible for running and evaluating each test case for a list of spec files. There are two main parts need to be defined for each runner, the cluster state setup and the evaluation function. Optionally it can decide how to construct the input to send to API.
@@ -93,6 +99,13 @@ Many skills need some data in the cluster to work, for example the alerting tool
                 ├── documents.ndjson
                 └── mappings.json
 ```
+Mustache template substitution for timestamp fields can also be inputted here. The syntax for index fields follows the syntax for test cases: replace the desired time value with a natural language description of a relative time, wrapped in Mustache template brackets. An example can be seen [here](https://github.com/opensearch-project/skills-eval/blob/main/data/indices/alerting/.opendistro-alerting-alerts/documents.ndjson#L6).
+```
+"start_time":{{three days, six hours, 21 minutes, and 37 seconds ago}}
+```
+When the cluster state setup is completed, the field `start_time` will contain an epoch timestamp of about three days prior to the time that the test is run. **The relative time description must be grammatically correct with an Oxford comma or in `xd xh xm xs` format. The natural language parser is [flaky](https://gist.github.com/sejli/bb9281d9ce9f12062a46aa39f200ba00) otherwise.**
+
+**Test cases and cluster state setup must be consistent!** In this situation, since the cluster's alert with ID `GThUkYsB6jqYe1T0UOF3` starts on `three days, six hours, 21 minutes, and 37 seconds ago`, the [test case corresponding to it](https://github.com/opensearch-project/skills-eval/blob/main/src/tests/alerts/specs/search_alerts_tests.jsonl#L3) must also use the same substitution: `${{three days, six hours, 21 minutes, and 37 seconds ago}}`.
 
 #### 2.2. Evaluation function
 
@@ -300,19 +313,3 @@ const provider = ApiProviderFactory.create(undefined, { agentIdKey: 'MY_AGENT_ID
 ```
 
 And make sure to set `MY_AGENT_ID` instead in the environment variables.
-
-# Adding Alerting Test Cases
-
-If you're adding test cases to test the Alerting tool, please add your test cases to `src/tests/alerts/templates/get_alerts_test_templates.jsonl`. The test questions follow a template for questions or answers that concern specific dates (e.g. "How many alerts triggered on December 6?"). Any questions or answers that don't involve specific dates can be added as is, but for those that do involve specific dates, please follow the following syntax:
-
-<{alert-id}.{start_time|end_time|acknowledged_time|last_notification_time},{date|dateAndTime}>
-
-alert-id: the alert whose event time you would like to use in your test question/answer
-
-start_time|end_time|acknowledged_time|last_notification_time: choose from this set the alert event time you would like to use. Note that the alert you use must have a valid value for the alert event time chosen here (e.g. if you choose "end_time" for an alert that is not COMPLETED in the alert cluster context, the framework will throw an error)
-
-date|dateAndTime: choose from this set the format of the time you would like to use in your question/answer. Choosing "date" gives the month and day of the event (e.g. Dec 06), while choosing "dateAndTime" gives the month, day and time of the event (e.g. Dec 06 13:40). Adding the day of the week is currently not supported.
-
-example: <0OgfsOs5t6yqi81f3yj18.start_time,dateAndTime>
-
-for more examples, consult `src/tests/templates/get_alerts_test_templates.jsonl`

@@ -8,6 +8,7 @@ import path from 'path';
 import { MappingTypeMapping, SearchResponse } from '@opensearch-project/opensearch/api/types';
 import { ResponseError } from '@opensearch-project/opensearch/lib/errors';
 import { openSearchClient } from '../providers/clients/opensearch';
+import { replaceMustacheTemplates } from './mustache';
 import { createPromisePool } from './promise_pool';
 
 interface CreateOptions {
@@ -113,11 +114,14 @@ export class OpenSearchTestIndices {
     let bulkBody;
     if (group === 'alerting') {
       bulkBody = objList.flatMap((doc) => {
-        const spec = JSON.parse(doc) as { id: string };
+        const spec = JSON.parse(replaceMustacheTemplates(doc)) as { id: string };
         return [{ index: { _index: name, _id: spec.id } }, spec];
       });
     } else {
-      bulkBody = objList.flatMap((doc) => [{ index: { _index: name } }, JSON.parse(doc) as object]);
+      bulkBody = objList.flatMap((doc) => [
+        { index: { _index: name } },
+        JSON.parse(replaceMustacheTemplates(doc)) as object,
+      ]);
     }
 
     if (bulkBody.length > 0) await openSearchClient.bulk({ refresh: true, body: bulkBody });
