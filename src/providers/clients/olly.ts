@@ -46,11 +46,22 @@ class OllyClient {
       .find((message) => message.type === 'output' && message.contentType === 'error') as
       | Extract<IMessage, { type: 'output' }>
       | undefined;
+    const visualizations = response.messages
+      .reverse()
+      .filter(
+        (message) => message.type === 'output' && message.contentType === 'visualization',
+      ) as Extract<IMessage, { type: 'output' }>[];
+
     return {
       ...response,
       output: outputMessage?.content,
       traceId: outputMessage?.traceId,
       error: errorMessage?.content,
+      extras: {
+        visualizations: visualizations?.map((vis) => {
+          return vis.content;
+        }),
+      },
     };
   }
 

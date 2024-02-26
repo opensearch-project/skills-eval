@@ -1,0 +1,4 @@
+{"id":"viz-1","clusterStateId":"visualization","question":"show me the visualization for average ticket price for flight?","expectedAnswer":["[Flights] Average Ticket Price,2edf78b0-5395-11e8-99bf-1ba7b1bdaa61"]}
+{"id":"viz-2","clusterStateId":"visualization","question":"show me the visualization for total revenue","expectedAnswer":["[eCommerce] Total Revenue,10f1a240-b891-11e8-a6d9-e546fe2bba5f"]}
+{"id":"viz-3","clusterStateId":"visualization","question":"Help me find out visualizaiton of `Sales by Gender`","expectedAnswer":["[eCommerce] Sales by Gender,ed8436b0-b88b-11e8-a6d9-e546fe2bba5f"]}
+{"id":"viz-3","clusterStateId":"visualization","question":"Can you show me the visualization of sold products per day?","expectedAnswer":["[eCommerce] Sold Products per Day',b80e6540-b891-11e8-a6d9-e546fe2bba5f"]}
