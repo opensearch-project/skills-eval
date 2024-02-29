@@ -5,3 +5,4 @@
 
 export { AgentFrameworkApiProvider } from './agent_framework';
 export { MlCommonsApiProvider } from './ml_commons';
+export { ToolSelectionApiProvider } from './tool_selection'

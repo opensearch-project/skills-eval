@@ -1,0 +1,519 @@
+{"question":"How many primary shards does the index film_rank-film_market_estimation have?","tool":"CatIndexTool","id":"CatIndexTool-1"}
+{"question":"How many documents are in the index baseball_1-team?","tool":"CatIndexTool","id":"CatIndexTool-2"}
+{"question":"How many documents are deleted in the index college_3-student?","tool":"CatIndexTool","id":"CatIndexTool-3"}
+{"question":"What is the number of documents in the index .kibana_1?","tool":"CatIndexTool","id":"CatIndexTool-4"}
+{"question":"What is the status of the index baseball_1-appearances?","tool":"CatIndexTool","id":"CatIndexTool-5"}
+{"question":"How many primary shards does the index document_management-document_sections have?","tool":"CatIndexTool","id":"CatIndexTool-6"}
+{"question":"What is the store size of the index college_2-student?","tool":"CatIndexTool","id":"CatIndexTool-7"}
+{"question":"How many documents are in the index baseball_1-player?","tool":"CatIndexTool","id":"CatIndexTool-8"}
+{"question":"What are the indices in my cluster?","tool":"CatIndexTool","id":"CatIndexTool-9"}
+{"question":"What is the volume of logs in my system?","tool":"CatIndexTool","id":"CatIndexTool-10"}
+{"question":"What types of logs do I have?","tool":"CatIndexTool","id":"CatIndexTool-11"}
+{"question":"Can you tell me the volume of each type of logs in my system?","tool":"CatIndexTool","id":"CatIndexTool-12"}
+{"question":"What is the status of the index film_rank-film_market_estimation?","tool":"CatIndexTool","id":"CatIndexTool-13"}
+{"question":"How many documents are in the index college_2-student?","tool":"CatIndexTool","id":"CatIndexTool-14"}
+{"question":"What is the pri.store.size of the index baseball_1-batting_postseason?","tool":"CatIndexTool","id":"CatIndexTool-15"}
+{"question":"What is the total number of documents across all indices in the cluster?","tool":"CatIndexTool","id":"CatIndexTool-16"}
+{"question":"How many yellow indices are there?","tool":"CatIndexTool","id":"CatIndexTool-17"}
+{"question":"What is the total disk space used for primary shards across the cluster?","tool":"CatIndexTool","id":"CatIndexTool-18"}
+{"question":"How many documents does the baseball_1-player index have?","tool":"CatIndexTool","id":"CatIndexTool-19"}
+{"question":"Which index has the fewest number of documents?","tool":"CatIndexTool","id":"CatIndexTool-20"}
+{"question":"How many yellow status indices are in the cluster?","tool":"CatIndexTool","id":"CatIndexTool-21"}
+{"question":"How many primary shards does the index college_2-time_slot have?","tool":"CatIndexTool","id":"CatIndexTool-22"}
+{"question":"What is the health status of the index baseball_1-pitching?","tool":"CatIndexTool","id":"CatIndexTool-23"}
+{"question":"What is the document count for the index customers_and_addresses-customer_contact_channels?","tool":"CatIndexTool","id":"CatIndexTool-24"}
+{"question":"What is the total number of indices in green status?","tool":"CatIndexTool","id":"CatIndexTool-25"}
+{"question":"Which index has the most primary shards?","tool":"CatIndexTool","id":"CatIndexTool-26"}
+{"question":"What is the total store size taken by all indices?","tool":"CatIndexTool","id":"CatIndexTool-27"}
+{"question":"What is the status and document count of the index customers_and_addresses-customers?","tool":"CatIndexTool","id":"CatIndexTool-28"}
+{"question":"How many shards does the index baseball_1-batting have?","tool":"CatIndexTool","id":"CatIndexTool-29"}
+{"question":"What is the total size of all indices in the cluster?","tool":"CatIndexTool","id":"CatIndexTool-30"}
+{"question":"Which index has the most documents?","tool":"CatIndexTool","id":"CatIndexTool-31"}
+{"question":"What is the health status of the index architecture-bridge?","tool":"CatIndexTool","id":"CatIndexTool-32"}
+{"question":"What is the health status of the index called baseball_1-player?","tool":"CatIndexTool","id":"CatIndexTool-33"}
+{"question":"How many documents does the index called customers_and_products_contacts-contacts contain?","tool":"CatIndexTool","id":"CatIndexTool-34"}
+{"question":"What is the size of the primary shards for the index document_management-document_functional_areas?","tool":"CatIndexTool","id":"CatIndexTool-35"}
+{"question":"What is the total number of documents across all non-system indices in my cluster?","tool":"CatIndexTool","id":"CatIndexTool-36"}
+{"question":"How many yellow indices are there in my cluster, excluding any system indices?","tool":"CatIndexTool","id":"CatIndexTool-37"}
+{"question":"Which index has the highest number of documents in my cluster?","tool":"CatIndexTool","id":"CatIndexTool-38"}
+{"question":"What is the total store size for all indices in my cluster including system indices?","tool":"CatIndexTool","id":"CatIndexTool-39"}
+{"question":"What is the store size of the index baseball_1-appearances?","tool":"CatIndexTool","id":"CatIndexTool-40"}
+{"question":"How many replica shards does the index document_management-documents have?","tool":"CatIndexTool","id":"CatIndexTool-41"}
+{"question":"Does the index customers_and_addresses-addresses have the status closed?","tool":"CatIndexTool","id":"CatIndexTool-42"}
+{"question":"How many documents are in the index called security-auditlog-2023.10.25?","tool":"CatIndexTool","id":"CatIndexTool-43"}
+{"question":"How many documents does the baseball_1-batting index contain?","tool":"CatIndexTool","id":"CatIndexTool-44"}
+{"question":"How many primary shards does the customer_deliveries-customers index have?","tool":"CatIndexTool","id":"CatIndexTool-45"}
+{"question":"What is the status of the index called college_2-student?","tool":"CatIndexTool","id":"CatIndexTool-46"}
+{"question":"How many replica shards does the index baseball_1-pitching have?","tool":"CatIndexTool","id":"CatIndexTool-47"}
+{"question":"How many documents are in the index cre_theme_park-theme_parks?","tool":"CatIndexTool","id":"CatIndexTool-48"}
+{"question":"What is the index name that has 80959 documents?","tool":"CatIndexTool","id":"CatIndexTool-49"}
+{"question":"What is the status of the index called baseball_1-player?","tool":"CatIndexTool","id":"CatIndexTool-50"}
+{"question":"What is the total size of the store for the index called formula_1-constructorresults?","tool":"CatIndexTool","id":"CatIndexTool-51"}
+{"question":"What is the status of the index baseball_1-player?","tool":"CatIndexTool","id":"CatIndexTool-52"}
+{"question":"How many primary shards does the index baseball_1-batting have?","tool":"CatIndexTool","id":"CatIndexTool-53"}
+{"question":"What is the store size of the index baseball_1-pitching_postseason?","tool":"CatIndexTool","id":"CatIndexTool-54"}
+{"question":"How many documents are in the .plugins-ml-model index?","tool":"CatIndexTool","id":"CatIndexTool-55"}
+{"question":"What is the largest index in the cluster based on store size?","tool":"CatIndexTool","id":"CatIndexTool-56"}
+{"question":"Which index has the largest number of documents in the provided cluster state?","tool":"CatIndexTool","id":"CatIndexTool-57"}
+{"question":"What is the total number of primary shards across all yellow indices in the provided cluster state?","tool":"CatIndexTool","id":"CatIndexTool-58"}
+{"question":"How many yellow indices have exactly 1 replica shard in the provided cluster state?","tool":"CatIndexTool","id":"CatIndexTool-59"}
+{"question":"Which yellow index has the smallest store size in bytes in the provided cluster state?","tool":"CatIndexTool","id":"CatIndexTool-60"}
+{"question":"What is the total number of documents in the yellow indices?","tool":"CatIndexTool","id":"CatIndexTool-61"}
+{"question":"Which green index has the most documents?","tool":"CatIndexTool","id":"CatIndexTool-62"}
+{"question":"What is the total disk space used for primary shards across all yellow indices?","tool":"CatIndexTool","id":"CatIndexTool-63"}
+{"question":"Which yellow index has the fewest number of documents?","tool":"CatIndexTool","id":"CatIndexTool-64"}
+{"question":"What is the status of the index security-auditlog-2023.10.25?","tool":"CatIndexTool","id":"CatIndexTool-65"}
+{"question":"How many primary shards does the index .plugins-ml-model have?","tool":"CatIndexTool","id":"CatIndexTool-66"}
+{"question":"What is the status of the index called .opendistro_security?","tool":"CatIndexTool","id":"CatIndexTool-67"}
+{"question":"How many shards does the index .plugins-ml-task have?","tool":"CatIndexTool","id":"CatIndexTool-68"}
+{"question":"What is the store size of .plugins-ml-model?","tool":"CatIndexTool","id":"CatIndexTool-69"}
+{"question":"What is the health status of the index cre_theme_park-tourist_attraction_features?","tool":"CatIndexTool","id":"CatIndexTool-70"}
+{"question":"What is the total size taken by the primary shards in the index plaintext-version?","tool":"CatIndexTool","id":"CatIndexTool-71"}
+{"question":"How many documents does the index cre_drama_workshop_groups-bookings have?","tool":"CatIndexTool","id":"CatIndexTool-72"}
+{"question":"How many primary shards does the index baseball_1-pitching have?","tool":"CatIndexTool","id":"CatIndexTool-73"}
+{"question":"What is the total size taken by primary and replica shards for the index document_management-documents?","tool":"CatIndexTool","id":"CatIndexTool-74"}
+{"question":"How many deleted documents are there in the index department_store-staff_department_assignments?","tool":"CatIndexTool","id":"CatIndexTool-75"}
+{"question":"How many primary shards does the baseball_1-player index have?","tool":"CatIndexTool","id":"CatIndexTool-76"}
+{"question":"What is the total size taken by the cre_theme_park-theme_parks index?","tool":"CatIndexTool","id":"CatIndexTool-77"}
+{"question":"What is the health status of the .plugins-ml-model index?","tool":"CatIndexTool","id":"CatIndexTool-78"}
+{"question":"What is the health status of the index .plugins-ml-model-group?","tool":"CatIndexTool","id":"CatIndexTool-79"}
+{"question":"How many documents are in the index security-auditlog-2023.10.25?","tool":"CatIndexTool","id":"CatIndexTool-80"}
+{"question":"What is the store size of the smallest index in the cluster?","tool":"CatIndexTool","id":"CatIndexTool-81"}
+{"question":"How many primary shards does the index .plugins-ml-task have?","tool":"CatIndexTool","id":"CatIndexTool-82"}
+{"question":"How many documents does the baseball_1-player index contain?","tool":"CatIndexTool","id":"CatIndexTool-83"}
+{"question":"What is the status of the cre_theme_park-theme_parks index?","tool":"CatIndexTool","id":"CatIndexTool-84"}
+{"question":"What is the document count of the .plugins-ml-connector index?","tool":"CatIndexTool","id":"CatIndexTool-85"}
+{"question":"What is the health status of the index baseball_1-player?","tool":"CatIndexTool","id":"CatIndexTool-86"}
+{"question":"What is the number of replica shards for the index architecture-bridge?","tool":"CatIndexTool","id":"CatIndexTool-87"}
+{"question":"What is the total size taken by primary and replica shards for the index formula_1-constructorresults?","tool":"CatIndexTool","id":"CatIndexTool-88"}
+{"question":"How many primary shards does the index cre_theme_park-theme_parks have?","tool":"CatIndexTool","id":"CatIndexTool-89"}
+{"question":"What is the status of the .plugins-ml-connector index?","tool":"CatIndexTool","id":"CatIndexTool-90"}
+{"question":"How many documents are in the .plugins-ml-task index?","tool":"CatIndexTool","id":"CatIndexTool-91"}
+{"question":"What is the store size of the .opendistro_security index?","tool":"CatIndexTool","id":"CatIndexTool-92"}
+{"question":"What is the health status of the security-auditlog-2023.10.25 index?","tool":"CatIndexTool","id":"CatIndexTool-93"}
+{"question":"How many primary shards does the index cre_drama_workshop_groups-drama_workshop_groups have?","tool":"CatIndexTool","id":"CatIndexTool-94"}
+{"question":"What is the total number of documents in the college_2 index?","tool":"CatIndexTool","id":"CatIndexTool-95"}
+{"question":"What is the size of just the primary shards for the index plaintext-version-no-aos?","tool":"CatIndexTool","id":"CatIndexTool-96"}
+{"question":"How many indices have a health status of green?","tool":"CatIndexTool","id":"CatIndexTool-97"}
+{"question":"What is the total size taken by the index cre_theme_park-visits?","tool":"CatIndexTool","id":"CatIndexTool-98"}
+{"question":"How many deleted documents are there in the index called film_rank-film_market_estimation?","tool":"CatIndexTool","id":"CatIndexTool-99"}
+{"question":"How many security audit logs are in my cluster from October 24th through October 27th?","tool":"CatIndexTool","id":"CatIndexTool-100"}
+{"question":"What is the total document count across all security audit log indices in my cluster?","tool":"CatIndexTool","id":"CatIndexTool-101"}
+{"question":"How large are the ML plugin indices?","tool":"CatIndexTool","id":"CatIndexTool-102"}
+{"question":"Which index takes up the most storage space in my cluster?","tool":"CatIndexTool","id":"CatIndexTool-103"}
+{"question":"What is the status of the index .plugins-ml-model?","tool":"CatIndexTool","id":"CatIndexTool-104"}
+{"question":"How many documents are in the security-auditlog-2023.10.25 index?","tool":"CatIndexTool","id":"CatIndexTool-105"}
+{"question":"What is the number of primary shards for the .plugins-ml-connector index?","tool":"CatIndexTool","id":"CatIndexTool-106"}
+{"question":"How much disk space does the .plugins-ml-model index take for its primary shards?","tool":"CatIndexTool","id":"CatIndexTool-107"}
+{"question":"How many yellow indices are in the cluster?","tool":"CatIndexTool","id":"CatIndexTool-108"}
+{"question":"What is the total number of documents across all indices?","tool":"CatIndexTool","id":"CatIndexTool-109"}
+{"question":"What is the total disk usage for the cluster?","tool":"CatIndexTool","id":"CatIndexTool-110"}
+{"question":"Which index takes up the most disk space?","tool":"CatIndexTool","id":"CatIndexTool-111"}
+{"question":"What is the total size of all the yellow indices?","tool":"CatIndexTool","id":"CatIndexTool-112"}
+{"question":"How many primary shards does the index called college_1-class have?","tool":"CatIndexTool","id":"CatIndexTool-113"}
+{"question":"What is the total size taken by primary and replica shards for the index called film_rank-film_market_estimation?","tool":"CatIndexTool","id":"CatIndexTool-114"}
+{"question":"How many indices have between 10,000 - 100,000 documents?","tool":"CatIndexTool","id":"CatIndexTool-115"}
+{"question":"What is the total size on disk of all primary shards in the cluster?","tool":"CatIndexTool","id":"CatIndexTool-116"}
+{"question":"Which yellow index has the smallest number of documents?","tool":"CatIndexTool","id":"CatIndexTool-117"}
+{"question":"How many documents does the index baseball_1-player contain?","tool":"CatIndexTool","id":"CatIndexTool-118"}
+{"question":"How many indices have a health status of yellow?","tool":"CatIndexTool","id":"CatIndexTool-119"}
+{"question":"How many indices have 0 documents?","tool":"CatIndexTool","id":"CatIndexTool-120"}
+{"question":"What is the total storage used for primary shards across the cluster?","tool":"CatIndexTool","id":"CatIndexTool-121"}
+{"question":"How many yellow status indices are there?","tool":"CatIndexTool","id":"CatIndexTool-122"}
+{"question":"What is the status of the index called .plugins-ml-model-group?","tool":"CatIndexTool","id":"CatIndexTool-123"}
+{"question":"How many documents are in the index .plugins-ml-task?","tool":"CatIndexTool","id":"CatIndexTool-124"}
+{"question":"What is the total size of all the yellow indices in bytes?","tool":"CatIndexTool","id":"CatIndexTool-125"}
+{"question":"What is the document count for the index security-auditlog-2023.10.27?","tool":"CatIndexTool","id":"CatIndexTool-126"}
+{"question":"What is the status of the index cre_theme_park-street_markets?","tool":"CatIndexTool","id":"CatIndexTool-127"}
+{"question":"What is the status of the .plugins-ml-model index?","tool":"CatIndexTool","id":"CatIndexTool-128"}
+{"question":"How many primary shards does the security-auditlog-2023.10.25 index have?","tool":"CatIndexTool","id":"CatIndexTool-129"}
+{"question":"What is the total size of all non-system indices?","tool":"CatIndexTool","id":"CatIndexTool-130"}
+{"question":"What is the health status of the index called security-auditlog-2023.10.26?","tool":"CatIndexTool","id":"CatIndexTool-131"}
+{"question":"How many shards does the index .plugins-ml-connector have?","tool":"CatIndexTool","id":"CatIndexTool-132"}
+{"question":"What is the store size of the index .plugins-ml-model?","tool":"CatIndexTool","id":"CatIndexTool-133"}
+{"question":"What is the total number of documents in the security-auditlog-2023.10.26 index?","tool":"CatIndexTool","id":"CatIndexTool-134"}
+{"question":"How large is the .plugins-ml-model index in bytes?","tool":"CatIndexTool","id":"CatIndexTool-135"}
+{"question":"What is the number of replica shards for the .kibana_1 index?","tool":"CatIndexTool","id":"CatIndexTool-136"}
+{"question":"Which index has the most primary shards in the cluster?","tool":"CatIndexTool","id":"CatIndexTool-137"}
+{"question":"Can you provide the total number of documents across all indices in my cluster?","tool":"CatIndexTool","id":"CatIndexTool-138"}
+{"question":"What is the total storage used by the 3 largest indices in my cluster?","tool":"CatIndexTool","id":"CatIndexTool-139"}
+{"question":"Which index has the most documents in my cluster?","tool":"CatIndexTool","id":"CatIndexTool-140"}
+{"question":"How many primary shards does the index .plugins-ml-connector have?","tool":"CatIndexTool","id":"CatIndexTool-141"}
+{"question":"What is the health status of the .opendistro_security index?","tool":"CatIndexTool","id":"CatIndexTool-142"}
+{"question":"What is the status of the index named college_2-course?","tool":"CatIndexTool","id":"CatIndexTool-143"}
+{"question":"What is the number of documents in the index baseball_1-batting_postseason?","tool":"CatIndexTool","id":"CatIndexTool-144"}
+{"question":"How large is the store size of the index .plugins-ml-model?","tool":"CatIndexTool","id":"CatIndexTool-145"}
+{"question":"What is the health status of the index .plugins-ml-task?","tool":"CatIndexTool","id":"CatIndexTool-146"}
+{"question":"How large is the index .plugins-ml-model in bytes?","tool":"CatIndexTool","id":"CatIndexTool-147"}
+{"question":"What is the health status of the index college_1-course?","tool":"CatIndexTool","id":"CatIndexTool-148"}
+{"question":"What is the number of replica shards for the index document_management-document_functional_areas?","tool":"CatIndexTool","id":"CatIndexTool-149"}
+{"question":"How much storage space does the index .plugins-ml-model take up for primary shards?","tool":"CatIndexTool","id":"CatIndexTool-150"}
+{"question":"What is the total size taken by the index .plugins-ml-model?","tool":"CatIndexTool","id":"CatIndexTool-151"}
+{"question":"What is the status of the index baseball_1-player_college?","tool":"CatIndexTool","id":"CatIndexTool-152"}
+{"question":"How many replica shards does the index cre_theme_park-theme_parks have?","tool":"CatIndexTool","id":"CatIndexTool-153"}
+{"question":"What is the store size taken by primary shards for the index plaintext-version-no-aos?","tool":"CatIndexTool","id":"CatIndexTool-154"}
+{"question":"What is the number of documents deleted in the index baseball_1-pitching?","tool":"CatIndexTool","id":"CatIndexTool-155"}
+{"question":"What is the total size of the .plugins-ml-model index?","tool":"CatIndexTool","id":"CatIndexTool-156"}
+{"question":"How many non-system indices are in the green status?","tool":"CatIndexTool","id":"CatIndexTool-157"}
+{"question":"What is the document count of the .plugins-ml-task index?","tool":"CatIndexTool","id":"CatIndexTool-158"}
+{"question":"Which index has the smallest store size in my cluster?","tool":"CatIndexTool","id":"CatIndexTool-159"}
+{"question":"What is the total storage used for primary shards across all indices?","tool":"CatIndexTool","id":"CatIndexTool-160"}
+{"question":"How many replica shards does the index browser_web-web_client_accelerator have?","tool":"CatIndexTool","id":"CatIndexTool-161"}
+{"question":"What is the status of the security-auditlog-2023.10.25 index?","tool":"CatIndexTool","id":"CatIndexTool-162"}
+{"question":"Can you tell me about the index with the largest store size in the cluster?","tool":"CatIndexTool","id":"CatIndexTool-163"}
+{"question":"What is the health status of the .kibana_1 index?","tool":"CatIndexTool","id":"CatIndexTool-164"}
+{"question":"What is the total number of documents across all user indices in my cluster?","tool":"CatIndexTool","id":"CatIndexTool-165"}
+{"question":"Which user index has the most primary shards in my cluster?","tool":"CatIndexTool","id":"CatIndexTool-166"}
+{"question":"How many system indices are there in my cluster?","tool":"CatIndexTool","id":"CatIndexTool-167"}
+{"question":"What is the health status of the index .plugins-ml-connector?","tool":"CatIndexTool","id":"CatIndexTool-168"}
+{"question":"How many primary shards does the index security-auditlog-2023.10.25 have?","tool":"CatIndexTool","id":"CatIndexTool-169"}
+{"question":"What is the index name with the largest store size?","tool":"CatIndexTool","id":"CatIndexTool-170"}
+{"question":"Does the index .kibana_1 have any replica shards?","tool":"CatIndexTool","id":"CatIndexTool-171"}
+{"question":"How many documents are in the index customers_and_invoices-invoices?","tool":"CatIndexTool","id":"CatIndexTool-172"}
+{"question":"What is the store size of the index called company_1-employee?","tool":"CatIndexTool","id":"CatIndexTool-173"}
+{"question":"What is the status of the index called baseball_1-batting?","tool":"CatIndexTool","id":"CatIndexTool-174"}
+{"question":"What is the size of the primary shards for the index called baseball_1-player?","tool":"CatIndexTool","id":"CatIndexTool-175"}
+{"question":"How many documents does the index called customers_and_addresses-customers have?","tool":"CatIndexTool","id":"CatIndexTool-176"}
+{"question":"What is the health status of the index called .plugins-ml-model?","tool":"CatIndexTool","id":"CatIndexTool-177"}
+{"question":"What is the total size taken by primary shards across all indices?","tool":"CatIndexTool","id":"CatIndexTool-178"}
+{"question":"What is the document count and health status of the .plugins-ml-connector index?","tool":"CatIndexTool","id":"CatIndexTool-179"}
+{"question":"How many primary shards does the index customers_and_invoices-orders have?","tool":"CatIndexTool","id":"CatIndexTool-180"}
+{"question":"How many alerts were triggered on Dec 05 2023?","tool":"SearchAlertsTool","id":"SearchAlertsTool-1"}
+{"question":"What are the names of the monitors that triggered alerts on Dec 10 2023?","tool":"SearchAlertsTool","id":"SearchAlertsTool-2"}
+{"question":"Have any alerts been acknowledged in the last 3 days?","tool":"SearchAlertsTool","id":"SearchAlertsTool-3"}
+{"question":"How many alerts are currently in completed state?","tool":"SearchAlertsTool","id":"SearchAlertsTool-4"}
+{"question":"What is the current state of the alert with ID QziGl4sB6jqYe1T0_fnD?","tool":"SearchAlertsTool","id":"SearchAlertsTool-5"}
+{"question":"What are the names of the triggers that led to alerts k9gf4os5tkqi81f3y988 and Xugf4osB7kqi81T0y9pw?","tool":"SearchAlertsTool","id":"SearchAlertsTool-6"}
+{"question":"How many alerts have a severity level of 2?","tool":"SearchAlertsTool","id":"SearchAlertsTool-7"}
+{"question":"What is the error message for the alert with ID QziGl4sB6jqYe1T0_fnD?","tool":"SearchAlertsTool","id":"SearchAlertsTool-8"}
+{"question":"Can you show me the alerts triggered in the last hour?","tool":"SearchAlertsTool","id":"SearchAlertsTool-9"}
+{"question":"What are the timestamps for the two alert history entries for alert QziGl4sB6jqYe1T0_fnD?","tool":"SearchAlertsTool","id":"SearchAlertsTool-10"}
+{"question":"When did the composite monitor random_comp_monitor last trigger an alert?","tool":"SearchAlertsTool","id":"SearchAlertsTool-11"}
+{"question":"What is the current state of alert ODjvlosB6jqYe1T0MPKU?","tool":"SearchAlertsTool","id":"SearchAlertsTool-12"}
+{"question":"Have any alerts triggered today?","tool":"SearchAlertsTool","id":"SearchAlertsTool-13"}
+{"question":"How many alerts are currently unresolved?","tool":"SearchAlertsTool","id":"SearchAlertsTool-14"}
+{"question":"What are the finding IDs associated with alert c1dc6e4b-1f71-4662-b444-a2b257546e3b?","tool":"SearchAlertsTool","id":"SearchAlertsTool-15"}
+{"question":"What is the current state of alert uzg0gosB6jqYe1T0y9Aa?","tool":"SearchAlertsTool","id":"SearchAlertsTool-16"}
+{"question":"When did the error alert start?","tool":"SearchAlertsTool","id":"SearchAlertsTool-17"}
+{"question":"What are the names of the triggers that led to alerts being in ACTIVE state right now?","tool":"SearchAlertsTool","id":"SearchAlertsTool-18"}
+{"question":"What is the current state of the alert with ID GThUkYsB6jqYe1T0UOF3?","tool":"SearchAlertsTool","id":"SearchAlertsTool-19"}
+{"question":"How many alerts triggered by monitor random_query_monitor are currently active?","tool":"SearchAlertsTool","id":"SearchAlertsTool-20"}
+{"question":"What are the different monitor names that have triggered alerts?","tool":"SearchAlertsTool","id":"SearchAlertsTool-21"}
+{"question":"How many alerts have severity level 1?","tool":"SearchAlertsTool","id":"SearchAlertsTool-22"}
+{"question":"What are the names of the monitors that triggered alerts on Dec 09 2023?","tool":"SearchAlertsTool","id":"SearchAlertsTool-23"}
+{"question":"When did the alert with ID Xugf4osB7kqi81T0y9pw start triggering?","tool":"SearchAlertsTool","id":"SearchAlertsTool-24"}
+{"question":"What is the monitor name for the alert with ID \"c1dc6e4b-1f71-4662-b444-a2b257546e3b\"?","tool":"SearchAlertsTool","id":"SearchAlertsTool-25"}
+{"question":"How many alerts have been triggered by the monitor \"random_query_monitor\"?","tool":"SearchAlertsTool","id":"SearchAlertsTool-26"}
+{"question":"What is the severity level of the most recent alert triggered by \"random_query_monitor\"?","tool":"SearchAlertsTool","id":"SearchAlertsTool-27"}
+{"question":"What is the current state of alert k9gf4os5tkqi81f3y988?","tool":"SearchAlertsTool","id":"SearchAlertsTool-28"}
+{"question":"How many times was the notification action throttled for alert uzg0gosB6jqYe1T0y9Aa?","tool":"SearchAlertsTool","id":"SearchAlertsTool-29"}
+{"question":"What is the current state of alert hDjvlhfB6jqY61T0PLK5?","tool":"SearchAlertsTool","id":"SearchAlertsTool-30"}
+{"question":"How many alerts from monitor random_query_monitor are currently acknowledged?","tool":"SearchAlertsTool","id":"SearchAlertsTool-31"}
+{"question":"What was the severity level of alert Xugf4osB7kqi81T0y9pw when it was triggered?","tool":"SearchAlertsTool","id":"SearchAlertsTool-32"}
+{"question":"What is the monitor name that triggered alert k9gf4os5tkqi81f3y988?","tool":"SearchAlertsTool","id":"SearchAlertsTool-33"}
+{"question":"What was the last notification time for alert uzg0gosB6jqYe1T0y9Aa?","tool":"SearchAlertsTool","id":"SearchAlertsTool-34"}
+{"question":"What is the monitor name that triggered the alert with ID QziGl4sB6jqYe1T0_fnD?","tool":"SearchAlertsTool","id":"SearchAlertsTool-35"}
+{"question":"When did the most recent alert trigger?","tool":"SearchAlertsTool","id":"SearchAlertsTool-36"}
+{"question":"How many alerts are in ACKNOWLEDGED state?","tool":"SearchAlertsTool","id":"SearchAlertsTool-37"}
+{"question":"What is the composite workflow ID that triggered the alert with ID dzhPl4sB6jqYe1T0ffaX?","tool":"SearchAlertsTool","id":"SearchAlertsTool-38"}
+{"question":"What are the IDs of the alerts associated with the composite alert dzhPl4sB6jqYe1T0ffaX?","tool":"SearchAlertsTool","id":"SearchAlertsTool-39"}
+{"question":"When was alert GThUkYsB6jqYe1T0UOF3 acknowledged?","tool":"SearchAlertsTool","id":"SearchAlertsTool-40"}
+{"question":"Can you show me what alerts are set on each service? Can you show me which ones are in triggered state?","tool":"SearchAlertsTool","id":"SearchAlertsTool-41"}
+{"question":"Can you show me the alert history of service x?","tool":"SearchAlertsTool","id":"SearchAlertsTool-42"}
+{"question":"How many visualizations do I have currently?","tool":"VisualizationTool","id":"VisualizationTool-1"}
+{"question":"List all the visuliazation names.","tool":"VisualizationTool","id":"VisualizationTool-2"}
+{"question":"What visualizations are related to eCommerce?","tool":"VisualizationTool","id":"VisualizationTool-3"}
+{"question":"For eCommerce scenario, which visualizations is about average price","tool":"VisualizationTool","id":"VisualizationTool-4"}
+{"question":"Get visualizations named Top Selling Products for me.","tool":"VisualizationTool","id":"VisualizationTool-5"}
+{"question":"how is the RAM info, can you show it with visualization?","tool":"VisualizationTool","id":"VisualizationTool-6"}
+{"question":"I want to know the average ticket price for flight, can you provide me the visualization?","tool":"VisualizationTool","id":"VisualizationTool-7"}
+{"question":"What are most common delay types for flight. Show me the related visualization","tool":"VisualizationTool","id":"VisualizationTool-8"}
+{"question":"help me find the visualization with name `sales`?","tool":"VisualizationTool","id":"VisualizationTool-9"}
+{"question":"How can I see the log data corresponding to a particular service? a particular trace group?","tool":"RAGTool","id":"RAGTool-1"}
+{"question":"How can I filter the traces according to some criteria around latency, error?","tool":"RAGTool","id":"RAGTool-2"}
+{"question":"Can you explain how triggers work in OpenSearch?","tool":"RAGTool","id":"RAGTool-3"}
+{"question":"How to create a visualization?","tool":"RAGTool","id":"RAGTool-4"}
+{"question":"How to shrink an index?","tool":"RAGTool","id":"RAGTool-5"}
+{"question":"what are the steps to create a new index?","tool":"RAGTool","id":"RAGTool-6"}
+{"question":"What is an index?","tool":"RAGTool","id":"RAGTool-7"}
+{"question":"Do you know how to generate PPL?","tool":"RAGTool","id":"RAGTool-8"}
+{"question":"How does anomaly detection work? What impact does it have on my cluster","tool":"RAGTool","id":"RAGTool-9"}
+{"question":"Show me how to create a detector?","tool":"RAGTool","id":"RAGTool-10"}
+{"question":"Can you show me how to set up a monitor?","tool":"RAGTool","id":"RAGTool-11"}
+{"question":"Can you help me understand how composite monitors work?","tool":"RAGTool","id":"RAGTool-12"}
+{"question":"What is the relationship between an alert and a monitor?","tool":"RAGTool","id":"RAGTool-13"}
+{"question":"How do I set up a notification channel for my alerts?","tool":"RAGTool","id":"RAGTool-14"}
+{"question":"How can I test an alert to see if it is working?","tool":"RAGTool","id":"RAGTool-15"}
+{"question":"All my alerts are defined in AMG/AMP, how can I use them in OSD?","tool":"RAGTool","id":"RAGTool-16"}
+{"question":"How can I benefit from using anomaly detection?","tool":"RAGTool","id":"RAGTool-17"}
+{"question":"Can you help me setup an anomaly detection on my website's response times?","tool":"RAGTool","id":"RAGTool-18"}
+{"question":"Can you show me how I can find out if the logs for my application are stored in the system?","tool":"RAGTool","id":"RAGTool-19"}
+{"question":"Can you show me how to find the fields in the logs for my application?","tool":"RAGTool","id":"RAGTool-20"}
+{"question":"Can you tell all the ways I can visualize my log data and which type of visualizations work well for which type of data?","tool":"RAGTool","id":"RAGTool-21"}
+{"question":"How can I change the sort order of the data shown to me? how can I sort or group it by a different column?","tool":"RAGTool","id":"RAGTool-22"}
+{"question":"How do I see the raw logs for the aggregated data? Can you show me the raw logs that correspond to the aggregation?","tool":"RAGTool","id":"RAGTool-23"}
+{"question":"How do I change the source of the log data I am seeing here?","tool":"RAGTool","id":"RAGTool-24"}
+{"question":"How do I connect to a remote store to see more logs?","tool":"RAGTool","id":"RAGTool-25"}
+{"question":"How can I see the logs from my kubernetes cluster here?","tool":"RAGTool","id":"RAGTool-26"}
+{"question":"How do I visualize the event data I am seeing here? What type of visualizations are available to me?","tool":"RAGTool","id":"RAGTool-27"}
+{"question":"Why can't I add the fields shown in the list of fields to my data?","tool":"RAGTool","id":"RAGTool-28"}
+{"question":"How do I combine and correlate data from different sources? multiple sources?","tool":"RAGTool","id":"RAGTool-29"}
+{"question":"Can you show me how to use the stats query to see the throughput by region by service?","tool":"RAGTool","id":"RAGTool-30"}
+{"question":"Can you explain what is a Series/dimension/Breakdown?","tool":"RAGTool","id":"RAGTool-31"}
+{"question":"How can I shift the timeline to the x axis?","tool":"RAGTool","id":"RAGTool-32"}
+{"question":"How can I adjust the labeling to be more easily readable?","tool":"RAGTool","id":"RAGTool-33"}
+{"question":"How do I share this visualization as an image/pdf with another user? over email?","tool":"RAGTool","id":"RAGTool-34"}
+{"question":"What are the different types of visualizations I can do?","tool":"RAGTool","id":"RAGTool-35"}
+{"question":"How to I make a heatmap of the latency data from my logs?","tool":"RAGTool","id":"RAGTool-36"}
+{"question":"How do I undo the changes I made to the visualization?","tool":"RAGTool","id":"RAGTool-37"}
+{"question":"How can I change the color pallette for the visualization?","tool":"RAGTool","id":"RAGTool-38"}
+{"question":"How do I add this visualization to a Dashboard?","tool":"RAGTool","id":"RAGTool-39"}
+{"question":"How do I find the dashboard that I added this visualization to?","tool":"RAGTool","id":"RAGTool-40"}
+{"question":"How do I visualize data from multiple sources?","tool":"RAGTool","id":"RAGTool-41"}
+{"question":"Can you explain why the data is invalid for visualization? Can you give examples of data that is valid for visualization?","tool":"RAGTool","id":"RAGTool-42"}
+{"question":"How do I add the data that I wish to visualize? How do I know which index to use?","tool":"RAGTool","id":"RAGTool-43"}
+{"question":"Help me with some best practices on visualizing time series data and how to select the right visualization type for my data","tool":"RAGTool","id":"RAGTool-44"}
+{"question":"How can I duplicate a visualization?","tool":"RAGTool","id":"RAGTool-45"}
+{"question":"How do I save all the visualizations for my service in one place?","tool":"RAGTool","id":"RAGTool-46"}
+{"question":"How can I trackthe key metrics aggregated by the stats command?","tool":"RAGTool","id":"RAGTool-47"}
+{"question":"Can you give more information on DataPrepper?","tool":"RAGTool","id":"RAGTool-48"}
+{"question":"What is a trace group? Why don't I see any data in trace groups? What do I need to do to see my application's trace groups?","tool":"RAGTool","id":"RAGTool-49"}
+{"question":"Why is one of my services - x, not showing up in the service map?","tool":"RAGTool","id":"RAGTool-50"}
+{"question":"how do i reorganize trace groups?","tool":"RAGTool","id":"RAGTool-51"}
+{"question":"Can you explain the relationship between a trace group and a service?","tool":"RAGTool","id":"RAGTool-52"}
+{"question":"How are DataPrepper traces different from Jaeger traces? How do I know which one applies to me?","tool":"RAGTool","id":"RAGTool-53"}
+{"question":"can you explain where these service names are coming from? they dont seem to match my service/app names.","tool":"RAGTool","id":"RAGTool-54"}
+{"question":"How can I know if all my services are showing up in the service map? Can you tell me which of my services are missing?","tool":"RAGTool","id":"RAGTool-55"}
+{"question":"Where can I see the Service Level Indicators and thresholds defined for each service?","tool":"RAGTool","id":"RAGTool-56"}
+{"question":"How can I group a certain set of trace groups to see the relevant RED metrics?","tool":"RAGTool","id":"RAGTool-57"}
+{"question":"Can you explain how I can use Latency Variance to troubleshoot an issue?","tool":"RAGTool","id":"RAGTool-58"}
+{"question":"Why am I seeing more services in the service map compared to the services table?","tool":"RAGTool","id":"RAGTool-59"}
+{"question":"How can I set alerts that will notfy me when the error rate/latency/throughput for a particular service/trace-group reaches a certain value and stay above that value for x amount of time?","tool":"RAGTool","id":"RAGTool-60"}
+{"question":"How can I highlight just the service I would like to focus on?","tool":"RAGTool","id":"RAGTool-61"}
+{"question":"How can I see all the service details for a service including what infrastructure it is deployed on, its service attributes and the organizational contacts for it?","tool":"RAGTool","id":"RAGTool-62"}
+{"question":"How can I select what attributes to show for the service/trace-group in the service/trace -group list?","tool":"RAGTool","id":"RAGTool-63"}
+{"question":"How can I select what attributes to show for each trace / span in the list?","tool":"RAGTool","id":"RAGTool-64"}
+{"question":"How can I tell if the trace data is being sampled? How do I know if I am seeing all the traces?","tool":"RAGTool","id":"RAGTool-65"}
+{"question":"Can I stop storing the traces that meet a certain criteria like latency in 50th percentile and no error/warning.","tool":"RAGTool","id":"RAGTool-66"}
+{"question":"I want to split an index, how to do it?","tool":"RAGTool","id":"RAGTool-67"}
+{"question":"I call split index api, it give me this response. Is it succeed?\n{\n    \"acknowledged\": true,\n    \"shards_acknowledged\": false,\n    \"index\": \"split-index1\"\n}","tool":"RAGTool","id":"RAGTool-68"}
+{"question":"I have an index for search, now the search requests are increasing, I want to increase the shard numbers. How to do it?","tool":"RAGTool","id":"RAGTool-69"}
+{"question":"What's the difference of split index api and reindex api?","tool":"RAGTool","id":"RAGTool-70"}
+{"question":"I ran into a error whose content is \"index template [2] has index patterns [1] matching patterns from existing templates [1] with patterns (1 => [1]) that have the same priority [0], multiple index templates may not match during index creation, please use a different priority\", could you tell me how to work it out?","tool":"RAGTool","id":"RAGTool-71"}
+{"question":"How can I get the free disk space information in opensearch?","tool":"RAGTool","id":"RAGTool-72"}
+{"question":"I'm using opensearch v1.2, it's cluster health status is red, do you know why?","tool":"RAGTool","id":"RAGTool-73"}
+{"question":"{\"Message\":\"User: anonymous is not authorized to perform: es:ESHttpGet with an explicit deny in a resource-based policy\"}","tool":"RAGTool","id":"RAGTool-74"}
+{"question":"Why opensearch node CPU is high?","tool":"RAGTool","id":"RAGTool-75"}
+{"question":"how to identify large queries?","tool":"RAGTool","id":"RAGTool-76"}
+{"question":"How can I tell if there is Heavy indexing or search load?","tool":"RAGTool","id":"RAGTool-77"}
+{"question":"What are dangling indices in OpenSearch?","tool":"RAGTool","id":"RAGTool-78"}
+{"question":"How do dangling indices come about in OpenSearch cluster?","tool":"RAGTool","id":"RAGTool-79"}
+{"question":"How can I handle the situation when dangling indices exist in OpenSearch cluster?","tool":"RAGTool","id":"RAGTool-80"}
+{"question":"Is there an UI for reindex?","tool":"RAGTool","id":"RAGTool-81"}
+{"question":"Where can I find it in the dashboard UI?","tool":"RAGTool","id":"RAGTool-82"}
+{"question":"Which operations are introduced in 2.5?","tool":"RAGTool","id":"RAGTool-83"}
+{"question":"I want to call performance analyzer api to get metrics, but get an error below:\nFailed to connect to localhost port 9600 after 0 ms: Connection refused","tool":"RAGTool","id":"RAGTool-84"}
+{"question":"Using curl on the command line is a bit cumbersome. Is there a way to use OpenSearch Dashboards Dev Tools to call the PA API?","tool":"RAGTool","id":"RAGTool-85"}
+{"question":"What does the parameter max_shard_size of Shrink API mean in OpenSearch?","tool":"RAGTool","id":"RAGTool-86"}
+{"question":"Can I set the parameter max_shard_size and index.number_of_shards at the same time when I call the Shrink API in OpenSearch?","tool":"RAGTool","id":"RAGTool-87"}
+{"question":"What’s you suggestion for the value of the parameter max_shard_size of Shrink API in OpenSearch?","tool":"RAGTool","id":"RAGTool-88"}
+{"question":"Can you recommend some tools which can be used to migrate indices between different OpenSearch clusters?","tool":"RAGTool","id":"RAGTool-89"}
+{"question":"The indices in the source cluster occupy hundreds of MB of storage, which tool do you recommend to migrate these indices to another cluster?","tool":"RAGTool","id":"RAGTool-90"}
+{"question":"The indices in the source cluster occupy hundreds of GB of storage, which tool do you recommend to migrate these indices to another cluster?","tool":"RAGTool","id":"RAGTool-91"}
+{"question":"I'm using opensearch and a node is down. how to find reasons?","tool":"RAGTool","id":"RAGTool-92"}
+{"question":"What are the available RCA APIs that can be used?","tool":"RAGTool","id":"RAGTool-93"}
+{"question":"How to get the shard consuming most cpu resources when the cluster down?","tool":"RAGTool","id":"RAGTool-94"}
+{"question":"what's reindex api in opensearch","tool":"RAGTool","id":"RAGTool-95"}
+{"question":"How do I configure remote reindexing in OpenSearch?","tool":"RAGTool","id":"RAGTool-96"}
+{"question":"How do I monitor the progress of reindexing?","tool":"RAGTool","id":"RAGTool-97"}
+{"question":"where can i find opensearch logs","tool":"RAGTool","id":"RAGTool-98"}
+{"question":"how can i change log level to debug","tool":"RAGTool","id":"RAGTool-99"}
+{"question":"how to enable slow query log","tool":"RAGTool","id":"RAGTool-100"}
+{"question":"Query on my opensearch cluster is slow, how can i find most time consuming task","tool":"RAGTool","id":"RAGTool-101"}
+{"question":"Opensearch shard is not allocated due to node_decision:throttled, reached the limit of incoming shard recoveries","tool":"RAGTool","id":"RAGTool-102"}
+{"question":"will shard being throttled get lost eventually?","tool":"RAGTool","id":"RAGTool-103"}
+{"question":"now throttling indexing error in opensearch server","tool":"RAGTool","id":"RAGTool-104"}
+{"question":"I need to set up a search service by using OpenSearch and the qps will be 100, data storage will be 1TB per day. What kind of machine configuration should I consider?","tool":"RAGTool","id":"RAGTool-105"}
+{"question":"How many nodes should I set?","tool":"RAGTool","id":"RAGTool-106"}
+{"question":"{\"category\":[\"Men's Clothing\"],\"currency\":\"EUR\",\"customer_first_name\":\"Robert\",\"customer_full_name\":\"Robert Mcdonald\",\"customer_gender\":\"MALE\",\"customer_id\":29,\"customer_last_name\":\"Mcdonald\",\"customer_phone\":\"\",\"day_of_week\":\"Saturday\",\"day_of_week_i\":5,\"email\":\"robert@mcdonald-family.zzz\",\"manufacturer\":[\"Elitelligence\",\"Low Tide Media\"],\"order_date\":\"2023-02-11T04:50:53+00:00\",\"order_id\":562853,\"products\":[{\"base_price\":10.99,\"discount_percentage\":0,\"quantity\":1,\"manufacturer\":\"Elitelligence\",\"tax_amount\":0,\"product_id\":21053,\"category\":\"Men's Clothing\",\"sku\":\"ZO0564705647\",\"taxless_price\":10.99,\"unit_discount_amount\":0,\"min_price\":5.39,\"_id\":\"sold_product_562853_21053\",\"discount_amount\":0,\"created_on\":\"2016-12-10T04:50:53+00:00\",\"product_name\":\"Print T-shirt - white/blue\",\"price\":10.99,\"taxful_price\":10.99,\"base_unit_price\":10.99},{\"base_price\":7.99,\"discount_percentage\":0,\"quantity\":1,\"manufacturer\":\"Low Tide Media\",\"tax_amount\":0,\"product_id\":23834,\"category\":\"Men's Clothing\",\"sku\":\"ZO0481004810\",\"taxless_price\":7.99,\"unit_discount_amount\":0,\"min_price\":4.07,\"_id\":\"sold_product_562853_23834\",\"discount_amount\":0,\"created_on\":\"2016-12-10T04:50:53+00:00\",\"product_name\":\"3 PACK - Socks - blue/grey\",\"price\":7.99,\"taxful_price\":7.99,\"base_unit_price\":7.99}],\"sku\":[\"ZO0564705647\",\"ZO0481004810\"],\"taxful_total_price\":18.98,\"taxless_total_price\":18.98,\"total_quantity\":2,\"total_unique_products\":2,\"type\":\"order\",\"user\":\"robert\",\"geoip\":{\"country_iso_code\":\"SA\",\"location\":{\"lon\":45,\"lat\":25},\"continent_name\":\"Asia\"},\"event\":{\"dataset\":\"sample_ecommerce\"}} I want to import this doc into OpenSearch, could you give me the proper index mappings of it?","tool":"RAGTool","id":"RAGTool-107"}
+{"question":"What is the cluster manager task throttling in OpenSearch?","tool":"RAGTool","id":"RAGTool-108"}
+{"question":"How can I use the cluster manager task throttling in OpenSearch?","tool":"RAGTool","id":"RAGTool-109"}
+{"question":"Is the cluster manager task throttling feature enabled by default?","tool":"RAGTool","id":"RAGTool-110"}
+{"question":"What is the search backpressure in OpenSearch?","tool":"RAGTool","id":"RAGTool-111"}
+{"question":"How can I use the search backpressure in OpenSearch?","tool":"RAGTool","id":"RAGTool-112"}
+{"question":"How do I know the search backpressure takes effect in OpenSearch?","tool":"RAGTool","id":"RAGTool-113"}
+{"question":"What kind of roles and permissions should I grant for users to use index management plugin of OpenSearch?","tool":"RAGTool","id":"RAGTool-114"}
+{"question":"what's relocating shards? Does it indicate a problem?","tool":"RAGTool","id":"RAGTool-115"}
+{"question":"There is a high number of relocating shards. What actions can I take?","tool":"RAGTool","id":"RAGTool-116"}
+{"question":"what is considered as a large number of relocating shards?","tool":"RAGTool","id":"RAGTool-117"}
+{"question":"Why there are unassigned shards?","tool":"RAGTool","id":"RAGTool-118"}
+{"question":"What’s the different between unassigned shards and delayed unassigned shards?","tool":"RAGTool","id":"RAGTool-119"}
+{"question":"how to tell an unassigned shard is due to delay or not?","tool":"RAGTool","id":"RAGTool-120"}
+{"question":"how to install a plugin for opensearch?","tool":"RAGTool","id":"RAGTool-121"}
+{"question":"can i install a plugin from maven repository?","tool":"RAGTool","id":"RAGTool-122"}
+{"question":"how to tune for disk usage for opensearch?","tool":"RAGTool","id":"RAGTool-123"}
+{"question":"how to use ISM to delete old data?","tool":"RAGTool","id":"RAGTool-124"}
+{"question":"What is the difference between plugins.security.ssl.http.pemcert_filepath and plugins.security.ssl.transport.pemcert_filepath?","tool":"RAGTool","id":"RAGTool-125"}
+{"question":"What is plugins.security.ssl.http.pemtrustedcas_filepath?","tool":"RAGTool","id":"RAGTool-126"}
+{"question":"How to set up OpenSearch and OpenSearch Dashboard v2.6 on a Linux EC2 instance.","tool":"RAGTool","id":"RAGTool-127"}
+{"question":"What happened when OpenSearch returns errors like ‘OpenSearch exception [type=illegal_argument_exception, reason=Text fields are not optimised for operations that require per-document field data like aggregations and sorting, so these operations are disabled by default. Please use a keyword field instead. Alternatively, set fielddata=true on [message] in order to load field data by uninverting the inverted index. Note that this can use significant memory’ ?","tool":"RAGTool","id":"RAGTool-128"}
+{"question":"How can I set fielddata to true for one text field?","tool":"RAGTool","id":"RAGTool-129"}
+{"question":"Is there any bad effect if I set fielddata to true for the text field?","tool":"RAGTool","id":"RAGTool-130"}
+{"question":"What happened when I see the error `circuit_breaking_exception` in OpenSearch?","tool":"RAGTool","id":"RAGTool-131"}
+{"question":"How can I set circuit breaker settings in my OpenSearch cluster?","tool":"RAGTool","id":"RAGTool-132"}
+{"question":"How can I resolve the issue when I see the circuit_breaking_exception in OpenSearch?","tool":"RAGTool","id":"RAGTool-133"}
+{"question":"I have all permissions for index-management plugin, but when I try to get a policy, I get this error:\n{\n\"error\": {\n\"root_cause\": [\n{\n\"type\": \"index_management_exception\",\n\"reason\": \"Do not have permission for policy [policy_2]\"\n}\n],\n\"type\": \"index_management_exception\",\n\"reason\": \"Do not have permission for policy [policy_2]\",\n\"caused_by\": {\n\"type\": \"exception\",\n\"reason\": \"org.opensearch.OpenSearchStatusException: Do not have permission for policy [policy_2]\"\n}\n},\n\"status\": 403\n}","tool":"RAGTool","id":"RAGTool-134"}
+{"question":"give me the api to turn plugins.index_management.filter_by_backend_roles off","tool":"RAGTool","id":"RAGTool-135"}
+{"question":"There is a node in my cluster has performance issue. I call node stats api but all CPU/disk/heap usage is good. What reasons are most possible?","tool":"RAGTool","id":"RAGTool-136"}
+{"question":"How to get the network metric?","tool":"RAGTool","id":"RAGTool-137"}
+{"question":"how can i view audit log in opensearch?","tool":"RAGTool","id":"RAGTool-138"}
+{"question":"which permisson is need to view audit log in opensearch?","tool":"RAGTool","id":"RAGTool-139"}
+{"question":"How can I setup alert on opensearch cluster/node stats data?","tool":"RAGTool","id":"RAGTool-140"}
+{"question":"Although I set the frequency of alert to be every minute, I don’t want to keep receiving the same alert if the problem exists for a while because it usually takes time to fix a problem, can I config the alert to only be triggered once during a fixed time interval? ","tool":"RAGTool","id":"RAGTool-141"}
+{"question":"I’m an user having “all_access” role, but I cannot delete index .opensearch-notifications-config \nDELETE .opensearch-notifications-config\n{ \"error\": { \"root_cause\": [ { \"type\": \"security_exception\", \"reason\": \"no permissions for [] and User [name=admin, backend_roles=[admin], requestedTenant=*user*]\" } ], \"type\": \"security_exception\", \"reason\": \"no permissions for [] and User [name=admin, backend_roles=[admin], requestedTenant=*user*]\" }, \"status\": 403 }","tool":"RAGTool","id":"RAGTool-142"}
+{"question":"I’m an user having “all_access” role, but I cannot delete index .opensearch-notifications-config \nDELETE .opensearch-notifications-config\n{ \"error\": { \"root_cause\": [ { \"type\": \"security_exception\", \"reason\": \"no permissions for [] and User [name=admin, backend_roles=[admin], requestedTenant=*user*]\" } ], \"type\": \"security_exception\", \"reason\": \"no permissions for [] and User [name=admin, backend_roles=[admin], requestedTenant=*user*]\" }, \"status\": 403 }. But I want to delete it. Is there any solution?","tool":"RAGTool","id":"RAGTool-143"}
+{"question":"I want to create a role to use index-state-management of index-management plugin, including index operations and send notificaitons. What permissions do I need to grant?","tool":"RAGTool","id":"RAGTool-144"}
+{"question":"Now the user has required permission, but fail to send notifications(but I can). what’s wrong?","tool":"RAGTool","id":"RAGTool-145"}
+{"question":"what's the best practice for time serials data?","tool":"RAGTool","id":"RAGTool-146"}
+{"question":"how to create time-based index?","tool":"RAGTool","id":"RAGTool-147"}
+{"question":"Does OpenSearch support rollover time-based index?","tool":"RAGTool","id":"RAGTool-148"}
+{"question":"What happened when I see the error `es_rejected_execution_exception` with http status code 429 in OpenSearch?","tool":"RAGTool","id":"RAGTool-149"}
+{"question":"How can I identify which thread pool is full?","tool":"RAGTool","id":"RAGTool-150"}
+{"question":"How can I resolve the issue when I see the es_rejected_execution_exception in OpenSearch?","tool":"RAGTool","id":"RAGTool-151"}
+{"question":"I have done nothing, but why all of the indices in my OpenSearch cluster are blocked by read_only_allow_delete?","tool":"RAGTool","id":"RAGTool-152"}
+{"question":"What can I do if I found all of the indices in my OpenSearch cluster were blocked by read_only_allow_delete?","tool":"RAGTool","id":"RAGTool-153"}
+{"question":"When I search against OpenSearch, if I use min_score parameter in the query DSL,  why sometimes the number of hits are different when I search more than one times?","tool":"RAGTool","id":"RAGTool-154"}
+{"question":"How can I resolve this issue when I found that the number of hits are different when I execute the same query DSL more than one times?","tool":"RAGTool","id":"RAGTool-155"}
+{"question":"In anomaly detection plugin, will historical data analysis affect real-time detection job ?","tool":"RAGTool","id":"RAGTool-156"}
+{"question":"It seems that anomaly plugin can provide feature contribution for abnormal data points. I want to use this for casual analysis, only call detector api for abnormal data points.","tool":"RAGTool","id":"RAGTool-157"}
+{"question":"I have a product object with property of product title and product description, can you generate a effective query to fetch all the product related to \"Bread\"?","tool":"RAGTool","id":"RAGTool-158"}
+{"question":"What are regular alerts I can set up to Monitor a OpenSearch Cluster?","tool":"RAGTool","id":"RAGTool-159"}
+{"question":"My cluster is runing out of disk, show me the steps of add a new data node","tool":"RAGTool","id":"RAGTool-160"}
+{"question":"show me an example of how to set `discovery.seed_hosts` in opensearch.yml","tool":"RAGTool","id":"RAGTool-161"}
+{"question":"how to find the node with highest disk usage?","tool":"RAGTool","id":"RAGTool-162"}
+{"question":"my cluster has high cpu usage, i want to know which tasks are running now","tool":"RAGTool","id":"RAGTool-163"}
+{"question":"I have identified that a bad query is consuming CPU resource, can i cancel it?","tool":"RAGTool","id":"RAGTool-164"}
+{"question":"how to optimize on query return large result?","tool":"RAGTool","id":"RAGTool-165"}
+{"question":"how to use search after to do pageniation","tool":"RAGTool","id":"RAGTool-166"}
+{"question":"As underlying data changes may cause search_after return unexpected result, how to achieve search_after with consistent data?","tool":"RAGTool","id":"RAGTool-167"}
+{"question":"Why do I get ClusterBlockException in OpenSearch?","tool":"RAGTool","id":"RAGTool-168"}
+{"question":"Why I get high memory pressure?","tool":"RAGTool","id":"RAGTool-169"}
+{"question":"How to solve high memory pressure problem?","tool":"RAGTool","id":"RAGTool-170"}
+{"question":"query opensearch to find the number of logs per hour in the opensearch_dashboards_sample_data_logs index","tool":"PPLTool","id":"PPLTool-1"}
+{"question":"Are there any 404 errors in sso_logs*?","tool":"PPLTool","id":"PPLTool-2"}
+{"question":"Find the number of request whose status code is 499 per hour in sso_logs-nginx-prod-2023.06.22 index?","tool":"PPLTool","id":"PPLTool-3"}
+{"question":"Find the number of request whose status code is 404 per hour in sample web log","tool":"PPLTool","id":"PPLTool-4"}
+{"question":"What is the average price for opensearch_dashboards_sample_data_ecommerce?","tool":"PPLTool","id":"PPLTool-5"}
+{"question":"what are the attrtibutes available in sso_logs*","tool":"PPLTool","id":"PPLTool-6"}
+{"question":"For index sso_logs*, can you group the 404 errors by month?","tool":"PPLTool","id":"PPLTool-7"}
+{"question":"what is the error rate for this week in opensearch_dashboards_sample_data_logs?","tool":"PPLTool","id":"PPLTool-8"}
+{"question":"For index opensearch_dashboards_sample_data_logs and show me all the requests grouped by geo for the last 2 weeks?","tool":"PPLTool","id":"PPLTool-9"}
+{"question":"Please query index opensearch_dashboards_sample_data_logs. What is the daily trend in 4xx errors this week","tool":"PPLTool","id":"PPLTool-10"}
+{"question":"List the top countries by volume of 404 errors this quarter in opensearch_dashboards_sample_data_logs","tool":"PPLTool","id":"PPLTool-11"}
+{"question":"How many requests have resulted in a 5XX server error in the last day? List the URLs and error codes to help me find bugs or configuration issues. Search index opensearch_dashboards_sample_data_logs to answer my question","tool":"PPLTool","id":"PPLTool-12"}
+{"question":"For index opensearch_dashboards_sample_data_logs, show me a summary of the http status codes for app/service 'X'","tool":"PPLTool","id":"PPLTool-13"}
+{"question":"which service has the most errors today in opensearch_dashboards_sample_data_logs?","tool":"PPLTool","id":"PPLTool-14"}
+{"question":"For index opensearch_dashboards_sample_data_logs, show the top 5 URIs with the largest response size for a 200 status code","tool":"PPLTool","id":"PPLTool-15"}
+{"question":"what hour had the highest traffic yesterday in opensearch_dashboards_sample_data_logs","tool":"PPLTool","id":"PPLTool-16"}
+{"question":"Search index opensearch_dashboards_sample_data_logs and show me all the log events with the most frequently occuring error","tool":"PPLTool","id":"PPLTool-17"}
+{"question":"For index opensearch_dashboards_sample_data_logs, show the top 5 user agents with the most requests.","tool":"PPLTool","id":"PPLTool-18"}
+{"question":"Show the top 5 IP addresses with the highest number of requests in sso_logs*","tool":"PPLTool","id":"PPLTool-19"}
+{"question":"For index sso_logs*, which day has the most errors in last week","tool":"PPLTool","id":"PPLTool-20"}
+{"question":"Show me weekly summary of HTTP 5xx errors by host for last week in opensearch_dashboards_sample_data_logs","tool":"PPLTool","id":"PPLTool-21"}
+{"question":"For index opensearch_dashboards_sample_data_logs, show me weekly summary of all HTTP 500 errors from the logs aover the past 2 months.","tool":"PPLTool","id":"PPLTool-22"}
+{"question":"Show me weekly summary of HTTP 5xx errors from the logs for the last 6 months grouped by services in opensearch_dashboards_sample_data_logs","tool":"PPLTool","id":"PPLTool-23"}
+{"question":"For index opensearch_dashboards_sample_data_logs, show me the peak traffic day for each week of the month","tool":"PPLTool","id":"PPLTool-24"}
+{"question":"Show me top 10 remote IP addresses by volume of 4xx errors by each week for last month in opensearch_dashboards_sample_data_logs","tool":"PPLTool","id":"PPLTool-25"}
+{"question":"Pull the peak concurrent session counts from index opensearch_dashboards_sample_data_logs by hour and region filtered to desktop users in Europe for Nov 10th","tool":"PPLTool","id":"PPLTool-26"}
+{"question":"For index opensearch_dashboards_sample_data_logs, list of distinct visitor IPs that hit the site over 5 times per day for the last 3 days","tool":"PPLTool","id":"PPLTool-27"}
+{"question":"Summarize 404 errors over last month segmented by URL path in index opensearch_dashboards_sample_data_logs","tool":"PPLTool","id":"PPLTool-28"}
+{"question":"For index opensearch_dashboards_sample_data_logs, pull list of distinct visitor IPs associated with over 100 requests in one hour","tool":"PPLTool","id":"PPLTool-29"}
+{"question":"Calculate ratio of successful to failed requests on checkout page by region last 14 days in sso_logs*","tool":"PPLTool","id":"PPLTool-30"}
+{"question":"could you use TransferQuestionToPPLAndExecuteTool to check if there is any error log in opensearch_dashboards_sample_data_logs index?","tool":"PPLTool","id":"PPLTool-31"}
+{"question":"For index sso_logs*, how many errors for each day in last week.","tool":"PPLTool","id":"PPLTool-32"}
+{"question":"How many days in the last week have errors in opensearch_dashboards_sample_data_logs","tool":"PPLTool","id":"PPLTool-33"}
+{"question":"do you see any 5xx error in sso_logs*?","tool":"PPLTool","id":"PPLTool-34"}
+{"question":"Search index sso_logs* and tell me how many 304 errors?","tool":"PPLTool","id":"PPLTool-35"}
+{"question":"For index sso_logs*, count 304 errors for each day?","tool":"PPLTool","id":"PPLTool-36"}
+{"question":"list all error codes with one example log in index sso_logs*","tool":"PPLTool","id":"PPLTool-37"}
+{"question":"For index sso_logs*, how many distinct IP addresses accessed the service?","tool":"PPLTool","id":"PPLTool-38"}
+{"question":"Find the most common HTTP methods used in the log data in index sso_logs*","tool":"PPLTool","id":"PPLTool-39"}
+{"question":"For index sso_logs*, list the distinct URIs accessed in the log data","tool":"PPLTool","id":"PPLTool-40"}
+{"question":"Please search index sso_logs* and tell me how many requests were made for each day for each distinct URI in last week?","tool":"PPLTool","id":"PPLTool-41"}
+{"question":"What is the total response size for each HTTP method in index sso_logs*?","tool":"PPLTool","id":"PPLTool-42"}
+{"question":"Please search index sso_logs* and show the daily total response size for each event category in last week","tool":"PPLTool","id":"PPLTool-43"}
+{"question":"Please search index sso_logs* and show the top 5 URLs with the largest response size for a 200 status code","tool":"PPLTool","id":"PPLTool-44"}
+{"question":"Please search index sso_logs* and show the top 5 URIs with the largest response size","tool":"PPLTool","id":"PPLTool-45"}
+{"question":"Please search index sso_logs* and show the top 5 URIs with the largest response size, excluding events with a status code of 200","tool":"PPLTool","id":"PPLTool-46"}
+{"question":"Please search index sso_logs* and show the number of access events per namespace","tool":"PPLTool","id":"PPLTool-47"}
+{"question":"For index sso_logs*, list the 3 most common event types","tool":"PPLTool","id":"PPLTool-48"}
+{"question":"Calculate the total bytes transferred for events with a \"success\" result, grouped by event name in index sso_logs*","tool":"PPLTool","id":"PPLTool-49"}
+{"question":"Find the event name with the highest occurrence in the \"frontend.access\" domain from index sso_logs*","tool":"PPLTool","id":"PPLTool-50"}
+{"question":"Find the IP address with the lowest number of access events from index sso_logs*","tool":"PPLTool","id":"PPLTool-51"}
+{"question":"For index sso_logs*, calculate the total bytes transferred for events with a status code other than 200, grouped by event domain","tool":"PPLTool","id":"PPLTool-52"}
+{"question":"List the unique IP addresses for all events with success result in index sso_logs*","tool":"PPLTool","id":"PPLTool-53"}
+{"question":"For index sso_logs*, calculate the total bytes transferred for events with a \"success\" result, grouped by event category","tool":"PPLTool","id":"PPLTool-54"}
+{"question":"Show the number of access events per trace ID in the \"production\" namespace from index sso_logs*","tool":"PPLTool","id":"PPLTool-55"}
+{"question":"Please search index sso_logs* and calculate the total bytes transferred for events with a status code of 200 in the \"production\" namespace","tool":"PPLTool","id":"PPLTool-56"}
+{"question":"For index sso_logs*, calculate the average response size for access events in the \"production\" namespace, grouped by the day of the timestamp, event category, and event type","tool":"PPLTool","id":"PPLTool-57"}
+{"question":"what's the date range of all the data in index sso_logs*","tool":"PPLTool","id":"PPLTool-58"}
+{"question":"For index sso_logs*, what's the date range of all the request failures","tool":"PPLTool","id":"PPLTool-59"}
+{"question":"What fields can I use to filter logs in index opensearch_dashboards_sample_data_logs","tool":"PPLTool","id":"PPLTool-60"}
+{"question":"For index opensearch_dashboards_sample_data_logs, what ip generated the most security log errors","tool":"PPLTool","id":"PPLTool-61"}
+{"question":"What ip generated the most log errors tagged security in index opensearch_dashboards_sample_data_logs","tool":"PPLTool","id":"PPLTool-62"}
+{"question":"For index opensearch_dashboards_sample_data_logs, are there any time periods over an hour with more than 1 log","tool":"PPLTool","id":"PPLTool-63"}
+{"question":"Which month had the most log entries in index opensearch_dashboards_sample_data_logs","tool":"PPLTool","id":"PPLTool-64"}
+{"question":"For index opensearch_dashboards_sample_data_logs, are any log messages more than 4096 bytes","tool":"PPLTool","id":"PPLTool-65"}
+{"question":"For index sso_logs*, are there any errors in my logs?","tool":"PPLTool","id":"PPLTool-66"}
+{"question":"Please search index sso_logs* and show me the schema of this data set","tool":"PPLTool","id":"PPLTool-67"}
+{"question":"Please search index sso_logs* and list the fields in this data set","tool":"PPLTool","id":"PPLTool-68"}
+{"question":"For index sso_logs*, write a query that counts my logs by response code","tool":"PPLTool","id":"PPLTool-69"}
+{"question":"Please search index opensearch_dashboards_sample_data_logs and show the weekly rate of errors grouped by response code","tool":"PPLTool","id":"PPLTool-70"}
+{"question":"Please search index opensearch_dashboards_sample_data_logs and show me the log patterns","tool":"PPLTool","id":"PPLTool-71"}
+{"question":"Please search index opensearch_dashboards_sample_data_logs and find the total requests per log pattern grouped by response code","tool":"PPLTool","id":"PPLTool-72"}
+{"question":"For index sso_logs*, what are the attrtibutes available in my data","tool":"PPLTool","id":"PPLTool-73"}
+{"question":"what fields can i query on in index sso_logs*?","tool":"PPLTool","id":"PPLTool-74"}
+{"question":"For index sso_logs*, how far back does the data go? last week? last month?","tool":"PPLTool","id":"PPLTool-75"}
+{"question":"For index opensearch_dashboards_sample_data_logs, what is the error rate for this week?","tool":"PPLTool","id":"PPLTool-76"}
+{"question":"Please search sso_logs* and show the top 5 IP addresses with the highest number of requests.","tool":"PPLTool","id":"PPLTool-77"}
+{"question":"how many redirects did we have this week compared to last week in index sso_logs*?","tool":"PPLTool","id":"PPLTool-78"}
+{"question":"For index opensearch_dashboards_sample_data_logs, search for 'timeout' errors in the logs and show their frequency over time.","tool":"PPLTool","id":"PPLTool-79"}
+{"question":"Please search index opensearch_dashboards_sample_data_logs and list most common invalid parameter errors last week grouped by API.","tool":"PPLTool","id":"PPLTool-80"}
+{"question":"For index sso_logs*, how many throttling events did the system encounter in the last week?","tool":"PPLTool","id":"PPLTool-81"}
+{"question":"Please list all the detectors in the running state / Failed state","tool":"SearchAnomalyDetectorsTool","id":"SearchAnomalyDetectorsTool-1"}
+{"question":"Please show me the detectors on the index x / log indices","tool":"SearchAnomalyDetectorsTool","id":"SearchAnomalyDetectorsTool-2"}
+{"question":"Show me all the detectors that are currently running","tool":"SearchAnomalyDetectorsTool","id":"SearchAnomalyDetectorsTool-3"}
+{"question":"How many high cardinality detectors are currently running?","tool":"SearchAnomalyDetectorsTool","id":"SearchAnomalyDetectorsTool-4"}
+{"question":"What index is detector \"x\" detecting over?","tool":"SearchAnomalyDetectorsTool","id":"SearchAnomalyDetectorsTool-5"}
+{"question":"When was detector \"x\" last started?","tool":"SearchAnomalyDetectorsTool","id":"SearchAnomalyDetectorsTool-6"}
+{"question":"How many detectors were started this week?","tool":"SearchAnomalyDetectorsTool","id":"SearchAnomalyDetectorsTool-7"}
+{"question":"How many unique entities have been found by detector \"x\"?","tool":"SearchAnomalyDetectorsTool","id":"SearchAnomalyDetectorsTool-8"}
+{"question":"How many detectors start with \"x-\"?","tool":"SearchAnomalyDetectorsTool","id":"SearchAnomalyDetectorsTool-9"}
+{"question":"Can you list out the top 5 most recently-enabled detectors?","tool":"SearchAnomalyDetectorsTool","id":"SearchAnomalyDetectorsTool-10"}
+{"question":"Do I have any disabled detectors?","tool":"SearchAnomalyDetectorsTool","id":"SearchAnomalyDetectorsTool-11"}
+{"question":"Do I have any failed detectors?","tool":"SearchAnomalyDetectorsTool","id":"SearchAnomalyDetectorsTool-12"}
+{"question":"How many high-cardinality anomaly detectors do I have running currently?","tool":"SearchAnomalyDetectorsTool","id":"SearchAnomalyDetectorsTool-13"}
+{"question":"What detector has failed last?","tool":"SearchAnomalyDetectorsTool","id":"SearchAnomalyDetectorsTool-14"}
+{"question":"Is detector \"x\" running?","tool":"SearchAnomalyDetectorsTool","id":"SearchAnomalyDetectorsTool-15"}
+{"question":"Is there any detectors detecting over \"x\"?","tool":"SearchAnomalyDetectorsTool","id":"SearchAnomalyDetectorsTool-16"}
+{"question":"Can you show me all the anomaly detectors set on a service's metrics?","tool":"SearchAnomalyDetectorsTool","id":"SearchAnomalyDetectorsTool-17"}
+{"question":"Please show me the detectors configured on the service x","tool":"SearchAnomalyDetectorsTool","id":"SearchAnomalyDetectorsTool-18"}
+{"question":"Can you show me the list of services that do not have any alerts or monitoring set on them?","tool":"SearchAnomalyDetectorsTool","id":"SearchAnomalyDetectorsTool-19"}
+{"question":"Please list all the anomalies for the index 'opensearch_dashboards_sample_data_flights'","tool":"SearchAnomalyResultsTool","id":"SearchAnomalyResultsTool-1"}
+{"question":"Can you show me all the anomalies that have been detected in the error rates for all the services directly connected to service x?","tool":"SearchAnomalyResultsTool","id":"SearchAnomalyResultsTool-2"}
+{"question":"How many anomalies on Dec 05 2023?","tool":"SearchAnomalyResultsTool","id":"SearchAnomalyResultsTool-3"}
+{"question":"Any anomalies in the last 3 days?","tool":"SearchAnomalyResultsTool","id":"SearchAnomalyResultsTool-4"}
+{"question":"Is there any anomaly from detector fylE53wBc9MCt6q12tKp?","tool":"SearchAnomalyResultsTool","id":"SearchAnomalyResultsTool-5"}
+{"question":"When did the last anomaly start?","tool":"SearchAnomalyResultsTool","id":"SearchAnomalyResultsTool-6"}
+{"question":"How many anomalies have been detected by the detector fylE53wBc9MCt6q12tKp?","tool":"SearchAnomalyResultsTool","id":"SearchAnomalyResultsTool-7"}
+{"question":"Is there any anomaly with grade greater than 0.5?","tool":"SearchAnomalyResultsTool","id":"SearchAnomalyResultsTool-8"}
+{"question":"How many realtime anomalies?","tool":"SearchAnomalyResultsTool","id":"SearchAnomalyResultsTool-9"}
+{"question":"How many anomalies from Dec 05 2023 to Jan 05 2023?","tool":"SearchAnomalyResultsTool","id":"SearchAnomalyResultsTool-10"}
+{"question":"Can you tell me when was the monitor 'x' last updated and by whom?","tool":"SearchMonitorsTool","id":"SearchMonitorsTool-1"}
+{"question":"Please show me all the monitors with triggers","tool":"SearchMonitorsTool","id":"SearchMonitorsTool-2"}
+{"question":"Please show me all the monitors without triggers","tool":"SearchMonitorsTool","id":"SearchMonitorsTool-3"}
+{"question":"Do I have any enabled monitors?","tool":"SearchMonitorsTool","id":"SearchMonitorsTool-4"}
+{"question":"Do I have any disabled monitors?","tool":"SearchMonitorsTool","id":"SearchMonitorsTool-5"}
+{"question":"Please show me all the monitors defined on the index 'a'","tool":"SearchMonitorsTool","id":"SearchMonitorsTool-6"}
+{"question":"Is there any monitors monitoring over \"x\"?","tool":"SearchMonitorsTool","id":"SearchMonitorsTool-7"}
+{"question":"Can you list out the top 5 most recently-enabled monitors?","tool":"SearchMonitorsTool","id":"SearchMonitorsTool-8"}

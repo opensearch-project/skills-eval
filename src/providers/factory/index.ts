@@ -5,7 +5,7 @@
 
 import { ApiProvider } from 'promptfoo';
 import { PROVIDERS } from '../constants';
-import { AgentFrameworkApiProvider, MlCommonsApiProvider } from '../ml_commons';
+import { AgentFrameworkApiProvider, MlCommonsApiProvider, ToolSelectionApiProvider } from '../ml_commons';
 import { OllyApiProvider, OllyPPLGeneratorApiProvider } from '../olly';
 
 type Provider = (typeof PROVIDERS)[keyof typeof PROVIDERS];
@@ -30,6 +30,9 @@ export class ApiProviderFactory {
 
       case PROVIDERS.AGENT_FRAMEWORK:
         return new AgentFrameworkApiProvider(undefined, options.agentIdKey);
+
+      case PROVIDERS.TOOL_SELECTION:
+        return new ToolSelectionApiProvider(options.agentIdKey);
 
       default:
         console.info(`$API_PROVIDER unset or invalid, defaulting to ${PROVIDERS.OLLY} provider`);

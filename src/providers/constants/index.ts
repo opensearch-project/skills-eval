@@ -8,6 +8,7 @@ export const PROVIDERS = {
   PPL_GENERATOR: 'ppl_generator',
   ML_COMMONS: 'ml_commons',
   AGENT_FRAMEWORK: 'agent_framework',
+  TOOL_SELECTION: 'tool_selection',
 } as const;
 
 export const OPENSEARCH_CONFIG = {
