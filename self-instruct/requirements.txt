@@ -15,7 +15,7 @@ h11==0.14.0
 httpcore==0.18.0
 httpx==0.25.0
 huggingface-hub==0.17.3
-idna==3.4
+idna==3.7
 jmespath==1.0.1
 mypy-extensions==1.0.0
 opensearch-py==2.3.2
