@@ -34,4 +34,4 @@ tokenizers==0.21.0
 tomli==2.1.0
 tqdm==4.67.1
 typing_extensions==4.12.2
-urllib3==2.5.0
+urllib3==2.6.0
