@@ -1,7 +1,7 @@
 annotated-types==0.7.0
 anthropic==0.40.0
 anyio==4.6.2
-black==24.10.0
+black==26.3.1
 boto3==1.35.80
 botocore==1.35.80
 certifi==2024.12.14
