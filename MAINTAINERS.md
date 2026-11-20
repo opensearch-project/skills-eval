@@ -7,7 +7,6 @@ This document contains a list of maintainers in this repo. See [opensearch-proje
 | Maintainer           | GitHub ID                                           | Affiliation |
 | -----------------    | -------------------------------------------------   | ----------- |
 | Bhavana Goud Ramaram | [rbhavna](https://github.com/rbhavna)               | Amazon      |
-| Charlie Yang         | [model-collapse](https://github.com/model-collapse) | Amazon      |
 | Dhrubo Saha          | [dhrubo-os](https://github.com/dhrubo-os)           | Amazon      |
 | Jing Zhang           | [jngz-es](https://github.com/jngz-es)               | Amazon      |
 | Sicheng Song         | [b4sjoo](https://github.com/b4sjoo)                 | Amazon      |
@@ -25,3 +24,9 @@ This document contains a list of maintainers in this repo. See [opensearch-proje
 | Zhichao Geng         | [zhichao-aws](https://github.com/zhichao-aws)       | Amazon      |
 | Joshua Li            | [joshuali925](https://github.com/joshuali925)       | Amazon      |
 | Sean Li              | [sejli](https://github.com/sejli)                   | Amazon      |
+
+## Emeritus
+
+| Maintainer   | GitHub ID                                           |
+| ------------ | ---------------------------------------------------- |
+| Charlie Yang | [model-collapse](https://github.com/model-collapse) |
