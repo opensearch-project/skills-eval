@@ -4,7 +4,7 @@ anyio==4.14.2
 black==26.3.1
 boto3==1.35.80
 botocore==1.35.80
-certifi==2024.12.14
+certifi==2026.10.18
 charset-normalizer==3.4.0
 click==8.1.7
 distro==1.9.0
