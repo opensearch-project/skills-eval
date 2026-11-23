@@ -16,7 +16,6 @@ This document contains a list of maintainers in this repo. See [opensearch-proje
 | Xinyuan Lu           | [xinyual](https://github.com/xinyual)               | Amazon      |
 | Amit Galitzky        | [amitgalitz](https://github.com/amitgalitz)         | Amazon      |
 | Jackie Han           | [jackiehanyang](https://github.com/jackiehanyang)   | Amazon      |
-| Owais Kazi           | [owaiskazi19](https://github.com/owaiskazi19)       | Amazon      |
 | Tyler Ohlsen         | [ohltyler](https://github.com/ohltyler)             | Amazon      |
 | Josh Palis           | [joshpalis](https://github.com/joshpalis)           | Amazon      |
 | Dan Widdis           | [dbwiddis](https://github.com/dbwiddis)             | Amazon      |
@@ -30,3 +29,4 @@ This document contains a list of maintainers in this repo. See [opensearch-proje
 | Maintainer   | GitHub ID                                           |
 | ------------ | ---------------------------------------------------- |
 | Charlie Yang | [model-collapse](https://github.com/model-collapse) |
+| Owais Kazi   | [owaiskazi19](https://github.com/owaiskazi19)       |
